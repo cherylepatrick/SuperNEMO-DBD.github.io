@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['negative',['NEGATIVE',['../classsnemo_1_1datamodel_1_1particle__track.html#a3aa05824d285ea3aa745edacb9a74d8da0c99f8ed360bb5caa83bd6af56cc18d5',1,'snemo::datamodel::particle_track::NEGATIVE()'],['../classsnemo_1_1datamodel_1_1particle__track.html#a3aa05824d285ea3aa745edacb9a74d8da763067de2f9b000bad3fc5240955210d',1,'snemo::datamodel::particle_track::negative()']]],
+  ['neighbour_5fdiag',['NEIGHBOUR_DIAG',['../classsnemo_1_1geometry_1_1utils.html#a03727938ff8c0f9d97ecf2eb71d8ffdca5693665fc465b76b92db51f1d66885df',1,'snemo::geometry::utils']]],
+  ['neighbour_5ffirst',['NEIGHBOUR_FIRST',['../classsnemo_1_1geometry_1_1utils.html#a03727938ff8c0f9d97ecf2eb71d8ffdca3f0c10a28a74d063332f934b07f2fea2',1,'snemo::geometry::utils']]],
+  ['neighbour_5fnone',['NEIGHBOUR_NONE',['../classsnemo_1_1geometry_1_1utils.html#a03727938ff8c0f9d97ecf2eb71d8ffdcaaeb72ebe9e4429d37e427e5aa54cebd2',1,'snemo::geometry::utils']]],
+  ['neighbour_5fsecond',['NEIGHBOUR_SECOND',['../classsnemo_1_1geometry_1_1utils.html#a03727938ff8c0f9d97ecf2eb71d8ffdca67e96a622875b07988bba2360d040837',1,'snemo::geometry::utils']]],
+  ['neighbour_5fside',['NEIGHBOUR_SIDE',['../classsnemo_1_1geometry_1_1utils.html#a03727938ff8c0f9d97ecf2eb71d8ffdca0693803d399792e8f06b8420fa78e9c6',1,'snemo::geometry::utils']]],
+  ['neutral',['NEUTRAL',['../classsnemo_1_1datamodel_1_1particle__track.html#a3aa05824d285ea3aa745edacb9a74d8daae660ef3bfd73db7cbbce3d5644386d6',1,'snemo::datamodel::particle_track::NEUTRAL()'],['../classsnemo_1_1datamodel_1_1particle__track.html#a3aa05824d285ea3aa745edacb9a74d8da3aede114bf410a702940ab7608d01211',1,'snemo::datamodel::particle_track::neutral()']]],
+  ['noisy',['noisy',['../classsnemo_1_1datamodel_1_1calibrated__tracker__hit.html#a525b82b15caaeb0507fdcc9305bafa86a366c72114e128cc11ffd4b1661326b8d',1,'snemo::datamodel::calibrated_tracker_hit::noisy()'],['../structTrackerPreClustering_1_1gg__hit.html#a3553b1c1387c7ddb690604db070a20a4',1,'TrackerPreClustering::gg_hit::noisy()']]],
+  ['noisy_5fflag',['NOISY_FLAG',['../classsnemo_1_1datamodel_1_1mock__raw__tracker__hit.html#af76dcdab15fcd4f2d85e13d3cb719caf',1,'snemo::datamodel::mock_raw_tracker_hit']]],
+  ['none',['none',['../classsnemo_1_1datamodel_1_1calibrated__tracker__hit.html#a525b82b15caaeb0507fdcc9305bafa86ae9dd176cd57c9331765fa83c4accfb2f',1,'snemo::datamodel::calibrated_tracker_hit']]],
+  ['nsides',['NSIDES',['../classsnemo_1_1geometry_1_1utils.html#a50044eb29b360ee4b8057855b43c8f66',1,'snemo::geometry::utils']]],
+  ['nsubmodules',['NSUBMODULES',['../classsnemo_1_1geometry_1_1utils.html#aea53f2b2bc29996cad679018c68a49af',1,'snemo::geometry::utils']]],
+  ['number_5fof_5fcalo_5fzones',['NUMBER_OF_CALO_ZONES',['../classsnemo_1_1datamodel_1_1raw__trigger__infos.html#a430dfab027b957be832342d6098da3db',1,'snemo::datamodel::raw_trigger_infos']]],
+  ['number_5fof_5fgveto_5fzones',['NUMBER_OF_GVETO_ZONES',['../classsnemo_1_1datamodel_1_1raw__trigger__infos.html#a071d5425c3890373081c369c2477879f',1,'snemo::datamodel::raw_trigger_infos']]],
+  ['number_5fof_5flayers',['NUMBER_OF_LAYERS',['../classsnemo_1_1datamodel_1_1raw__trigger__infos.html#a4cdec738d0755110318d4afb9bb3ce7b',1,'snemo::datamodel::raw_trigger_infos']]],
+  ['number_5fof_5frows',['NUMBER_OF_ROWS',['../classsnemo_1_1datamodel_1_1raw__trigger__infos.html#ae94469bc5947ed752fa9685d56c1ed64',1,'snemo::datamodel::raw_trigger_infos']]],
+  ['number_5fof_5fsides',['NUMBER_OF_SIDES',['../classsnemo_1_1datamodel_1_1raw__trigger__infos.html#a63c96d3d35ce72d863184f4cf313cebe',1,'snemo::datamodel::raw_trigger_infos']]],
+  ['nwalls_5fper_5fside',['NWALLS_PER_SIDE',['../classsnemo_1_1geometry_1_1gveto__locator.html#a8ea50f6704629edfb599354d851f6f41',1,'snemo::geometry::gveto_locator::NWALLS_PER_SIDE()'],['../classsnemo_1_1geometry_1_1xcalo__locator.html#ad48149576dd7ddd9fd5e62432f444606',1,'snemo::geometry::xcalo_locator::NWALLS_PER_SIDE()']]]
+];
