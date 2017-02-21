@@ -1,8 +1,10 @@
 title: SuperNEMO
 description: Software for the SuperNEMO Double Beta Decay Search Experiment
-google_analytics: 
-show_downloads: true
 theme: jekyll-theme-slate
+google_analytics: 
+show_downloads: false
+
+mathjax: true
 
 gems:
   - jekyll-mentions
