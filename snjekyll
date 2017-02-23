@@ -1,0 +1,144 @@
+#!/usr/bin/make -f
+# ^ Shbang is hardcoded as env doesn't allow passing of flags to program
+#   Review better ways to do this, though /usr/bin/make *should* be fairly
+#   portable
+
+#------------------------------------------------------------------------------
+# - User documentation
+#
+define USAGE =
+usage: ./snjekyll <task>
+Setup, build and serve a Jekyll based website on a local computer.
+Requires an installation of Ruby, including the Ruby development library
+and headers.
+
+Available tasks:
+  setup          Install RubyGem requirements into current working directory
+  build          Build the site using `jekyll build`
+  serve          Start a non-detached local jekyll server instance
+                 The site can be viewed at 'http://127.0.0.1:4000' in
+                 your favoured browser. The server will watch for changes
+                 to the site files and rebuild automatically. Simply
+                 refresh your browser to pick up the changes.
+  clean-gems     Remove local bundle of gems
+  clean-site     Remove local site generated output and metadata
+  clean          Remove both gems and site
+  help           Print this message
+
+endef
+# Export the usage def so it's usable in recipes
+export USAGE
+
+#------------------------------------------------------------------------------
+# - Global Make configuration
+#
+# Source directory
+SNJEKYLL_SOURCE_DIR:=$(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
+
+# "Binary" directory (where the script is run from)
+SNJEKYLL_BINARY_DIR:= $(realpath $(CURDIR))
+
+# Current Jekyll config requires source=binary dirs, so assert this
+# - Use SNJEKYLL_BINARY_DIR in later commands to allow future use
+#   of separate source/build dirs
+ifneq ($(SNJEKYLL_BINARY_DIR),$(SNJEKYLL_SOURCE_DIR))
+$(error "snjekyll must be run from $(SNJEKYLL_SOURCE_DIR)!")
+endif
+
+# Checks for Requirements
+UNAME:=$(shell uname)
+
+# 1. ruby command in the PATH
+RUBY_VERSION:=$(shell ruby --version 2>/dev/null)
+ifndef RUBY_VERSION
+$(error "No working ruby executable in the PATH")
+endif
+
+# 2. On linuces that requisite ruby-dev package is available for gems
+#    On macOS we *should* always have it
+ifeq ($(UNAME),Linux)
+$(warning "[snjekyll]: NotImplementedYet: check for existence of Ruby development package")
+endif
+
+# 3. On macOS with Homebrew, we *may* have a clash with the brewed "xz"
+#    formula. Should check for this.
+ifeq ($(UNAME),Darwin)
+HAVE_BREWED_XZ:=$(shell brew ls xz)
+ifdef HAVE_BREWED_XZ
+$(warning "[snjekyll: Homebrew install of `xz` detected: This may cause issues with install of jekyll")
+endif
+endif
+
+# Gem/Bundle setup. 
+# - PATH is auto-exported to recipe commands
+# - GEM_HOME needs explicit export 
+SNJEKYLL_GEM_HOME:=$(SNJEKYLL_BINARY_DIR)/.gem
+GEM_HOME:=$(SNJEKYLL_GEM_HOME)
+export GEM_HOME
+
+BUNDLE_BINSTUBS:=$(GEM_HOME)/bin
+PATH:=$(BUNDLE_BINSTUBS):$(PATH)
+
+# Bundler and Jekyll executables
+BUNDLE_EXEC:=$(BUNDLE_BINSTUBS)/bundle
+JEKYLL_EXEC:=$(BUNDLE_BINSTUBS)/jekyll
+
+# Site Contents
+# `serve` target will start jekyll in watching mode which will
+# regenerate automatically (except for changes to _config.yml). 
+# However, in detach mode we need to rebuild the site
+
+#------------------------------------------------------------------------------
+# Targets and Rules
+.PHONY: all help usage build serve setup
+
+all: usage
+
+# Usage/help
+help: usage
+
+usage:
+	@echo "$$USAGE"
+
+# Build the site
+# TODO: Don't have a big site, so just build without content deps
+build: $(JEKYLL_EXEC)
+	@echo "[snjekyll]: Building site"
+	@bundle exec jekyll build
+	@echo "[snjekyll]: Site built"
+
+# Start the local jekyll server in place
+# TODO: Review detaching the server, but then need mechanism for shutdown
+#       using pgrep/pkill (not simple in makefiles due to subshell running
+#       where pgrep will find itself!
+serve: setup 
+	@bundle exec jekyll serve
+
+# Install the bundler gem if required
+$(BUNDLE_EXEC):
+	@echo "[snjekyll]: Installing bundler gem locally, this may take some time"
+	@gem install -V bundler
+	@echo "[snjekyll]: Done installing bundler"
+
+# Install the jekyll bundle if required
+$(JEKYLL_EXEC): $(BUNDLE_EXEC) Gemfile Gemfile.lock
+	@echo "[snjekyll]: (Re)installing bundle for Jekyll"
+	@bundle install --path $(GEM_HOME) --binstubs=$(GEM_HOME)/bin
+	@echo "[snjekyll]: Jekyll installed o.k."
+	
+# Setup local tools
+setup: $(JEKYLL_EXEC)
+
+# Explicit site clean
+clean-site: $(JEKYLL_EXEC)
+	@bundle exec jekyll clean
+	@echo "[snjekyll]: Removed generated site and metadata"
+	
+# Clean up the local gems
+clean-gems:
+	@rm -Rf $(SNJEKYLL_GEM_HOME)
+	@echo "[snjekyll]: Removed installed bundles/gems"
+
+# Clean everything
+clean: clean-site clean-gems
+
