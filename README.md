@@ -10,7 +10,7 @@ requirements are:
 
 - Linux or macOS Platform
 - Ruby 2 or better, including development headers and library
-  - macOS/Home/Linuxbrew supply these 
+  - macOS/Home/Linuxbrew supply these
   - Linux systems may require the `ruby-dev` or similar package to be installed
 - GNU Make >= 3.81
 
@@ -37,7 +37,18 @@ running
 
 ```console
 $ ./snjekyll help
-``` 
+```
+
+## Known Issues
+- No reliable check for existence of `ruby-dev{el}` package on Linuces
+  - Will issue a warning, but nothing more
+- The `xz` package installed by Home/Linuxbrew is not compatible with the
+  `nokogiri` gem required by Jekyll, and will cause compiliation of
+  the gem to fail
+  - `snjekyll` will issue a warning about this, but will not take further action.
+  - To work around this issue, either do `brew unlink xz` or remove Home/Linuxbrew settings
+    from your environment. The latter may not be possible if you have Homebrew installed
+    in `/usr/local`
 
 # TODO
 More documentation...

@@ -6,7 +6,7 @@
 #------------------------------------------------------------------------------
 # - User documentation
 #
-define USAGE =
+define USAGE
 usage: ./snjekyll <task>
 Setup, build and serve a Jekyll based website on a local computer.
 Requires an installation of Ruby, including the Ruby development library
@@ -55,7 +55,9 @@ $(error "No working ruby executable in the PATH")
 endif
 
 # 2. On linuces that requisite ruby-dev package is available for gems
-#    On macOS we *should* always have it
+#    Can probably use pkg-config to check this, but package name not
+#    always obvious (ruby, ruby-2.0)
+#    On macOS we *should* always have it whether using system or Homebrew
 ifeq ($(UNAME),Linux)
 $(warning "[snjekyll]: NotImplementedYet: check for existence of Ruby development package")
 endif
@@ -63,15 +65,18 @@ endif
 # 3. On macOS with Homebrew, we *may* have a clash with the brewed "xz"
 #    formula. Should check for this.
 ifeq ($(UNAME),Darwin)
-HAVE_BREWED_XZ:=$(shell brew ls xz)
+HAVE_BREWED_XZ:=$(shell brew ls xz 2>/dev/null)
 ifdef HAVE_BREWED_XZ
-$(warning "[snjekyll: Homebrew install of `xz` detected: This may cause issues with install of jekyll")
+$(warning "[snjekyll]: Homebrew install of `xz` detected: \
+	You may see errors in the install of the `nokogiri` gem.\
+	If so, do `brew unlink xz` and try again. You can relink \
+	the `xz` formulae after Jekyll installation is complete.")
 endif
 endif
 
 # Gem/Bundle setup. 
 # - PATH is auto-exported to recipe commands
-# - GEM_HOME needs explicit export 
+# - GEM_HOME needs explicit export
 SNJEKYLL_GEM_HOME:=$(SNJEKYLL_BINARY_DIR)/.gem
 GEM_HOME:=$(SNJEKYLL_GEM_HOME)
 export GEM_HOME
@@ -80,6 +85,9 @@ BUNDLE_BINSTUBS:=$(GEM_HOME)/bin
 PATH:=$(BUNDLE_BINSTUBS):$(PATH)
 
 # Bundler and Jekyll executables
+# - We need these as suitable shorthands, *and* so that we can use full paths
+#   in recipes. Whilst PATH should help, there appear to be issues with the use
+#   of this in recipes on macOS.
 BUNDLE_EXEC:=$(BUNDLE_BINSTUBS)/bundle
 JEKYLL_EXEC:=$(BUNDLE_BINSTUBS)/jekyll
 
@@ -104,15 +112,15 @@ usage:
 # TODO: Don't have a big site, so just build without content deps
 build: $(JEKYLL_EXEC)
 	@echo "[snjekyll]: Building site"
-	@bundle exec jekyll build
+	@$(BUNDLE_EXEC) exec jekyll build
 	@echo "[snjekyll]: Site built"
 
 # Start the local jekyll server in place
 # TODO: Review detaching the server, but then need mechanism for shutdown
 #       using pgrep/pkill (not simple in makefiles due to subshell running
 #       where pgrep will find itself!
-serve: setup 
-	@bundle exec jekyll serve
+serve: setup
+	@$(BUNDLE_EXEC) exec jekyll serve
 
 # Install the bundler gem if required
 $(BUNDLE_EXEC):
@@ -123,22 +131,22 @@ $(BUNDLE_EXEC):
 # Install the jekyll bundle if required
 $(JEKYLL_EXEC): $(BUNDLE_EXEC) Gemfile Gemfile.lock
 	@echo "[snjekyll]: (Re)installing bundle for Jekyll"
-	@bundle install --path $(GEM_HOME) --binstubs=$(GEM_HOME)/bin
+	@$(BUNDLE_EXEC) install --path $(GEM_HOME) --binstubs=$(GEM_HOME)/bin
 	@echo "[snjekyll]: Jekyll installed o.k."
-	
+
 # Setup local tools
 setup: $(JEKYLL_EXEC)
 
 # Explicit site clean
-clean-site: $(JEKYLL_EXEC)
-	@bundle exec jekyll clean
-	@echo "[snjekyll]: Removed generated site and metadata"
-	
+clean-site:
+	@echo "[snjekyll]: Removing generated site and metadata"
+	@test -e $(BUNDLE_EXEC) && $(BUNDLE_EXEC) exec jekyll clean || echo "[snjekyll]: No bundle command available (this is o.k.)"
+
 # Clean up the local gems
 clean-gems:
+	@echo "[snjekyll]: Removing installed bundles/gems"
 	@rm -Rf $(SNJEKYLL_GEM_HOME)
-	@echo "[snjekyll]: Removed installed bundles/gems"
 
-# Clean everything
+# Clean everything (order is important as we require gems to do clean!)
 clean: clean-site clean-gems
 
