@@ -1,4 +1,5 @@
 ---
+layout: home
 ---
 ### Contents
 {:.no_toc}
@@ -56,11 +57,11 @@ $ bundle install
 $ bundle exec jekyll serve
 ```
 
-In both workflows, the `xz` package installed by Home/Linuxbrew is not 
-compatible with the `nokogiri` gem required by Jekyll, and will cause 
-compiliation of the gem to fail. `snjekyll` will issue a warning about this, 
-but will not take further action. To work around this issue, either do 
-`brew unlink xz` or remove Home/Linuxbrew settings from your environment. 
+In both workflows, the `xz` package installed by Home/Linuxbrew is not
+compatible with the `nokogiri` gem required by Jekyll, and will cause
+compiliation of the gem to fail. `snjekyll` will issue a warning about this,
+but will not take further action. To work around this issue, either do
+`brew unlink xz` or remove Home/Linuxbrew settings from your environment.
 The latter may not be possible if you have Homebrew installed in `/usr/local`
 
 
