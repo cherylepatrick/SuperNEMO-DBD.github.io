@@ -51,6 +51,10 @@ $ ./snjekyll help
     in `/usr/local`
 
 # TODO
-More documentation...
+More documentation, including:
+
+- Working with the repo and making Pull Requests
+- Jekyll data for collaborators and institutes
+
 
 
