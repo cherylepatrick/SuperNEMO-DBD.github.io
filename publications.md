@@ -1,26 +1,39 @@
 ---
 layout: page
-title: Publications
+title: Publications and Media
 ---
 
-List papers and other media such as presentations. Title could be "Media" 
-or a better word to reflect the mix.
+SuperNEMO Papers
+----------------
+Journal papers from the SuperNEMO experiment
 
-Formatting/layout very basic, just illustrates that we can generate a list
-from a [Jekyll collection](http://jekyll.tips/jekyll-casts/introduction-to-collections/) 
-of simple Markdown/YAML files. Each element in the collection is simply
-stuck into a list. We could also output each element to a separate
-page with short links here.
-
-Another way to do this would be though [Jekyll data](http://jekyll.tips/jekyll-casts/data-files/)
-if maintaining a JSON/CSV list is easier.
-
-Publications
-------------
 {% assign pubs_by_date = (site.publications | sort:"date") | reverse %}
 {% for pub in pubs_by_date %}
-- **{{ pub.title }}**
-  - __{{ pub.journal }}__
-  - {{ pub.date }}
-  - {{pub.abstract}}
+<a href="http://dx.doi.org/{{ pub.doi }}" target="_blank"> <strong>{{pub.title }}</strong></a> _{{ pub.journal }}_, {{ pub.date | date_to_long_string }}
+<a onClick='$( "#{{pub.doi| replace: ".", "_" | replace: "/","_"}}" ).toggle();
+this.text=(($("#{{pub.doi| replace: ".", "_" | replace: "/","_"}}").is(":visible"))?"Less...":"More...");
+'>More...</a>
+<div style="display:none; overflow:auto" id="{{pub.doi| replace: ".", "_" | replace: "/","_"}}">
+{% if pub.image_url %}
+<img src="{{pub.image_url}}" style="float:right; height:20em">
+{% endif %}
+<p>{{pub.abstract}}</p>
+</div>
 {% endfor %}
+
+NEMO-3 Papers
+-------------
+Papers from SuperNEMO's predescessor, NEMO-3
+
+{% assign n3pubs_by_date = (site.nemothreepubs  | sort:"date") | reverse %}
+{% for pub in n3pubs_by_date %}
+<a href="http://dx.doi.org/{{ pub.doi }}" target="_blank"> <strong>{{pub.title }}</strong></a> _{{ pub.journal }}_, {{ pub.date | date_to_long_string }}
+<a onClick='$( "#{{pub.doi| replace: ".", "_" | replace: "/","_"}}" ).toggle();
+this.text=(($("#{{pub.doi| replace: ".", "_" | replace: "/","_"}}").is(":visible"))?"Less...":"More...");
+'>More...</a>
+<div style="display:none" id="{{pub.doi| replace: ".", "_" | replace: "/","_"}}">
+<img src="{{pub.image_url}}" width="50%" ALIGN="right">
+<p>{{pub.abstract}}</p>
+</div>
+{% endfor %}
+
