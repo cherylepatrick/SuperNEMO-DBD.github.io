@@ -7,32 +7,21 @@ title: The Experiment
     <div class="col-2"></div>
     <div class="col-8">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style=" width:100%;">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        </ol>
+
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
-          <div class="item active">
-            <div style="background:url(assets/coupling.jpg) center center; background-size:cover;" class="slider-size">
-              <div class="carousel-caption">Coupling the tracker to the calorimeter</div>
+{% for slide in site.carousel_images %}
+          <div class="item {% if forloop.first == true %} active {% endif %}">
+            <div style="background:url({{slide.image_url}}) center center; background-size:cover;" class="slider-size">
+              <div class="carousel-caption" {% if slide.text_colour %}style="color:{{slide.text_colour}}"{% endif %}>
+                <h4>{{slide.title}}</h4>
+                {{slide.detail}}
+              </div>
             </div>
           </div>
-          <div class="item">
-            <div style="background:url(assets/uv.jpg) center center; background-size:cover;" class="slider-size">
-              <div class="carousel-caption">Checking the tracker for dust</div>
-            </div>
-          </div>
-          <div class="item">
-            <div style="background:url(assets/tracker_reflection.jpg) center center;   background-size:cover;" class="slider-size">
-              <div class="carousel-caption">The SuperNEMO tracker</div>
-            </div>
-          </div>
+{% endfor %}
         </div>
-
         <!-- Controls -->
         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
