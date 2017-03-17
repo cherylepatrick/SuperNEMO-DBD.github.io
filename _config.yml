@@ -31,6 +31,7 @@ github_username: SuperNEMO-DBD
 collections:
   publications:
   nemothreepubs:
+  carousel_images:
     # When pub format is better defined, can output one per page ala ADS
     #output: true
 
