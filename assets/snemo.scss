@@ -3,9 +3,13 @@
 
 @import "bootstrap";
 .slider-size {
-height: 200px; /* This is your slider height */
+height: 300px; /* This is your slider height */
 }
 .carousel {
 width:100%;
 margin:0 auto; /* center your carousel if other than 100% */
+}
+.section_head{
+background-color:#5777A9;
+color:#ffffff;
 }
