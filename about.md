@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: experiment
 title: The Experiment
 ---
-<div class="container">
+
+<div class="container" id="top">
   <div class="row">
 
     <div class="col-sm-12 ">
@@ -35,8 +36,12 @@ title: The Experiment
     </div>
   </div>
 </div>
+
+<header class="post-header">
+<h1 class="post-title text-center">The SuperNEMO experiment</h1>
+</header>
+
 <div id="circles" class="text-center">
-  <h2>Find out more</h2>
   <div class="container">
     <div class="row">
       <div class='col-sm-4'>
@@ -47,22 +52,25 @@ title: The Experiment
         </a>
       </div>
       <div class='col-sm-4'>
+        <a href="#detector">
         <img src='assets/detector_round.png' class="img-circle  center-block" style="width:17em">
         <h4>Our detector</h4>
         <p class="lead">See how the SuperNEMO demonstrator module works</p>
+        </a>
       </div>
       <div class='col-sm-4'>
         <img src='assets/status_round.png' class="img-circle  center-block" style="width:17em">
-          <h4>SuperNEMO status</h4>
-          <p class="lead">Find out how the project is going</p>
+          <h4>Physics goals</h4>
+          <p class="lead">What SuperNEMO can tell us</p>
       </div>
     </div>
   </div>
 </div>
+
 <div class="container" id="thephysics">
   <div class="section_head text-center">
-  <h2> The physics</h2>
-</div>
+    <h2> The physics of SuperNEMO</h2>
+  </div>
 <div class="row">
   <div class="col-sm-12 ">
     <h4> About neutrinos</h4>
@@ -85,9 +93,28 @@ title: The Experiment
     <h4>Neutrinoless double beta decay</h4>
     <p>This raises another possibility - what if neutrinos are their own antiparticles? (As with other electrically neutral particles, like the photon). In that case, in a $\beta\beta$ decay, the two antineutrinos could effectively annihilate, meaning our interaction produces only the two $\beta$ electrons, which carry the whole reaction energy $Q_{\beta\beta}$. This process is called neutrinoless double beta decay ($0\nu\beta\beta$), and so far, it has never been observed. SuperNEMO is trying to change that.</p>
     <p>If we see a $0\nu\beta\beta$ decay, that has big implications for physics. In 1937, Ettore Majorana proposed a mechanism whereby neutrinos are their own antiparticles - known as Majorana neutrinos. Observing a $0\nu\beta\beta$ decay would prove that the theory was true, explaining how neutrinos get their mass, and giving us clues as to how we live in a universe made only of matter, and not antimatter.</p>
+  </div>
+  <div class="col-sm-4 ">
+    <img src='assets/Ettore_Majorana.jpeg' class="img-circle  center-block" style="width:17em">
+  </div>
 </div>
-<div class="col-sm-4 ">
-<img src='assets/Ettore_Majorana.jpeg' class="img-circle  center-block" style="width:17em">
+<a href="">Back to top</a>
 </div>
+
+<div class="container" id="detector">
+  <div class="section_head text-center">
+      <h2> The SuperNEMO detector</h2>
+  </div>
+  <div class="row">
+    <div class="col-sm-8">
+      <img src='http://www.hep.ucl.ac.uk/nemo/images/Supernemo_module2.png' class="center-block" usemap="#detectormap">
+        <map name="detectormap">
+          <a href="#myModal" title="Calorimeter" style="position: absolute; left: 50.96%; top: 19.59%; width: 11.85%; height: 67.47%; z-index: 2;"></a>
+      </map>
+    </div>
+    <div class="col-sm-4 ">
+      <p>The SuperNEMO detector...</p>
+    </div>
+  </div>
 </div>
-</div>
+
