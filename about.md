@@ -117,10 +117,15 @@ title: The Experiment
           <a data-toggle="modal" data-target="#trackerModal"  title="Tracker" class="maphover trackmap" style="left: 84.5%; top: 6.1%; width: 11.96%; height: 7.76%;"></a>
           <a data-toggle="modal" data-target="#trackerModal"  title="Tracker" class="maphover trackmap" style="left: 75%; top: 18.3%; width: 12.77%; height: 71.53%;"></a>
           <a data-toggle="modal" data-target="#trackerModal"  title="Tracker" class="maphover trackmap" style="left: 1.01%; top: 2.22%; width: 32.52%; height: 94.09%;"></a>
+          <a data-toggle="modal" data-target="#srcModal"  title="Source foil" class="maphover srcmap" style="left: 69.91%; top: 18.3%; width: 6.38%; height: 70.43%; "></a>
+          <a data-toggle="modal" data-target="#srcModal"  title="Source foil" class="maphover srcmap" style="left: 64.5%; top: 5.36%; width: 16.21%; height: 8.13%;"></a>
+
       </map>
     </div>
     <div class="col-sm-4 ">
-      <p>The SuperNEMO detector has a tracker-calorimeter architecture, with a thin layer of $\beta\beta$-emitting isotope sandwiched between trackers and surrounded by calorimetry. This allows for a full three-dimensional reconstruction of charged particle tracks, as well as energy measurements. Click on the detector components in the diagram to learn more about each part of the detector.</p>
+      <p>The SuperNEMO Demonstrator Module is located at the Laboratoire Souterrain de Modane, in the Fréjus tunnel in the French Alps. It acts as a proof of concept of our detector design, which can be expanded in future to a larger, modular detector.
+      </p>
+      <p> The Demonstrator Module has a tracker-calorimeter architecture, with a thin layer of $\beta\beta$-emitting isotope sandwiched between trackers and surrounded by calorimetry. This allows for a full three-dimensional reconstruction of charged particle tracks, as well as energy measurements. Click on the detector components in the diagram to learn more about each part of the detector.</p>
     </div>
   </div>
 </div>
@@ -142,6 +147,27 @@ title: The Experiment
         <img src="assets/calowall.png" alt="Calorimeter wall" style=" float:right; width:15em; padding: 5px;">
         <p>There are also optical modules positioned above, below and to the sides of the tracker, giving a total of 712 modules. This allows SuperNEMO to measure particles' energies, whatever direction they travel in.</p>
       </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Source foil Modal -->
+<div id="srcModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Source foil</h4>
+      </div>
+      <div class="modal-body" style="overflow:auto">
+        <img src="assets/sourcefoil.jpg" alt="Source foil" style=" float:left; width:15em; padding: 5px;">
+          <p>Our source frame sits in the middle of the detector, sandwiched between the two tracker sections. From the frame, we hang thin foils enriched in a $\beta\beta$ decaying isotope. By keeping these thin - just 0.3mm - we maximise the chance that decay electrons will escape the foil into our tracker. For our initial run, we are using selenium-82 as our source, ground to a powder, mixed with PVA, and formed into thin pads. However the design is such that it allows us to switch to other materials in future.
+          </p>
+            </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
