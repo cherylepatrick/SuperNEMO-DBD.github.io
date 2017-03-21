@@ -107,7 +107,7 @@ title: The Experiment
   </div>
   <div class="row">
     <div class="col-sm-8">
-      <img src="http://www.hep.ucl.ac.uk/nemo/images/Supernemo_module2.png" class="center-block" usemap="#detectormap">
+      <img src="assets/Supernemo_module2.png" class="center-block" usemap="#detectormap">
         <map name="detectormap">
           <a  data-toggle="modal" data-target="#caloModal" title="Calorimeter wall" class="maphover calomap" style="position: absolute; left: 50%; top: 19.59%; width: 11.85%; height: 67.47%; z-index: 2;" ></a>
           <a data-toggle="modal" data-target="#caloModal" title="Calorimeter wall" class="maphover calomap"  style="left: 88%; top: 14.97%; width: 11.04%; height: 76.71%; "></a>
@@ -126,6 +126,9 @@ title: The Experiment
       <p>The SuperNEMO Demonstrator Module is located at the Laboratoire Souterrain de Modane, in the Fréjus tunnel in the French Alps. It acts as a proof of concept of our detector design, which can be expanded in future to a larger, modular detector.
       </p>
       <p> The Demonstrator Module has a tracker-calorimeter architecture, with a thin layer of $\beta\beta$-emitting isotope sandwiched between trackers and surrounded by calorimetry. This allows for a full three-dimensional reconstruction of charged particle tracks, as well as energy measurements. Click on the detector components in the diagram to learn more about each part of the detector.</p>
+      <p>
+      <a href="">Back to top</a>
+      </p>
     </div>
   </div>
 </div>
