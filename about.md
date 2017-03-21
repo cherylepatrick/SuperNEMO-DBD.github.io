@@ -107,14 +107,62 @@ title: The Experiment
   </div>
   <div class="row">
     <div class="col-sm-8">
-      <img src='http://www.hep.ucl.ac.uk/nemo/images/Supernemo_module2.png' class="center-block" usemap="#detectormap">
+      <img src="http://www.hep.ucl.ac.uk/nemo/images/Supernemo_module2.png" class="center-block" usemap="#detectormap">
         <map name="detectormap">
-          <a href="#myModal" title="Calorimeter" style="position: absolute; left: 50.96%; top: 19.59%; width: 11.85%; height: 67.47%; z-index: 2;"></a>
+          <a  data-toggle="modal" data-target="#caloModal" title="Calorimeter wall" class="maphover calomap" style="position: absolute; left: 50%; top: 19.59%; width: 11.85%; height: 67.47%; z-index: 2;" ></a>
+          <a data-toggle="modal" data-target="#caloModal" title="Calorimeter wall" class="maphover calomap"  style="left: 88%; top: 14.97%; width: 11.04%; height: 76.71%; "></a>
+          <a data-toggle="modal" data-target="#caloModal"  title="Calorimeter wall" class="maphover calomap" style="left: 62%; top: 91.68%; width: 18.54%; height: 7.76%; "></a>
       </map>
     </div>
     <div class="col-sm-4 ">
-      <p>The SuperNEMO detector...</p>
+      <p>The SuperNEMO detector has a tracker-calorimeter architecture, with a thin layer of $\beta\beta$-emitting isotope sandwiched between trackers and surrounded by calorimetry. This allows for a full three-dimensional reconstruction of charged particle tracks, as well as energy measurements. Click on the detector components in the diagram to learn more about each part of the detector.</p>
     </div>
   </div>
 </div>
 
+
+<!-- Calorimeter Modal -->
+<div id="caloModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Calorimeter wall</h4>
+      </div>
+      <div class="modal-body" style="overflow:auto">
+        <img src="assets/opticalmodule.png" alt="Optical module" style=" float:left; width:10em; padding: 5px;">
+        <p>The calorimeter walls at the outside of the detector measure the energy of particles that reach the edge of the detector. The two main calorimeter walls consist of 520 optical modules. These are blocks of polystyrene scintillator coupled to 8” photomultiplier tubes and wrapped in teflon and mylar, with individual iron shielding.</p>
+        
+        <img src="assets/calowall.png" alt="Calorimeter wall" style=" float:right; width:15em; padding: 5px;">
+        <p>There are also optical modules positioned above, below and to the sides of the tracker, giving a total of 712 modules. This allows SuperNEMO to measure particles' energies, whatever direction they travel in.'</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Tracker Modal -->
+<div id="trackerModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Wire tracker</h4>
+      </div>
+      <div class="modal-body" style="overflow:auto">
+        <img src="assets/tracker_insert.png" alt="Optical module" style=" float:left; width:10em; padding: 5px;">
+          <p>To track charged particles' progress across the detector, we use a wire-chamber tracker '</p>
+          
+          <img src="assets/calowall.png" alt="Calorimeter wall" style=" float:right; width:15em; padding: 5px;">
+            <p>There are also optical modules positioned above, below and to the sides of the tracker, giving a total of 712 modules. This allows SuperNEMO to measure particles' energies, whatever direction they travel in.'</p>
+            </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
