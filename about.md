@@ -112,6 +112,11 @@ title: The Experiment
           <a  data-toggle="modal" data-target="#caloModal" title="Calorimeter wall" class="maphover calomap" style="position: absolute; left: 50%; top: 19.59%; width: 11.85%; height: 67.47%; z-index: 2;" ></a>
           <a data-toggle="modal" data-target="#caloModal" title="Calorimeter wall" class="maphover calomap"  style="left: 88%; top: 14.97%; width: 11.04%; height: 76.71%; "></a>
           <a data-toggle="modal" data-target="#caloModal"  title="Calorimeter wall" class="maphover calomap" style="left: 62%; top: 91.68%; width: 18.54%; height: 7.76%; "></a>
+          <a data-toggle="modal" data-target="#trackerModal"  title="Tracker" class="maphover trackmap" style="left: 62.01%; top: 18.85%; width: 9.5%; height: 69.13%;"></a>
+          <a data-toggle="modal" data-target="#trackerModal"  title="Tracker" class="maphover trackmap" style="left: 49.75%; top: 5.55%; width: 11.96%; height: 7.76%;"></a>
+          <a data-toggle="modal" data-target="#trackerModal"  title="Tracker" class="maphover trackmap" style="left: 84.5%; top: 6.1%; width: 11.96%; height: 7.76%;"></a>
+          <a data-toggle="modal" data-target="#trackerModal"  title="Tracker" class="maphover trackmap" style="left: 75%; top: 18.3%; width: 12.77%; height: 71.53%;"></a>
+          <a data-toggle="modal" data-target="#trackerModal"  title="Tracker" class="maphover trackmap" style="left: 1.01%; top: 2.22%; width: 32.52%; height: 94.09%;"></a>
       </map>
     </div>
     <div class="col-sm-4 ">
@@ -135,7 +140,7 @@ title: The Experiment
         <p>The calorimeter walls at the outside of the detector measure the energy of particles that reach the edge of the detector. The two main calorimeter walls consist of 520 optical modules. These are blocks of polystyrene scintillator coupled to 8” photomultiplier tubes and wrapped in teflon and mylar, with individual iron shielding.</p>
         
         <img src="assets/calowall.png" alt="Calorimeter wall" style=" float:right; width:15em; padding: 5px;">
-        <p>There are also optical modules positioned above, below and to the sides of the tracker, giving a total of 712 modules. This allows SuperNEMO to measure particles' energies, whatever direction they travel in.'</p>
+        <p>There are also optical modules positioned above, below and to the sides of the tracker, giving a total of 712 modules. This allows SuperNEMO to measure particles' energies, whatever direction they travel in.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -154,11 +159,12 @@ title: The Experiment
         <h4 class="modal-title">Wire tracker</h4>
       </div>
       <div class="modal-body" style="overflow:auto">
-        <img src="assets/tracker_insert.png" alt="Optical module" style=" float:left; width:10em; padding: 5px;">
-          <p>To track charged particles' progress across the detector, we use a wire-chamber tracker '</p>
+        <img src="assets/tracker_insert.png" alt="Optical module" style=" float:left; width:15em; padding: 5px;">
+          <p>To track charged particles' progress across the detector, we use a wire-chamber tracker. On each side of the detector, we have 108 columns of nine drift cells, each consisting of a central anode wire surrounded by field shaping wires, with a ring-shaped cathode at either end. The tracker is filled with helium, with a small amount of ethanol and argon. When a charged particle passes through the cell, the time for the resulting electron shower to drift to the anode tells us the particle's distance from the centre of the cell. Pulses on the two cathode end caps tell us how far along the wire the particle was. In this way, we can reconstruct particles' tracks through the tracker in three dimensions.</p>
           
-          <img src="assets/calowall.png" alt="Calorimeter wall" style=" float:right; width:15em; padding: 5px;">
-            <p>There are also optical modules positioned above, below and to the sides of the tracker, giving a total of 712 modules. This allows SuperNEMO to measure particles' energies, whatever direction they travel in.'</p>
+          <img src="assets/eventdisplay.png" alt="Two electron tracks in our event display" style=" float:right; width:15em; padding: 5px;">
+            <p>The image shows two reconstructed electron tracks from a simulated $0\nu\beta\beta$ decay, taken from the SuperNEMO event display software. Each circle corresponds to one tracker cell. The blue blocks at the end of the tracks are calorimeter blocks, which we use to measure the particles' energy. The tracks are curved because we also simulate a 25G magnetic field. By using applying a magnetic field, we are able to tell the charge of a particle from the way its track curves.</p>
+
             </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
