@@ -1,7 +1,16 @@
 ---
 ---
 
-@import "bootstrap";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/glyphicons";
+@import "bootstrap/scaffolding";
+@import "bootstrap/grid";
+@import "bootstrap/component-animations";
+@import "bootstrap/wells";
+@import "bootstrap/modals";
+@import "bootstrap/carousel";
+
 .slider-size {
 height: 300px; /* This is your slider height */
 }
