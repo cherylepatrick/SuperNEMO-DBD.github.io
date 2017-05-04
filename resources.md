@@ -17,7 +17,12 @@ Operations, Data and Analysis
 
 Computing and Software
 ----------------------
-All software is available from {% include icon-github.html username=site.github_username %}
+All software is available under {% include icon-github.html username=site.github_username %}
 
-A starter guide to the core reconstruction and analysis software 
-[can be found here](documentation/falaise/html)
+The main software package for offline work is [Falaise](https://github.com/SuperNEMO-DBD/Falaise).
+A guide to installing Falaise on Linux and macOS platforms is available through the dedicated
+[Homebrew package manager and repo](https://github.com/SuperNEMO-DBD/homebrew-cadfael)
+A starter guide to the core simulation, reconstruction and analysis tools available in Falaise
+[can be found here](Falaise).
+
+
