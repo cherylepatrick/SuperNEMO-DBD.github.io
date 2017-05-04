@@ -25,4 +25,9 @@ A guide to installing Falaise on Linux and macOS platforms is available through 
 A starter guide to the core simulation, reconstruction and analysis tools available in Falaise
 [can be found here](Falaise).
 
+Please note that the documentation is always under development, so feature requests
+or contributions are welcome. For installation related issues when using `brew`,
+use the [homebrew-cadfael Issue Tracker](https://github.com/SuperNEMO-DBD/homebrew-cadfael/issues).
+For all issues relating to using Falaise, or installing/developing it locally, [raise an issue on the Falaise tracker](https://github.com/SuperNEMO-DBD/Falaise/issues)
+
 
