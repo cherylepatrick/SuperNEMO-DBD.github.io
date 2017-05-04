@@ -50,6 +50,21 @@ $ ./snjekyll help
     from your environment. The latter may not be possible if you have Homebrew installed
     in `/usr/local`
 
+## Contributing
+
+Contributions to the website structure/build or content are welcome. To begin contributing:
+
+1. [Create your own fork](https://github.com/SuperNEMO-DBD/SuperNEMO-DBD.github.io#fork-destination-box) of this repository in your GitHub account.
+2. As Jekyll websites are constructed through Markdown and HTML, you can [edit the files on GitHub through your browser](https://help.github.com/articles/editing-files-in-your-repository/)
+3. However, this will not allow you to build and view the website. To do this, you'll need to [have a fork and clone this onto your computer](https://help.github.com/articles/fork-a-repo/). You can then build and view the website following the instructions above.
+4. To make and submit changes, you should [create a branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) on your fork in which to make changes (for example, add a new publication). These branches should be made from the default "develop" branch, and seperate branches should be made for each distinct task. For example, one branch to "add new publication", and one for "enhance description of double beta physics". This is for clarity and ease of merging.
+5. Once you are happy with your changes, the branch can be [submitted as a new Pull Request](https://help.github.com/articles/creating-a-pull-request/). The changes will be reviewed and tested before integration with the develop and hence master branch (from which the website is built and served). If you are asked to make changes, simply make these on the branch corresponding to the Pull Request and they'll be automatically added to the review.
+
+### Reviewing Pull Requests
+
+If you are interested in the content of a Pull Request and wish to preview the changes locally, you can do this by [creating a local branch and merging the PR onto it](https://help.github.com/articles/checking-out-pull-requests-locally/).
+
+
 # TODO
 More documentation, including:
 
