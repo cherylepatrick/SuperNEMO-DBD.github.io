@@ -2,5 +2,7 @@
 set -ev # halt script on error, print lines
 
 bundle exec jekyll build
-bundle exec htmlproofer ./_site
+# Debug output to ensure full reporting, ignore "Falaise" relative
+# url for now as this is constructed by GitHub pages on hosting.
+bundle exec htmlproofer --log-level debug --url-ignore "Falaise" ./_site
 
