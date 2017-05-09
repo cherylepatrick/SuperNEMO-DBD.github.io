@@ -3,6 +3,7 @@
 language: ruby
 rvm:
   - 2.3.3
+cache: bundler
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
