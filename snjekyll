@@ -15,6 +15,9 @@ and headers.
 Available tasks:
   setup          Install RubyGem requirements into current working directory
   build          Build the site using `jekyll build`
+	test           Test the built site using `htmlproofer`
+	               Note that this can only be run after a direct build
+								 and will not work in `serve` mode yet.
   serve          Start a non-detached local jekyll server instance
                  The site can be viewed at 'http://127.0.0.1:4000' in
                  your favoured browser. The server will watch for changes
@@ -114,6 +117,10 @@ build: $(JEKYLL_EXEC)
 	@echo "[snjekyll]: Building site"
 	@$(BUNDLE_EXEC) exec jekyll build
 	@echo "[snjekyll]: Site built"
+
+test: $(JEKYLL_EXEC)
+	@echo "[snjekyll]: htmlproofer test"
+	@$(BUNDLE_EXEC) exec htmlproofer --log-level debug --url-ignore "Falaise" $(SNJEKYLL_BINARY_DIR)/_site
 
 # Start the local jekyll server in place
 # TODO: Review detaching the server, but then need mechanism for shutdown

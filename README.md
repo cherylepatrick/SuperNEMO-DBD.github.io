@@ -32,7 +32,20 @@ The server runs in the foreground and watches the site sources for changes
 (for example, `index.md`). When a file changes, the server will rebuild the
 site automatically, so simply refresh your browser to see the resultant
 regenerated site. For example, try making some changes to `index.md`
-The server may be shutdown at any point using `Ctrl-C`.
+The server may be shutdown at any point using `Ctrl-C`. This mode
+is best used to check the look and interactive behaviour of the site.
+
+Basic structure and linking tests of the site can be run by building the site and then
+running the `test` target
+
+```console
+$ ./snjekyll build
+$ ./snjekyll test
+```
+
+This runs the [html-proofer program](https://github.com/gjtorikian/html-proofer)
+for basic validation of the generated pages. It can only be run using the
+build/test cycle, and will fail if run on pages built with `./snjekyll serve`.
 
 Further information on tasks available from `snjekyll` can be seen by
 running
@@ -56,11 +69,14 @@ $ ./snjekyll help
 
 Contributions to the website structure/build or content are welcome. To begin contributing:
 
-1. [Create your own fork](https://github.com/SuperNEMO-DBD/SuperNEMO-DBD.github.io#fork-destination-box) of this repository in your GitHub account.
-2. As Jekyll websites are constructed through Markdown and HTML, you can [edit the files on GitHub through your browser](https://help.github.com/articles/editing-files-in-your-repository/)
-3. However, this will not allow you to build and view the website. To do this, you'll need to [have a fork and clone this onto your computer](https://help.github.com/articles/fork-a-repo/). You can then build and view the website following the instructions above.
-4. To make and submit changes, you should [create a branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) on your fork in which to make changes (for example, add a new publication). These branches should be made from the default "develop" branch, and seperate branches should be made for each distinct task. For example, one branch to "add new publication", and one for "enhance description of double beta physics". This is for clarity and ease of merging.
-5. Once you are happy with your changes, the branch can be [submitted as a new Pull Request](https://help.github.com/articles/creating-a-pull-request/). The changes will be reviewed and tested before integration with the develop and hence master branch (from which the website is built and served). If you are asked to make changes, simply make these on the branch corresponding to the Pull Request and they'll be automatically added to the review.
+1. [Create your own fork](https://help.github.com/articles/fork-a-repo/) of this repository in your GitHub account.
+2. To make and submit changes, you should [create a branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) on your fork in which to make changes (for example, "add a new publication"). Seperate branches should be made for each distinct task. For example, one branch to "add new publication", and one for "enhance description of double beta physics". This is for clarity and ease of merging.
+3. As Jekyll websites are constructed through Markdown and HTML, you can [edit the files on GitHub through your browser](https://help.github.com/articles/editing-files-in-your-repository/)
+4. However, this will not allow you to build and view the website. To do this, you'll need to [clone your fork locally](https://help.github.com/articles/fork-a-repo/). You can then build and view the website following the instructions above.
+5. Use the instructions above to build, check and test the site for interactive use and structural integrity.
+6. Once you are happy with your changes, submit the branch [as a new Pull Request](https://help.github.com/articles/creating-a-pull-request/). The changes will be checked for conflicts and a build/test will be run using [Travis CI](https://travis-ci.org/SuperNEMO-DBD/SuperNEMO-DBD.github.io/) and reported back to the PR page. If these checks reveal issues, review them and add commits as needed to the branch for your Pull Request. Retesting
+will then occur automatically.
+7. Once all the checks are passed, the PR will be merged to the `master` branch for publication.
 
 ### Reviewing Pull Requests
 
