@@ -30,6 +30,8 @@ github_username: SuperNEMO-DBD
 # Collections:
 collections:
   publications:
+  nemothreepubs:
+  carousel_images:
     # When pub format is better defined, can output one per page ala ADS
     #output: true
 
@@ -44,3 +46,5 @@ exclude:
   - Gemfile.lock
   - snjekyll
   - README.md
+  - vendor
+  - documentation

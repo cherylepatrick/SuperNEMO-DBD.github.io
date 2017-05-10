@@ -1,5 +1,7 @@
 # SuperNEMO-DBD.github.io
 
+[![Build Status](https://travis-ci.org/SuperNEMO-DBD/SuperNEMO-DBD.github.io.svg?branch=develop)](https://travis-ci.org/SuperNEMO-DBD/SuperNEMO-DBD.github.io)
+
 A testing template for a Jekyll-based website for SuperNEMO
 
 # Developing Locally
