@@ -98,7 +98,7 @@ title: The Experiment
     <img src='assets/Ettore_Majorana.jpeg' class="img-circle  center-block" style="width:17em" alt="Portrait of Ettore Majorana">
   </div>
 </div>
-<a href="">Back to top</a>
+<a href="#top">Back to top</a>
 </div>
 
 <div class="container-fluid" id="detector">
@@ -109,16 +109,16 @@ title: The Experiment
     <div class="col-xs-8 ">
       <img src="assets/Supernemo_module2.png" class="center-block" usemap="#detectormap" alt="CAD Rendering of a SuperNEMO detector module">
         <map name="detectormap">
-          <a  data-toggle="modal" data-target="#caloModal" title="Calorimeter wall" class="maphover calomap" style="position: absolute; left: 50%; top: 19.59%; width: 11.85%; height: 67.47%; z-index: 2;" ></a>
-          <a data-toggle="modal" data-target="#caloModal" title="Calorimeter wall" class="maphover calomap"  style="left: 88%; top: 14.97%; width: 11.04%; height: 76.71%; "></a>
-          <a data-toggle="modal" data-target="#caloModal"  title="Calorimeter wall" class="maphover calomap" style="left: 62%; top: 91.68%; width: 18.54%; height: 7.76%; "></a>
-          <a data-toggle="modal" data-target="#trackerModal"  title="Tracker" class="maphover trackmap" style="left: 62.01%; top: 18.85%; width: 9.5%; height: 69.13%;"></a>
-          <a data-toggle="modal" data-target="#trackerModal"  title="Tracker" class="maphover trackmap" style="left: 49.75%; top: 5.55%; width: 11.96%; height: 7.76%;"></a>
-          <a data-toggle="modal" data-target="#trackerModal"  title="Tracker" class="maphover trackmap" style="left: 84.5%; top: 6.1%; width: 11.96%; height: 7.76%;"></a>
-          <a data-toggle="modal" data-target="#trackerModal"  title="Tracker" class="maphover trackmap" style="left: 75%; top: 18.3%; width: 12.77%; height: 71.53%;"></a>
-          <a data-toggle="modal" data-target="#trackerModal"  title="Tracker" class="maphover trackmap" style="left: 1.01%; top: 2.22%; width: 32.52%; height: 94.09%;"></a>
-          <a data-toggle="modal" data-target="#srcModal"  title="Source foil" class="maphover srcmap" style="left: 69.91%; top: 18.3%; width: 6.38%; height: 70.43%; "></a>
-          <a data-toggle="modal" data-target="#srcModal"  title="Source foil" class="maphover srcmap" style="left: 64.5%; top: 5.36%; width: 16.21%; height: 8.13%;"></a>
+          <a data-toggle="modal" data-target="#caloModal" href="#caloModal" title="Calorimeter wall" class="maphover calomap" style="position: absolute; left: 50%; top: 19.59%; width: 11.85%; height: 67.47%; z-index: 2;" ></a>
+          <a data-toggle="modal" data-target="#caloModal" href="#caloModal" title="Calorimeter wall" class="maphover calomap"  style="left: 88%; top: 14.97%; width: 11.04%; height: 76.71%; "></a>
+          <a data-toggle="modal" data-target="#caloModal" href="#caloModal" title="Calorimeter wall" class="maphover calomap" style="left: 62%; top: 91.68%; width: 18.54%; height: 7.76%; "></a>
+          <a data-toggle="modal" data-target="#trackerModal" href="#trackerModal"  title="Tracker" class="maphover trackmap" style="left: 62.01%; top: 18.85%; width: 9.5%; height: 69.13%;"></a>
+          <a data-toggle="modal" data-target="#trackerModal" href="#trackerModal" title="Tracker" class="maphover trackmap" style="left: 49.75%; top: 5.55%; width: 11.96%; height: 7.76%;"></a>
+          <a data-toggle="modal" data-target="#trackerModal" href="#trackerModal" title="Tracker" class="maphover trackmap" style="left: 84.5%; top: 6.1%; width: 11.96%; height: 7.76%;"></a>
+          <a data-toggle="modal" data-target="#trackerModal" href="#trackerModal" title="Tracker" class="maphover trackmap" style="left: 75%; top: 18.3%; width: 12.77%; height: 71.53%;"></a>
+          <a data-toggle="modal" data-target="#trackerModal" href="#trackerModal" title="Tracker" class="maphover trackmap" style="left: 1.01%; top: 2.22%; width: 32.52%; height: 94.09%;"></a>
+          <a data-toggle="modal" data-target="#srcModal" href="#srcModal" title="Source foil" class="maphover srcmap" style="left: 69.91%; top: 18.3%; width: 6.38%; height: 70.43%; "></a>
+          <a data-toggle="modal" data-target="#srcModal" href="#srcModal" title="Source foil" class="maphover srcmap" style="left: 64.5%; top: 5.36%; width: 16.21%; height: 8.13%;"></a>
 
       </map>
     </div>
@@ -127,7 +127,7 @@ title: The Experiment
       </p>
       <p> The Demonstrator Module has a tracker-calorimeter architecture, with a thin layer of $\beta\beta$-emitting isotope sandwiched between trackers and surrounded by calorimetry. This allows for a full three-dimensional reconstruction of charged particle tracks, as well as energy measurements. Click on the detector components in the diagram to learn more about each part of the detector.</p>
       <p>
-      <a href="">Back to top</a>
+      <a href="#top">Back to top</a>
       </p>
     </div>
   </div>
