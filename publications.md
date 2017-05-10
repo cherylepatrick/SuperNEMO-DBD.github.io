@@ -14,7 +14,7 @@ Journal papers from the SuperNEMO experiment
 <div  class="collapse" id="{{pub.doi| slugify}}">
 <div class="well" style="overflow:auto">
 {% if pub.image_url %}
-<img src="{{pub.image_url}}" style="float:right; height:20em">
+<img src="{{pub.image_url}}" style="float:right; height:20em" alt="Image from {{pub.title}}">
 {% endif %}
 <p>{{pub.abstract}}</p>
 </div>
@@ -32,7 +32,7 @@ Papers from SuperNEMO's predescessor, NEMO-3
 <div  class="collapse" id="{{pub.doi| slugify}}">
 <div class="well" style="overflow:auto">
 {% if pub.image_url %}
-<img src="{{pub.image_url}}" style="float:right; height:20em">
+<img src="{{pub.image_url}}" style="float:right; height:20em" alt="Image from {{pub.title}}">
 {% endif %}
 <p>{{pub.abstract}}</p>
 </div>
