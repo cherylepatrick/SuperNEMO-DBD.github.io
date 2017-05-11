@@ -1,0 +1,74 @@
+{
+  "ucl.ac.uk": {
+    "name": "University College London",
+    "city": "London, UK",
+    "logo": "https://www.ucl.ac.uk/visual-identity/logos/standalone.png",
+    "homepage": "https://www.hep.ucl.ac.uk/nemo/"
+  },
+  "warwick.ac.uk": {
+    "name": "University of Warwick",
+    "city": "Warwick, UK",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/University_of_Warwick_logo_2015_with_descriptor.svg/512px-University_of_Warwick_logo_2015_with_descriptor.svg.png",
+    "homepage": "http://www2.warwick.ac.uk"
+  },
+  "imperial.ac.uk": {
+    "name": "Imperial College London",
+    "city": "London, UK",
+    "logo": "http://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/Logo--tojpeg_1452876166974_x2.jpg",
+    "homepage": "https://www.imperial.ac.uk"
+  },
+  "manchester.ac.uk": {
+    "name": "The University of Manchester",
+    "city": "Manchester, UK",
+    "logo": "http://assets.manchester.ac.uk/corporate/images/design/logo-university-of-manchester.png",
+    "homepage": "http://www.manchester.ac.uk"
+  },
+  "lal.in2p3.fr": {
+    "name": "Laboratoire de l'Accélérateur Linéaire",
+    "city": "Orsay, France",
+    "logo": "https://www.lal.in2p3.fr/plugins/kitcnrs/images/lal_logo.jpg",
+    "homepage": "https://www.lal.in2p3.fr/"
+  },
+  "fmph.uniba.sk": {
+    "name": "Univerzity Komenského v Bratislave",
+    "city": "Bratislava, Slovakia",
+    "logo": "http://sophia.dtp.fmph.uniba.sk/~blazek/Schools/pic/logo_FMFI.png",
+    "homepage": "http://fmph.uniba.sk"
+  },
+  "lapp.in2p3.fr": {
+    "name": "Laboratoire d’Annecy le Vieux de Physique des Particules",
+    "city": "Annecy, France",
+    "logo": "https://indico.in2p3.fr/event/13954/picture/13.png",
+    "homepage": "https://lapp.in2p3.fr/?lang=fr"
+  },
+  "utexas.edu": {
+    "name": "The University of Texas at Austin",
+    "city": "Austin, USA",
+    "logo": "http://brand.utexas.edu/sites/all/themes/brand2/logo.png",
+    "homepage": "http://www.utexas.edu"
+  },
+  "cenbg.in2p3.fr": {
+    "name": "Centre Etudes Nucléaires de Bordeaux Gradignan",
+    "city": "Bordeaux, France",
+    "logo": "http://geant4.in2p3.fr/2005/cenbg.png",
+    "homepage": "http://www.cenbg.in2p3.fr"
+  },
+  "lpccaen.in2p3.fr": {
+    "name": "Laboratoire de Physique Corpusculaire de Caen",
+    "city": "Caen, France",
+    "logo": "http://www.lpc-caen.in2p3.fr/IMG//Images/logolpc_couleur_fondBlanc_titre.jpg",
+    "homepage": "http://www.lpc-caen.in2p3.fr"
+  },
+  "lpsc.in2p3.fr": {
+    "name": "Laboratoire de Physique Subatomique & Cosmologie",
+    "city": "Grenoble, France",
+    "logo": "https://lpsc.in2p3.fr/mariane/images/logoLPSC.jpg",
+    "homepage": "http://lpsc.in2p3.fr/index.php/fr/"
+  },
+  "utef.cvut.cz": {
+    "name": "Czech Technical University in Prague",
+    "city": "Prague, Czech Republic",
+    "logo": "http://www.utef.cvut.cz/images/web_logo_en.png",
+    "homepage": "http://www.utef.cvut.cz/ieap"
+  }
+}
