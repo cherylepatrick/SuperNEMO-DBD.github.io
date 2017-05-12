@@ -1,0 +1,36 @@
+---
+---
+
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/glyphicons";
+@import "bootstrap/scaffolding";
+@import "bootstrap/grid";
+@import "bootstrap/component-animations";
+@import "bootstrap/wells";
+@import "bootstrap/modals";
+@import "bootstrap/carousel";
+
+.slider-size {
+height: 300px; /* This is your slider height */
+}
+.carousel {
+width:100%;
+margin:0 auto; /* center your carousel if other than 100% */
+}
+.section_head{
+  argin-top:10px;
+  margin-bottom:10px;
+  padding:20px;
+  background-color:#5777A9;
+  color:#ffffff;
+  text-align: center;
+}
+
+.maphover{
+  position: absolute;
+  z-index: 2;
+  background-color: yellow;
+  opacity:0;
+}
+
