@@ -9,19 +9,19 @@
     "name": "University of Warwick",
     "city": "Warwick, UK",
     "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/University_of_Warwick_logo_2015_with_descriptor.svg/512px-University_of_Warwick_logo_2015_with_descriptor.svg.png",
-    "homepage": "http://www2.warwick.ac.uk"
+    "homepage": "http://www2.warwick.ac.uk/fac/sci/physics/research/epp/exp/detrd/snemo/"
   },
   "imperial.ac.uk": {
     "name": "Imperial College London",
     "city": "London, UK",
     "logo": "http://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/Logo--tojpeg_1452876166974_x2.jpg",
-    "homepage": "https://www.imperial.ac.uk"
+    "homepage": "http://www.imperial.ac.uk/high-energy-physics/research/experiments/supernemo/"
   },
   "manchester.ac.uk": {
     "name": "The University of Manchester",
     "city": "Manchester, UK",
     "logo": "http://assets.manchester.ac.uk/corporate/images/design/logo-university-of-manchester.png",
-    "homepage": "http://www.manchester.ac.uk"
+    "homepage": "http://www.hep.man.ac.uk/SuperNemo/"
   },
   "lal.in2p3.fr": {
     "name": "Laboratoire de l'Accélérateur Linéaire",
@@ -154,5 +154,17 @@
     "city": "Bratislava, Slovakia",
     "logo": "http://www.stuba.sk/new/images/web/icons/stu_800.png",
     "homepage": "http://www.stuba.sk/english.html?page_id=132"
+  },
+  "saga-u.ac.jp":{
+    "name": "Saga University",
+    "city": "Saga, Japan",
+    "logo": "https://www.pdn.ac.lk/uop/inrc/AES2016/images/saga.png",
+    "homepage": "http://www.saga-u.ac.jp/english/index.html"
+  },
+  "phys.jyu.fi":{
+    "name": "University of Jyväskylä",
+    "city": "Jyväskylä, Finland",
+    "logo": "https://kirjasto.jyu.fi/++theme++jyu.theme2011dz/images/jyu-logo-hdpi.png",
+    "homepage": "https://www.jyu.fi/fysiikka/en"
   }
 }
