@@ -1,9 +1,9 @@
 WrongCaseLast,WrongCaseFirst,Email,LastName,FirstName,Job,Photo,Interests,Current,ShowEmail
-Patrick,Cheryl,c.patrick@ucl.ac.uk,Patrick,Cheryl,Postdoctoral research associate,https://www.hep.ucl.ac.uk/people/hep_photos/research/Cheryl_Patrick_2016_w.jpg,Deputy analysis coordinator,y,y
+Patrick,Cheryl,c.patrick@ucl.ac.uk,Patrick,Cheryl,Postdoctoral research associate,assets/people/Cheryl_Patrick_2016_w.jpg,Deputy analysis coordinator,y,y
 Morgan,Ben ,Ben.Morgan@warwick.ac.uk,Morgan,Ben ,Senior Research Fellow,,Software development coordinator,y,y
-DAWSON,Lauren,lauren.dawson.10@ucl.ac.uk,Dawson,Lauren,PhD student,https://www.hep.ucl.ac.uk/people/hep_photos/postgrads/LaurenDawson_2016_250x350_w.jpg,,y,y
+DAWSON,Lauren,lauren.dawson.10@ucl.ac.uk,Dawson,Lauren,PhD student,assets/people/LaurenDawson_2016_250x350_w.jpg,,y,y
 ANDERSON,Brian,ba@HEP.UCL.AC.UK,Anderson,Brian,,,,,y
-ATTREE,Derek,d.attree@ucl.ac.uk,Attree,Derek,Senior Technical Support Officer (Mechanical Engineering),https://www.hep.ucl.ac.uk/people/hep_photos/technical/Derek_Attree_w.jpg,,y,y
+ATTREE,Derek,d.attree@ucl.ac.uk,Attree,Derek,Senior Technical Support Officer (Mechanical Engineering),assets/people/Derek_Attree_w.jpg,,y,y
 BARABASH,Alexander,barabash@ITEP.RU,Barabash,Alexander,,,,,y
 BEUSELINCK,Ray,r.beuselinck@IMPERIAL.AC.UK,Beuselinck,Ray,,,,,y
 BHARDWAJ,Kieran,k.h.bhardwaj@warwick.ac.uk,Bhardwaj,Kieran,,,,,y
@@ -23,7 +23,7 @@ CALVEZ,Steven,calvez@LAL.IN2P3.FR,Calvez,Steven,PhD student,,,y,y
 CAMPBELL,Medbh,medbh.campbell11@IMPERIAL.AC.UK,Campbell,Medbh,,,,,y
 CARMONA,Jose Manuel,jcarmona@UNIZAR.ES,Carmona,Jose Manuel,,,,,y
 CARTER,Mary,mary.carter@UCL.AC.UK,Carter,Mary,,,,y,y
-CASCELLA,Michele,m.cascella@ucl.ac.uk,Cascella,Michele,Detector physicist,https://www.hep.ucl.ac.uk/people/hep_photos/technical/Michele_Cascella_w.jpg,Deputy data quality coordinator,y,y
+CASCELLA,Michele,m.cascella@ucl.ac.uk,Cascella,Michele,Detector physicist,assets/people/Michele_Cascella_w.jpg,Deputy data quality coordinator,y,y
 CASSOL,Franca,cassol@CPPM.IN2P3.FR,Cassol,Franca,,,,,y
 CASTEL,Patricia,castel@CENBG.IN2P3.FR,Castel,Patricia,,,,,y
 CEBRIAN,Susana,scebrian@UNIZAR.ES,Cebrian,Susana,,,,,y
@@ -44,7 +44,7 @@ EVANS,Justin,justin.evans@manchester.ac.uk,Evans,Justin,,,,y,y
 FLACK,Robert,r.flack@UCL.AC.UK,Flack,Robert,,,,,y
 FREEMAN,Sean,sean.freeman@manchester.ac.uk,Freeman,Sean,,,,,y
 FREESTONE,Julian,Julian.Freestone@manchester.ac.uk,Freestone,Julian,,,,,y
-FRESHVILLE,Anastasia,anastasia.freshville@UCL.AC.UK,Freshville,Anastasia,Postdoctoral research associate,https://www.hep.ucl.ac.uk/people/hep_photos/research/Anastasia_Freshville_2016_250x350_w.jpg,,,y
+FRESHVILLE,Anastasia,anastasia.freshville@UCL.AC.UK,Freshville,Anastasia,Postdoctoral research associate,assets/people/Anastasia_Freshville_2016_250x350_w.jpg,,,y
 FULACHIER,Jerome,Jerome.Fulachier@LPSC.IN2P3.FR,Fulachier,Jerome,,,,,y
 Garcia Irastorza,Igor,igor.irastorza@CERN.CH,Garcia Irastorza,Igor,,,,,y
 GILBERT,Genevieve,gilbert@LAL.IN2P3.FR,Gilbert,Genevieve,,,,,y
@@ -123,7 +123,7 @@ RICHARDS,Ben,brichards@HEP.UCL.AC.UK,Richards,Ben,,,,,y
 RIDDLE,Catherine,Catherine.Riddle@INL.GOV,Riddle,Catherine,,,,,y
 Roche,Mathieu,roche@CENBG.IN2P3.FR,Roche,Mathieu,,,,,y
 RUKHADZE,Ekaterina,Ekaterina.Rukhadze@utef.cvut.cz,Rukhadze,Ekaterina,,,,,y
-SAAKYAN,Ruben,r.saakyan@UCL.AC.UK,Saakyan,Ruben,Professor,https://www.hep.ucl.ac.uk/people/hep_photos/academic/Ruben_Saakyan_2016_w.jpg,Joint spokesperson,y,y
+SAAKYAN,Ruben,r.saakyan@UCL.AC.UK,Saakyan,Ruben,Professor,assets/people/Ruben_Saakyan_2016_w.jpg,Joint spokesperson,y,y
 SALAZAR,Ramon,ramonmsalazar@gmail.com,Salazar,Ramon,,,,y,y
 SARAZIN,Xavier,sarazin@LAL.IN2P3.FR,Sarazin,Xavier,,,,,y
 SEDGBEER,Julia,j.sedgbeer@IMPERIAL.AC.UK,Sedgbeer,Julia,,,,y,y
@@ -142,7 +142,7 @@ SYKORA,Ivan,sykora@fmph.uniba.sk,Sykora,Ivan,,,,,y
 SZARKA,Jan,szarka@fmph.uniba.sk,Szarka,Jan,,,,,y
 SZKLARZ,Georges,szklarz@LAL.IN2P3.FR,Szklarz,Georges,,,,,y
 THEOBALD,Craig,c.theobald@ucl.ac.uk,Theobald,Craig,,,,,y
-THOMAS,Jenny,jennifer.thomas@UCL.AC.UK,Thomas,Jenny,Professor,https://www.hep.ucl.ac.uk/people/hep_photos/academic/Jenny_Thomas_2013_w.jpg,,,y
+THOMAS,Jenny,jennifer.thomas@UCL.AC.UK,Thomas,Jenny,Professor,assets/people/Jenny_Thomas_2013_w.jpg,,,y
 TIMKIN,Victor,timkin@NUSUN.JINR.RU,Timkin,Victor,,,,,y
 TIZON,Arnaud,TIZON@CENBG.IN2P3.FR,Tizon,Arnaud,,,,,y
 TORRE,Stefano,s.torre@UCL.AC.UK,Torre,Stefano,,,,,y
@@ -157,9 +157,9 @@ VILELA,Cristovao,cvilela@HEP.UCL.AC.UK,Vilela,Cristovao,,,,,y
 VIRTUE,Clarence,cjv@snolab.ca,Virtue,Clarence,,,,,y
 VOROBEL,Vit,vorobel@ipnp.troja.mff.cuni.cz,Vorobel,Vit,,,,,y
 Warot,Guillaume,gwarot@lsm.in2p3.fr,Warot,Guillaume,,,,,y
-WATERS,David,d.waters@UCL.AC.UK,Waters,David,Professor,https://www.hep.ucl.ac.uk/people/hep_photos/academic/David_Waters_2013_w.jpg,,,y
+WATERS,David,d.waters@UCL.AC.UK,Waters,David,Professor,assets/people/David_Waters_2013_w.jpg,,,y
 WINTER,Berend,b.winter@UCL.AC.UK,Winter,Berend,,,,y,y
-XIE,Fang,fang.xie.15@UCL.AC.UK,Xie,Fang,PhD student,https://www.hep.ucl.ac.uk/people/hep_photos/postgrads/FangXie_2015_250x350_w.jpg,,y,y
+XIE,Fang,fang.xie.15@UCL.AC.UK,Xie,Fang,PhD student,assets/people/FangXie_2015_250x350_w.jpg,,y,y
 YUMATOV,Vladimir,yumatov@ITEP.RU,Yumatov,Vladimir,,,,,y
 ZAMORA SAA,Jilberto,jzamorasaa@gmail.com,Zamora Saa,Jilberto,,,,,y
 ZUKAUSKAS,Aivaras,aivaras.zukauskas@gmail.com,Zukauskas,Aivaras,,,,,y
@@ -168,7 +168,7 @@ Zampieri,Thierry,thierry.zampieri@lsm.fr,Zampieri,Thierry,,,,,y
 Dastgheibi-Fard,Ali,ali.dastgheibi-fard@lsm.fr,Dastgheibi-Fard,Ali,,,,,y
 CHAUVEAU,Emmanuel,chauveau@cenbg.in2p3.fr,Chauveau,Emmanuel,,,"Analysis coordinator, deputy physics coordinator",y,y
 CHEIKALI,chafik,cheikali@lal.in2p3.fr,Cheikali,Chafik,,,,,y
-CHOPRA,Ashwin,ashwin.chopra.14@UCL.AC.UK,Chopra,Ashwin,PhD student,https://www.hep.ucl.ac.uk/people/hep_photos/postgrads/Ashwin_Chopra_25x35_w.jpg,,y,y
+CHOPRA,Ashwin,ashwin.chopra.14@UCL.AC.UK,Chopra,Ashwin,PhD student,assets/people/Ashwin_Chopra_25x35_w.jpg,,y,y
 CLAVERIE,Gerard,claverie@CENBG.IN2P3.FR,Claverie,Gerard,,,,,y
 Corazzi,Mathieu,mathieu.corazzi@lsm.fr,Corazzi,Mathieu,,,,,y
 Curtil,Christian,curtil@CPPM.IN2P3.FR,Curtil,Christian,,,,,y

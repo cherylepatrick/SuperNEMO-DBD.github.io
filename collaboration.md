@@ -12,7 +12,7 @@ so it's easy to keep the list updated and include relevant information.
   {% for person in sorted_people %}
   <li>
     {% assign emailarray = {{person.Email | split:"@"}} %}
-    <a data-toggle="modal" data-target="#{{ person.FirstName }}{{ person.LastName }}_Modal">{{ person.FirstName }} {{ person.LastName}}</a>
+    <a data-toggle="modal" href="#{{ person.FirstName }}{{ person.LastName }}_Modal">{{ person.FirstName }} {{ person.LastName}}</a>
     {% for item in emailarray limit:1 offset:1 %}
     {% assign domain=(item | downcase) %}
     {% endfor %}
