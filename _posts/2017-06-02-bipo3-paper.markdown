@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "New SuperNEMO paper on the BiPo-3 detector"
+date:   2017-06-02 13:14:00 +0000
+categories: bipo supernemo paper
+---
+The SuperNEMO collaboration has published a paper containing measurements from the BiPo-3 detector. Located in the Canfranc Underground Laboratory in Spain, BiPo-3 is a low-radioactivity detector dedicated to measuring ultra low natural radionuclide contaminations of $^{208}$Tl ($^{232}$Th chain) and $^{214}$Bi ($^{238}$U chain) in thin materials. In particular, it has looked at the thin foils of selenium-82 that will be used as a double-beta decay source in the SuperNEMO experiment. It is vital that we study these decays from natural environmental sources, which can mimic our double-beta decay signal. BiPo-3's results will be key to understanding these background processes so that we can achieve our goal of being an ultra-low-background experiment.
+
+You can read the BiPo-3 paper [here](http://dx.doi.org/10.1088/1748-0221/12/06/P06002) or find it on the [arXiv](https://128.84.21.199/abs/1702.07176).
+
+Congratulations to Pia, Héctor, Xavier, and everyone who worked hard on getting this great result.
