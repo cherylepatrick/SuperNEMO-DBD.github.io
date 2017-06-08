@@ -215,13 +215,26 @@ title: The Experiment
       </div>
   </div>
   <div class="row">
-    <div class="col-xs-3 ">
-      <img src='assets/Radiation_warning_symbol.png' class="img-circle  center-block" style="width:13em" alt="Radiation symbol">
+
+    <div class="col-sm-12">
+      
+      <h4> Radiopurity and the radon challenge</h4>
+      <p>For an ultra-low-background experiment, we need to take extra care to ensure that even low-level radioactive substances are kept away from our detector. All of SuperNEMO's components are constructed from materials that have been carefully selected for their radiopurity. Scientists working on the detector wear special suits to prevent any contamination from their bodies and clothes.</p>
+      <p>With these precautions in place, our biggest radiopurity challenge comes from radon, a naturally-occurring radioactive gas whose decay chain can mimic the $\beta\beta$ signature. Potential detector components are tested for radon activity. Our requirements are so strict, we have to collect any radon produced by the components over a long period of time, and then concentrate it, in order for even a state-of-the-art radon detector to be able to measure its activity. In addition to this, SuperNEMO is contained within an anti-radon tent, which is flushed with purified gas. Using these techniques, we aim to have a radon activity less than 0.15 mBq/m$^3$, or approximately 1 decay every 10 minutes - a world-leading purity, 30 times better than our predecessor, NEMO-3.</p>
+      </div>
+
+  </div>
+  <div class="row">
+    <div class="col-xs-12 ">
+    <h4> Particle identification</h4>
+       <p>Many double-beta decay experiments are only able to measure the energy deposited when a decay happens. SuperNEMO's unique tracker-calorimeter design allows us to follow the passage of particles through the detector. By looking at the length and orientation of tracks, and using a magnetic field to help us determine the particle's charge, we are able to identify different types of particle as they move through the detector, allowing us to reject events that don't match our two-electron $\beta\beta$ decay signature. By using the timing and energy measurements from our calorimeter walls, we are able to distinguish $\beta\beta$-like decays, where two particles leave the source foil at the same time, from events where a particle passes into the detector from outside, scatters from the foil, and then leaves the detector. The calorimeters also help us identify events with the characteristic energy of a $0\nu\beta\beta$ decay, allowing us to reject our biggest background, $2\nu\beta\beta$ events, which deposit less energy. Using this combination of techniques, we have a unique ability to isolate true $0\nu\beta\beta$ events.</p>
     </div>
-    <h4> Radiopurity and the radon challenge</h4>
-    <div class="col-sm-9 ">
-      <p>For an ultra-low-background experiment, we need to take extra care to ensure that even low-level radioactive substances are kept away from our detector. All of SuperNEMO's components are constructed from materials that have been carefully selected and tested for their radiopurity. Scientists working on the detector wear special suits to prevent any contamination from their bodies and clothes.</p>
-      <p>With these precautions in place, our biggest challenge is from radon, a naturally-occurring radioactive gas whose decay products can </p>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 ">
+      <h4> The power of SuperNEMO</h4>
+      <p>With this world-class background rejection, the SuperNEMO demonstrator should be well-place to identify the first $0\nu\beta\beta$ mankind has ever seen - or alternatively, to set a limit on the $0\nu\beta\beta$ half-life of 6.5$\times$10$^{24}$ years. A proposed full SuperNEMO, consisting of 20 modules, could increase this half-life sensitivity to 10$^{26}$ years.</p>
+      <p>In addition to this, the SuperNEMO technology is ideal for investigating $2\nu\beta\beta$ decays - not just in selenium-82 but in other isotopes, thanks to the modular technology which allows for the source foils to be swapped out. The detector could also be used for other kinds of new physics searches, such as looking for evidence of Lorentz violation.</p>
     </div>
   </div>
 </div>
