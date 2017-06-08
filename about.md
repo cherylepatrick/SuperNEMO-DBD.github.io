@@ -59,9 +59,11 @@ title: The Experiment
         </a>
       </div>
       <div class='col-xs-4'>
+      <a href="#physicsgoals">
         <img src='assets/status_round.png' class="img-circle  center-block" style="width:17em" alt="Schematic of Double Beta Decay Energy Spectrum">
           <h4>Physics goals</h4>
           <p class="lead">What SuperNEMO can tell us</p>
+          </a>
       </div>
     </div>
   </div>
@@ -201,3 +203,27 @@ title: The Experiment
     </div>
   </div>
 </div>
+
+<div class="container-fluid" id="physicsgoals">
+  <div class="section_head text-center">
+      <h2> Physics goals</h2>
+  </div>
+  <div class="row">
+      <div class="col-xs-12 ">
+          <h4> An ultra-low background experiment</h4>
+          <p>Neutrinoless double-beta decay (if it exists at all) is an extremely rare process. Experiments, including our predecessor NEMO-3, have shown that it must have a half-life of more than $10^{24}$ years</p> - over a trillion times the age of the universe. This means that, even with our best detectors, we will never see more than a tiny handful of $0\nu\beta\beta$ decays. This presents a big challenge - how to eliminate background events: other kinds of decays or interactions that mimic our signal. SuperNEMO is leading the way in ultra-low background technology through a double-pronged approach: an extremely radio-pure detector, and a unique tracking technique that enables us to identify background decays and remove them from our data sample.
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3 ">
+      <img src='assets/Radiation_warning_symbol.png' class="img-circle  center-block" style="width:13em" alt="Radiation symbol">
+    </div>
+    <h4> Radiopurity and the radon challenge</h4>
+    <div class="col-sm-9 ">
+      <p>For an ultra-low-background experiment, we need to take extra care to ensure that even low-level radioactive substances are kept away from our detector. All of SuperNEMO's components are constructed from materials that have been carefully selected and tested for their radiopurity. Scientists working on the detector wear special suits to prevent any contamination from their bodies and clothes.</p>
+      <p>With these precautions in place, our biggest challenge is from radon, a naturally-occurring radioactive gas whose decay products can </p>
+    </div>
+  </div>
+</div>
+
+
