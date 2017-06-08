@@ -3,8 +3,7 @@ layout: page
 title: Resources
 ---
 
-This page could provide the "jumping off point" for additional information
-for collaboration members. For example:
+This page is mainly for collaboration members, and provides useful resources and instructions for people working on the experiment. Some of the tools and applications listed below may require a username and password.
 
 Internal Documentation
 ----------------------
@@ -13,7 +12,7 @@ the ? to set up an account.
 
 Operations, Data and Analysis
 -----------------------------
-??
+A work-in-progress collection of SuperNEMO and NEMO-3 analysis code is available in the [AllAnalyses](https://github.com/SuperNEMO-DBD/AllAnalyses) repository under {% include icon-github.html username=site.github_username %}.
 
 Computing and Software
 ----------------------
