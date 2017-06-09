@@ -3,8 +3,7 @@ layout: page
 title: Resources
 ---
 
-This page could provide the "jumping off point" for additional information
-for collaboration members. For example:
+This page is mainly for collaboration members, and provides useful resources and instructions for people working on the experiment. Some of the tools and applications listed below may require a username and password.
 
 Internal Documentation
 ----------------------
@@ -13,7 +12,20 @@ the ? to set up an account.
 
 Operations, Data and Analysis
 -----------------------------
-??
+A work-in-progress collection of SuperNEMO and NEMO-3 analysis code is available in the [AllAnalyses](https://github.com/SuperNEMO-DBD/AllAnalyses) repository under {% include icon-github.html username=site.github_username %}.
+
+Getting an account on the CCLyon computing cluster
+--------------------------------------------------
+If you want to take part in the Monte Carlo Challenge 1 you will need an account on the CCLyon cluster to produce and access the data.
+
+If you already have one, make sure you can access it (and contact <a href="mailto:lemiere@lpccaen.in2p3.fr">Yves</a> if you can't). If need an account follow this procedure:
+
+- Visit [this page](https://cctools.in2p3.fr/cclogon/) and fill the form
+- In Step 1 choose "Foreign collaborators" as Department and laboratory
+- In Step 2 choose "nemo" as group and give a date 3 years from now for the Account's expiration date (leave blank if you have a permanent position)
+- In Step 3 download the form, sign in and send it to <a href="mailto:lemiere@lpccaen.in2p3.fr">Yves</a>
+
+You should receive your account information in a few days.
 
 Computing and Software
 ----------------------
