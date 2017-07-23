@@ -1,6 +1,5 @@
 WrongCaseLast,WrongCaseFirst,Email,LastName,FirstName,Job,Photo,Interests,Current,ShowEmail
 Patrick,Cheryl,c.patrick@ucl.ac.uk,Patrick,Cheryl,Postdoctoral research associate,assets/people/Cheryl_Patrick_2016_w.jpg,Deputy analysis coordinator,y,y
-Morgan,Ben ,Ben.Morgan@warwick.ac.uk,Morgan,Ben ,Senior Research Fellow,assets/people/BenMorgan.jpg,Software development coordinator,y,y
 DAWSON,Lauren,lauren.dawson.10@ucl.ac.uk,Dawson,Lauren,PhD student,assets/people/LaurenDawson_2016_250x350_w.jpg,,y,y
 ATTREE,Derek,d.attree@ucl.ac.uk,Attree,Derek,Senior Technical Support Officer (Mechanical Engineering),assets/people/Derek_Attree_w.jpg,,y,y
 BARABASH,Alexander,barabash@ITEP.RU,Barabash,Alexander,,,,,y
@@ -116,7 +115,7 @@ SHITOV,Yuri,y.shitov@IMPERIAL.AC.UK,Shitov,Yuri,,,,,y
 SIMARD,Laurent,simard@LAL.IN2P3.FR,Simard,Laurent,,,,,y
 SIMKOVIC,Fedor,fedor.simkovic@fmph.uniba.sk,Simkovic,Fedor,,,,,y
 SMIRNOVA,Irina,irozova@jinr.ru,Smirnova,Irina,,,,,y
-SOLDNER-REMBOLD,Stefan,stefan.soldner-rembold@manchester.ac.uk,Sšldner-Rembold,Stefan,Faculty,,,,y
+SOLDNER-REMBOLD,Stefan,stefan.soldner-rembold@manchester.ac.uk,Soldner-Rembold,Stefan,Faculty,,,,y
 STEKL,Ivan,ivan.stekl@utef.cvut.cz,Stekl,Ivan,,,,,y
 SUHONEN,Jouni,suhonen@PHYS.JYU.FI,Suhonen,Jouni,,,,,y
 SUZUKI,Koutaku,ksuzuki@werc.or.jp,Suzuki,Koutaku,,,,,y
@@ -155,3 +154,4 @@ Konovalov,Sergey,konovalov@itep.ru,Konovalov,Sergey,,,Source production,y,y
 Macko,Miroslav,macko@fmph.uniba.sk,Macko,Miroslav,PhD student,,,,y
 Palusova,Veronika,palusova@fmph.uniba.sk,Palusova,Veronika,PhD student,,,,y
 Mitra,Ankush,A.Mitra.2@warwick.ac.uk,Mitra,Ankush,,,,,y
+Morgan,Ben,Ben.Morgan@warwick.ac.uk,Morgan,Ben,Senior Research Fellow,assets/people/BenMorgan.jpg,Software development coordinator,y,y
