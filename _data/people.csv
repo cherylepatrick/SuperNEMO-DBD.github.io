@@ -1,6 +1,6 @@
 WrongCaseLast,WrongCaseFirst,Email,LastName,FirstName,Job,Photo,Interests,Current,ShowEmail
 Patrick,Cheryl,c.patrick@ucl.ac.uk,Patrick,Cheryl,Postdoctoral research associate,assets/people/Cheryl_Patrick_2016_w.jpg,Deputy analysis coordinator,y,y
-Morgan,Ben ,Ben.Morgan@warwick.ac.uk,Morgan,Ben ,Senior Research Fellow,,Software development coordinator,y,y
+Morgan,Ben ,Ben.Morgan@warwick.ac.uk,Morgan,Ben ,Senior Research Fellow,assets/people/BenMorgan.jpg,Software development coordinator,y,y
 DAWSON,Lauren,lauren.dawson.10@ucl.ac.uk,Dawson,Lauren,PhD student,assets/people/LaurenDawson_2016_250x350_w.jpg,,y,y
 ATTREE,Derek,d.attree@ucl.ac.uk,Attree,Derek,Senior Technical Support Officer (Mechanical Engineering),assets/people/Derek_Attree_w.jpg,,y,y
 BARABASH,Alexander,barabash@ITEP.RU,Barabash,Alexander,,,,,y
@@ -12,14 +12,14 @@ BREIER,Robert,breier@fmph.uniba.sk,Breier,Robert,,,,,y
 BRETON,Dominique,BRETON@LAL.IN2P3.FR,Breton,Dominique,,,,,y
 BRIERE,Matthieu,briere@LAL.IN2P3.FR,Briere,Matthieu,,,,,y
 BRUDANIN,Victor,brudanin@NUSUN.JINR.RU,Brudanin,Victor,,,,,y
-BUSTO,Jose,busto@CPPM.IN2P3.FR,Busto,Jose,,,,,y
+BUSTO,Jose,busto@CPPM.IN2P3.FR,Busto,Jose,,,Radon,,y
 CACERES,Thierry,CACERES@LAL.IN2P3.FR,Caceres,Thierry,,,,,y
 CAFFREY,Gus,Gus.Caffrey@INL.GOV,Caffrey,Gus,,,,,y
 CALVEZ,Steven,calvez@LAL.IN2P3.FR,Calvez,Steven,PhD student,,UK PI,y,y
 CARMONA,Jose Manuel,jcarmona@UNIZAR.ES,Carmona,Jose Manuel,,,,,y
 CARTER,Mary,mary.carter@UCL.AC.UK,Carter,Mary,,,,y,y
 CASCELLA,Michele,m.cascella@ucl.ac.uk,Cascella,Michele,Detector physicist,assets/people/Michele_Cascella_w.jpg,Deputy data quality coordinator,y,y
-CASSOL,Franca,cassol@CPPM.IN2P3.FR,Cassol,Franca,,,,,y
+CASSOL,Franca,cassol@CPPM.IN2P3.FR,Cassol,Franca,,,Radon,,y
 CEBRIAN,Susana,scebrian@UNIZAR.ES,Cebrian,Susana,,,,,y
 Cerna,Cedric,cerna@CENBG.IN2P3.FR,Cerna,Cedric,,,,y,y
 CESAR,John,JPCESAR23@PHYSICS.UTEXAS.EDU,Cesar,John,,,,,y
@@ -50,7 +50,7 @@ HOMMET,Jean,hommet@LPCCAEN.IN2P3.FR,Hommet,Jean,,,,,y
 HORKLEY,Jared,Jared.Horkley@INL.GOV,Horkley,Jared,,,,,y
 HUBER,Arnaud,huber@cenbg.in2p3.fr,Huber,Arnaud,,,,y,y
 HUBERT,Philippe,hubertp@CENBG.IN2P3.FR,Hubert,Philippe,,,,,y
-HUGON,Christophe,hugon@cppm.in2p3.fr,Hugon,Christophe,,,,y,y
+HUGON,Christophe,hugon@cppm.in2p3.fr,Hugon,Christophe,,,"Radon, general analysis",y,y
 HUNT,Tom,t.hunt@UCL.AC.UK,Hunt,Tom,,,,,y
 Holin,Anna,anna.holin@UCL.AC.UK,Holin,Anna,,,,,y
 IGUAZ,Francisco,iguaz@UNIZAR.ES,Iguaz,Francisco,,,,,y
@@ -101,7 +101,7 @@ PIQUEMAL,Fabrice,piquemal@CENBG.IN2P3.FR,Piquemal,Fabrice,,,Joint spokesperson,,
 POINCHEVAL,Jerome,poincheval@LPCCAEN.IN2P3.FR,Poincheval,Jerome,,,,,y
 POVINEC,Pavel,Pavel.Povinec@fmph.uniba.sk,Povinec,Pavel,,,,y,y
 PROGA,Marek,proga@PHYSICS.UTEXAS.EDU,Proga,Marek,,,,,y
-RAMACHERS,Yorck,y.a.ramachers@warwick.ac.uk,Ramachers,Yorck,Faculty,,Physics coordinator,y,y
+RAMACHERS,Yorck,y.a.ramachers@warwick.ac.uk,Ramachers,Yorck,Faculty,assets/people/YorckRamachers.jpg,Physics coordinator,y,y
 REMOTO,Alberto,alberto.remoto@lapp.in2p3.fr,Remoto,Alberto,,,,y,y
 RICHARDS,Ben,brichards@HEP.UCL.AC.UK,Richards,Ben,,,,,y
 RIDDLE,Catherine,Catherine.Riddle@INL.GOV,Riddle,Catherine,,,,,y
@@ -148,10 +148,10 @@ CHEIKALI,chafik,cheikali@lal.in2p3.fr,Cheikali,Chafik,,,,,y
 CHOPRA,Ashwin,ashwin.chopra.14@UCL.AC.UK,Chopra,Ashwin,PhD student,assets/people/Ashwin_Chopra_25x35_w.jpg,,y,y
 CLAVERIE,Gerard,claverie@CENBG.IN2P3.FR,Claverie,Gerard,,,,,y
 Corazzi,Mathieu,mathieu.corazzi@lsm.fr,Corazzi,Mathieu,,,,,y
-Curtil,Christian,curtil@CPPM.IN2P3.FR,Curtil,Christian,,,,,y
+Curtil,Christian,curtil@CPPM.IN2P3.FR,Curtil,Christian,,,Radon,,y
 DAFNI,Theopisti,Theopisti.Dafni@CERN.CH,Dafni,Theopisti,,,,,y
 DARGAUD,Guillaume,dargaud@LPSC.IN2P3.FR,Dargaud,Guillaume,,,,,y
 Konovalov,Sergey,konovalov@itep.ru,Konovalov,Sergey,,,Source production,y,y
 Macko,Miroslav,macko@fmph.uniba.sk,Macko,Miroslav,PhD student,,,,y
 Palusova,Veronika,palusova@fmph.uniba.sk,Palusova,Veronika,PhD student,,,,y
-Mitra,Ankush,A.Mitra.2@warwick.ac.uk,Mitra,Ankush,,,,,
+Mitra,Ankush,A.Mitra.2@warwick.ac.uk,Mitra,Ankush,,,,,y
