@@ -7,7 +7,7 @@ categories: supernemo collaboration
 
 The SuperNEMO collaboration summer collaboration meeting took place this year from June 26-28 in Prague, Czech Republic. Physicists travelled across Europe and the world to discuss our progress at this exciting phase of the experiment, when we are installing and commissioning the detector, and preparing analysis software and simulation ready for first data in the coming months.
 
-![Beautiful statues in the Casemates]({{"assets/post_images/statue.jpg"| relative_url }}){:style="float: left;margin-right: 20px;width:150px;"}
+![Beautiful statues in the Casemates]({{"assets/post_images/statue.jpg"| relative_url }}){:style="float: left;margin-right: 20px;width:400px;"}
 
 Our new spokespeople were also announced at the meeting. Congratulations to David Waters of UCL (London) and Christine Marquet of CENBG (Bordeaux), who will begin their duties next year.
 
