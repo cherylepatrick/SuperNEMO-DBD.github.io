@@ -11,6 +11,6 @@ The SuperNEMO collaboration summer collaboration meeting took place this year fr
 
 Our new spokespeople were also announced at the meeting. Congratulations to David Waters of UCL (London) and Christine Marquet of CENBG (Bordeaux), who will begin their duties next year.
 
-As well as plenty of productive discussion, there was time to socialize with a trip to the Casemates and Gorlice, where we were shown original statues from the famous Charles Bridge, accompanied by a violinist. We also enjoyed a banquet of Czech delicacies at the Hotel U Semika. 
+As well as plenty of productive discussion, there was time to socialize with a trip to the Casemates and Gorlice, where we were shown original statues from the famous Charles Bridge, accompanied by a violinist. (The beautiful photo of the Casemates is by Marek Proga.) We also enjoyed a banquet of Czech delicacies at the Hotel U Semika. 
 
 Many thanks to our hosts Ivan Stekl, Ekaterina Rukhadze and Martina Vanisova, of CTU in Prague, for organizing a successful and fun meeting.
