@@ -3,6 +3,16 @@ layout: page
 title: Publications and Media
 ---
 
+Posters
+-------
+SuperNEMO and NEMO-3 posters presented at conferences and schools
+{% assign sorted_posters = (site.data.posters | sort:"Date") | reverse %}
+
+{% for poster in sorted_posters %}
+<a href="{{ poster.Pdf }}" target="_blank"> <strong>{{ poster.Title }}</strong></a><br/> presented by {% if poster.Email1 %}<a href="mailto:{{poster.Email1}}?Subject=SuperNEMO%20poster%20enquiry" target="_top">{% endif %} {{ poster.Author }}{% if poster.Email1 %}</a>{% endif %} {% if poster.Conference %} at <a href="{{poster.ConferenceUrl}}" target="_blank">{{poster.Conference}}</a>{% endif %}, {{ poster.Date | date_to_long_string }}
+{% endfor %}
+
+
 SuperNEMO Papers
 ----------------
 Journal papers from the SuperNEMO experiment
