@@ -3,9 +3,18 @@ layout: page
 title: Publications and Media
 ---
 
+Conference talks
+----------------
+NEMO collaborators present at conferences around the world. Catch up on our progress with this archive of slides.
+{% assign sorted_talks = (site.data.talks | sort:"Date") | reverse %}
+
+{% for talk in sorted_talks %}
+<a href="assets/talks/{{ talk.Pdf }}.pdf" target="_blank"> <strong>{{ talk.Title }}</strong></a><br/> presented by {% if talk.Email %}<a href="mailto:{{talk.Email}}?Subject=SuperNEMO%20presentation%20enquiry" target="_top">{% endif %} {{ talk.Author | replace: "'e", "é" }}{% if talk.Email %}</a>{% endif %} {% if talk.Conference %} at <a href="{{talk.ConferenceUrl}}" target="_blank">{{talk.Conference}}</a>{% if talk.City %}, {{talk.City}}{% endif %}{% endif %}, {{ talk.Date | date_to_long_string }}
+{% endfor %}
+
 Posters
 -------
-SuperNEMO and NEMO-3 posters presented at conferences and schools
+SuperNEMO and NEMO-3 posters presented at conferences and schools.
 {% assign sorted_posters = (site.data.posters | sort:"Date") | reverse %}
 
 {% for poster in sorted_posters %}
@@ -15,7 +24,7 @@ SuperNEMO and NEMO-3 posters presented at conferences and schools
 
 SuperNEMO Papers
 ----------------
-Journal papers from the SuperNEMO experiment
+Journal papers from the SuperNEMO experiment.
 
 {% assign pubs_by_date = (site.publications | sort:"date") | reverse %}
 {% for pub in pubs_by_date %}
@@ -33,7 +42,7 @@ Journal papers from the SuperNEMO experiment
 
 NEMO-3 Papers
 -------------
-Papers from SuperNEMO's predescessor, NEMO-3
+Papers from SuperNEMO's predescessor, NEMO-3.
 
 {% assign n3pubs_by_date = (site.nemothreepubs  | sort:"date") | reverse %}
 {% for pub in n3pubs_by_date %}
