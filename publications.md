@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: experiment
 title: Publications and Media
 ---
-<div>
+<div id="beginning">
 <a href="#talks">
-<div class="square" style="background-color:#AC145A;">
+<div class="square" style="background-color:#AC145A;" id="talks_btn">
   <div class="content">
     <div class="table">
       <div class="table-cell" >
@@ -16,7 +16,7 @@ title: Publications and Media
 </a>
 
 <a href="#posters">
-<div class="square" style="background-color:#0097A9;">
+<div class="square" style="background-color:#0097A9;" id="poster_btn">
   <div class="content">
     <div class="table">
       <div class="table-cell">
@@ -27,7 +27,7 @@ title: Publications and Media
 </div>
 </a>
 
-<div class="square" style="background-color:#F6BE00;">
+<div class="square" style="background-color:#F6BE00;" id="article_btn">
   <div class="content">
     <div class="table">
       <div class="table-cell">
@@ -39,7 +39,7 @@ title: Publications and Media
 
 <!-- 2nd row verticaly centered images in square columns -->
 <a href="#papers">
-<div class="square" style="background-color:#8F993E;">
+<div class="square" style="background-color:#8F993E;" id="paper_btn">
   <div class="content">
     <div class="table">
       <div class="table-cell">
@@ -51,7 +51,7 @@ title: Publications and Media
 </a>
 
 <a href="#nemo3">
-<div class="square" style="background-color:#EA7600;">
+<div class="square" style="background-color:#EA7600;" id="nemo3_btn">
   <div class="content">
     <div class="table">
       <div class="table-cell">
@@ -62,7 +62,7 @@ title: Publications and Media
 </div>
 </a>
 <a href="#talks">
-<div class="square" style="background-color:#500778;">
+<div class="square" style="background-color:#500778;" id="all_btn">
   <div class="content">
     <div class="table">
       <div class="table-cell">
@@ -75,7 +75,7 @@ title: Publications and Media
 </div>
 
 
-<div id="talks">
+<div id="talks" style="display:none">
 <h2>Conference talks</h2>
 
 <p>NEMO collaborators present at conferences around the world. Catch up on our progress with this archive of slides.</p>
@@ -84,9 +84,10 @@ title: Publications and Media
 {% for talk in sorted_talks %}
 <p><a href="assets/talks/{{ talk.Pdf }}.pdf" target="_blank"> <strong>{{ talk.Title }}</strong></a><br/> presented by {% if talk.Email %}<a href="mailto:{{talk.Email}}?Subject=SuperNEMO%20presentation%20enquiry" target="_top">{% endif %} {{ talk.Author | replace: "'e", "é" }}{% if talk.Email %}</a>{% endif %} {% if talk.Conference %} at <a href="{{talk.ConferenceUrl}}" target="_blank">{{talk.Conference}}</a>{% if talk.City %}, {{talk.City}}{% endif %}{% endif %}, {{ talk.Date | date_to_long_string }}</p>
 {% endfor %}
+<a href="#beginning">Back to top</a>
 </div>
 
-<div id="posters">
+<div id="posters" style="display:none">
 <h2>Posters</h2>
 
 <p>SuperNEMO and NEMO-3 posters presented at conferences and schools.</p>
@@ -95,9 +96,10 @@ title: Publications and Media
 {% for poster in sorted_posters %}
 <p><a href="assets/posters/{{ poster.Pdf }}.pdf" target="_blank"> <strong>{{ poster.Title }}</strong></a><br/> presented by {% if poster.Email1 %}<a href="mailto:{{poster.Email1}}?Subject=SuperNEMO%20poster%20enquiry" target="_top">{% endif %} {{ poster.Author }}{% if poster.Email1 %}</a>{% endif %} {% if poster.Conference %} at <a href="{{poster.ConferenceUrl}}" target="_blank">{{poster.Conference}}</a>{% endif %}, {{ poster.Date | date_to_long_string }}</p>
 {% endfor %}
+<a href="#beginning">Back to top</a>
 </div>
 
-<div id="papers">
+<div id="papers" style="display:none">
 <h2>SuperNEMO Papers</h2>
 
 <p>Journal papers from the SuperNEMO experiment.</p>
@@ -115,9 +117,10 @@ title: Publications and Media
 </div>
 </div>
 {% endfor %}
+<a href="#beginning">Back to top</a>
 </div>
 
-<div id="nemo3">
+<div id="nemo3" style="display:none">
 <h2>NEMO-3 Papers</h2>
 
 <p>Papers from SuperNEMO's predescessor, NEMO-3.</p>
@@ -135,4 +138,5 @@ title: Publications and Media
 </div>
 </div>
 {% endfor %}
+<a href="#beginning">Back to top</a>
 </div>
