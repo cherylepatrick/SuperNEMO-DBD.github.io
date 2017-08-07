@@ -82,7 +82,7 @@ title: Publications and Media
 {% assign sorted_talks = (site.data.talks | sort:"Date") | reverse %}
 
 {% for talk in sorted_talks %}
-<p><a href="assets/talks/{{ talk.Pdf }}.pdf" target="_blank"> <strong>{{ talk.Title }}</strong></a><br/> presented by {% if talk.Email %}<a href="mailto:{{talk.Email}}?Subject=SuperNEMO%20presentation%20enquiry" target="_top">{% endif %} {{ talk.Author | replace: "'e", "é" }}{% if talk.Email %}</a>{% endif %} {% if talk.Conference %} at <a href="{{talk.ConferenceUrl}}" target="_blank">{{talk.Conference}}</a>{% if talk.City %}, {{talk.City}}{% endif %}{% endif %}, {{ talk.Date | date_to_long_string }}</p>
+<p><a href="{{ talk.Pdf }}" target="_blank"> <strong>{{ talk.Title }}</strong></a><br/> presented by {% if talk.Email %}<a href="mailto:{{talk.Email}}?Subject=SuperNEMO%20presentation%20enquiry" target="_top">{% endif %} {{ talk.Author | replace: "'e", "é" }}{% if talk.Email %}</a>{% endif %} {% if talk.Conference %} at <a href="{{talk.ConferenceUrl}}" target="_blank">{{talk.Conference}}</a>{% if talk.City %}, {{talk.City}}{% endif %}{% endif %}, {{ talk.Date | date_to_long_string }}</p>
 {% endfor %}
 <a href="#beginning">Back to top</a>
 </div>
@@ -94,7 +94,7 @@ title: Publications and Media
 {% assign sorted_posters = (site.data.posters | sort:"Date") | reverse %}
 
 {% for poster in sorted_posters %}
-<p><a href="assets/posters/{{ poster.Pdf }}.pdf" target="_blank"> <strong>{{ poster.Title }}</strong></a><br/> presented by {% if poster.Email1 %}<a href="mailto:{{poster.Email1}}?Subject=SuperNEMO%20poster%20enquiry" target="_top">{% endif %} {{ poster.Author }}{% if poster.Email1 %}</a>{% endif %} {% if poster.Conference %} at <a href="{{poster.ConferenceUrl}}" target="_blank">{{poster.Conference}}</a>{% endif %}, {{ poster.Date | date_to_long_string }}</p>
+<p><a href="{{ poster.Pdf }}" target="_blank"> <strong>{{ poster.Title }}</strong></a><br/> presented by {% if poster.Email1 %}<a href="mailto:{{poster.Email1}}?Subject=SuperNEMO%20poster%20enquiry" target="_top">{% endif %} {{ poster.Author }}{% if poster.Email1 %}</a>{% endif %} {% if poster.Conference %} at <a href="{{poster.ConferenceUrl}}" target="_blank">{{poster.Conference}}</a>{% endif %}, {{ poster.Date | date_to_long_string }}</p>
 {% endfor %}
 <a href="#beginning">Back to top</a>
 </div>
