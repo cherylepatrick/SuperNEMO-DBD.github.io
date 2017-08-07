@@ -102,19 +102,23 @@ title: Publications and Media
 </div>
 
 <div id="articles" style="display:none">
-<h2>NEMO in the News</h2>
-<p>Find out what the world has to say about SuperNEMO and NEMO-3.</p>
-{% assign articles_by_date = (site.public_articles | sort:"date") | reverse %}
-
-{% for article in articles_by_date %}
-
-<p><a href="{{ article.remoteurl }}" target="_blank"> <strong>{{ article.title }}</strong></a>, from {{ article.media }}, {{ article.date | date_to_long_string }}<br/>
-<i>{{article.abstract}}</i>
-</p>
-
-{% endfor %}
-
-<a href="#beginning">Back to top</a>
+  <h2>NEMO in the News</h2>
+  <p>Find out what the world has to say about SuperNEMO and NEMO-3.</p>
+  {% assign articles_by_date = (site.public_articles | sort:"date") | reverse %}
+  <div class="container-fluid">
+    {% for article in articles_by_date %}
+    <div class="row">
+      <div class='col-xs-2'>
+        <img src="{{ article.thumbnail}}">
+          </div>
+      <div class='col-xs-10'>
+        <p><a href="{{ article.remoteurl }}" target="_blank"> <strong>{{ article.title }}</strong></a>, from {{ article.media }}, {{ article.date | date_to_long_string }}<br/>
+        <i>{{article.abstract}}</i>
+        </p>
+      </div>
+    </div>
+    {% endfor %}    <a href="#beginning">Back to top</a>
+  </div>
 </div>
 
 <div id="papers" style="display:none">
