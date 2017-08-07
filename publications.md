@@ -27,15 +27,17 @@ title: Publications and Media
 </div>
 </a>
 
+<a href="#articles">
 <div class="square" style="background-color:#F6BE00;" id="article_btn">
   <div class="content">
     <div class="table">
       <div class="table-cell">
-        Articles and videos
+        NEMO in the news
       </div>
     </div>
   </div>
 </div>
+</a>
 
 <!-- 2nd row verticaly centered images in square columns -->
 <a href="#papers">
@@ -99,11 +101,25 @@ title: Publications and Media
 <a href="#beginning">Back to top</a>
 </div>
 
+<div id="articles" style="display:none">
+<h2>NEMO in the News</h2>
+<p>Find out what the world has to say about SuperNEMO and NEMO-3.</p>
+{% assign articles_by_date = (site.public_articles | sort:"date") | reverse %}
+
+{% for article in articles_by_date %}
+
+<p><a href="{{ article.remoteurl }}" target="_blank"> <strong>{{ article.title }}</strong></a>, from {{ article.media }}, {{ article.date | date_to_long_string }}<br/>
+<i>{{article.abstract}}</i>
+</p>
+
+{% endfor %}
+
+<a href="#beginning">Back to top</a>
+</div>
+
 <div id="papers" style="display:none">
 <h2>SuperNEMO Papers</h2>
-
 <p>Journal papers from the SuperNEMO experiment.</p>
-
 {% assign pubs_by_date = (site.publications | sort:"date") | reverse %}
 {% for pub in pubs_by_date %}
 <p><a href="http://dx.doi.org/{{ pub.doi }}" target="_blank"> <strong>{{ pub.title }}</strong></a><br/> <i>{{ pub.journal }}</i> {% if pub.arxiv %}<a href="https://arxiv.org/abs/{{pub.arxiv}}" target="_blank">(arXiv {{pub.arxiv}})</a>{% endif %}, {{ pub.date | date_to_long_string }}
