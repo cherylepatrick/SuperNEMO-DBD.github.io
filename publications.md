@@ -2,6 +2,78 @@
 layout: page
 title: Publications and Media
 ---
+<div>
+<a href="#talks">
+<div class="square" style="background-color:#AC145A;">
+  <div class="content">
+    <div class="table">
+      <div class="table-cell" >
+        Talks
+      </div>
+    </div>
+  </div>
+</div>
+</a>
+
+<a href="#posters">
+<div class="square" style="background-color:#0097A9;">
+  <div class="content">
+    <div class="table">
+      <div class="table-cell">
+        Posters
+      </div>
+    </div>
+  </div>
+</div>
+</a>
+
+<div class="square" style="background-color:#F6BE00;">
+  <div class="content">
+    <div class="table">
+      <div class="table-cell">
+        Articles and videos
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 2nd row verticaly centered images in square columns -->
+<a href="#papers">
+<div class="square" style="background-color:#8F993E;">
+  <div class="content">
+    <div class="table">
+      <div class="table-cell">
+        SuperNEMO papers
+      </div>
+    </div>
+  </div>
+</div>
+</a>
+
+<a href="#nemo3">
+<div class="square" style="background-color:#EA7600;">
+  <div class="content">
+    <div class="table">
+      <div class="table-cell">
+        NEMO-3 papers
+      </div>
+    </div>
+  </div>
+</div>
+</a>
+<a href="#talks">
+<div class="square" style="background-color:#500778;">
+  <div class="content">
+    <div class="table">
+      <div class="table-cell">
+        Everything
+      </div>
+    </div>
+  </div>
+</div>
+</a>
+</div>
+
 
 <div id="talks">
 <h2>Conference talks</h2>
