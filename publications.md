@@ -4,7 +4,7 @@ title: Publications and Media
 ---
 <div id="beginning">
 <a href="#talks">
-<div class="square" style="background-color:#AC145A;" id="talks_btn">
+<div class="square" style="background-color:#0;" id="talks_btn">
   <div class="content">
     <div class="table">
       <div class="table-cell" >
@@ -16,7 +16,7 @@ title: Publications and Media
 </a>
 
 <a href="#posters">
-<div class="square" style="background-color:#0097A9;" id="poster_btn">
+<div class="square" style="background-color:#0;" id="poster_btn">
   <div class="content">
     <div class="table">
       <div class="table-cell">
@@ -28,7 +28,7 @@ title: Publications and Media
 </a>
 
 <a href="#articles">
-<div class="square" style="background-color:#F6BE00;" id="article_btn">
+<div class="square" style="background-color:#0;" id="article_btn">
   <div class="content">
     <div class="table">
       <div class="table-cell">
@@ -41,7 +41,7 @@ title: Publications and Media
 
 <!-- 2nd row verticaly centered images in square columns -->
 <a href="#papers">
-<div class="square" style="background-color:#8F993E;" id="paper_btn">
+<div class="square" style="background-color:#0;" id="paper_btn">
   <div class="content">
     <div class="table">
       <div class="table-cell">
@@ -53,7 +53,7 @@ title: Publications and Media
 </a>
 
 <a href="#nemo3">
-<div class="square" style="background-color:#EA7600;" id="nemo3_btn">
+<div class="square" style="background-color:#0;" id="nemo3_btn">
   <div class="content">
     <div class="table">
       <div class="table-cell">
@@ -64,7 +64,7 @@ title: Publications and Media
 </div>
 </a>
 <a href="#talks">
-<div class="square" style="background-color:#500778;" id="all_btn">
+<div class="square" style="background-color:#0;" id="all_btn">
   <div class="content">
     <div class="table">
       <div class="table-cell">
