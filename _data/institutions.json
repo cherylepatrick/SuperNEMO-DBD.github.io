@@ -161,6 +161,12 @@
     "logo": "assets/institution_logos/saga.png",
     "homepage": "http://www.saga-u.ac.jp/english/index.html"
   },
+  "kinr.kiev.ua": {
+    "name": "National Academy of Sciences of Ukraine, Institute for Nuclear Research",
+    "city": "Kiev, Ukraine",
+    "logo": "assets/institution_logos/kinr.png",
+    "homepage": "http://www.kinr.kiev.ua/index_en.html"
+  },
   "phys.jyu.fi":{
     "name": "University of Jyväskylä",
     "city": "Jyväskylä, Finland",
