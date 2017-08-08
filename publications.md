@@ -109,7 +109,7 @@ title: Publications and Media
     {% for article in articles_by_date %}
     <div class="row">
       <div class='col-xs-2'>
-        <img src="{{ article.thumbnail}}" class="img-thumbnail">
+        <a href="{{ article.remoteurl }}" target="_blank"> <img src="{{ article.thumbnail}}" class="img-thumbnail" ></a>
           </div>
       <div class='col-xs-10'>
         <p><a href="{{ article.remoteurl }}" target="_blank"> <strong>{{ article.title }}</strong></a>, from {{ article.media }}, {{ article.date | date_to_long_string }}<br/>
