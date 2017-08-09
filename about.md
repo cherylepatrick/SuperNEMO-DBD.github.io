@@ -8,36 +8,11 @@ title: The Experiment
 <h1 class="post-title text-center">The SuperNEMO experiment</h1>
 </header>
 
-<div id="circles" class="text-center">
-  <div class="container-fluid">
-    <div class="row">
-      <div class='col-xs-4'>
-<a href="#thephysics">
-        <img src='assets/dbd_round.png' class="img-circle  center-block" style="width:17em" alt="Double Beta Decay">
-        <h4>The physics</h4>
-        <p class="lead">Learn about neutrinoless double beta decay</p>
-        </a>
-      </div>
-      <div class='col-xs-4'>
-        <a href="#detector">
-        <img src='assets/detector_round.png' class="img-circle  center-block" style="width:17em" alt="CAD rendering of a SuperNEMO detector module">
-        <h4>Our detector</h4>
-        <p class="lead">See how the SuperNEMO demonstrator module works</p>
-        </a>
-      </div>
-      <div class='col-xs-4'>
-      <a href="#physicsgoals">
-        <img src='assets/status_round.png' class="img-circle  center-block" style="width:17em" alt="Schematic of Double Beta Decay Energy Spectrum">
-          <h4>Physics goals</h4>
-          <p class="lead">What SuperNEMO can tell us</p>
-          </a>
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="container-fluid">
-  <div class="section_head text-center" id="thephysics">
+  <div class="row">
+    <div class="col-xs-9 ">
+      <div id="thephysics" style="display:none">
+  <div class="section_head text-center">
     <h2> The physics of SuperNEMO</h2>
   </div>
 <div class="row">
@@ -52,7 +27,7 @@ title: The Experiment
 <img src='assets/dbd_round.png' class="img-circle  center-block" style="width:17em" alt="Double Beta Decay">
 </div>
 <h4> Beta decay - two different kinds</h4>
-<div class="col-sm-8 ">
+<div class="col-xs-8 ">
   <p>There are many radioactive isotopes, with neutron-rich nuclei, that undergo beta decay. When this happens, a neutron in the nucleus decays to a proton, ejecting an electron ($\beta$ particle) and an electron-antineutrino. The resulting nucleus is more stable (has a lower energy). This 'lost' energy , $Q_\beta$, is shared between the electron and the neutrino.</p>
   <p>For a handful of isotopes, the nucleus resulting from a single decaying neutron would not be more stable, meaning $\beta$ decay is forbidden. However, if <em>two</em> neutrons decay at <em>the same time</em>, we do get a lower-energy nucleus, with an energy difference we call $Q_{\beta\beta}$. This decay is very rare, with a half-life longer than the age of the universe. It has been observed for 12 nuclei, by experiments including our predecessor NEMO-3. As it produces two beta electrons and 2 (electron-anti)neutrinos, we call it $2\nu\beta\beta$, a 2-neutrino double beta decay.</p>
 </div>
@@ -67,15 +42,14 @@ title: The Experiment
     <img src='assets/Ettore_Majorana.jpeg' class="img-circle  center-block" style="width:17em" alt="Portrait of Ettore Majorana">
   </div>
 </div>
-<a href="#top">Back to top</a>
 </div>
 
-
-  <div class="section_head text-center" id="detector">
+<div id="detector"  style="display:none">
+  <div class="section_head text-center">
       <h2> The SuperNEMO detector</h2>
   </div>
   <div class="row">
-    <div class="col-xs-8 ">
+    <div class="col-xs-12 ">
       <img src="assets/Supernemo_module2.png" class="center-block" usemap="#detectormap" alt="CAD Rendering of a SuperNEMO detector module">
         <map name="detectormap">
           <a data-toggle="modal" data-target="#caloModal" href="#caloModal" title="Calorimeter wall" class="maphover calomap" style="position: absolute; left: 50%; top: 19.59%; width: 11.85%; height: 67.47%; z-index: 2;" ></a>
@@ -91,7 +65,7 @@ title: The Experiment
 
       </map>
     </div>
-    <div class="col-xs-4 ">
+    <div class="col-xs-12">
       <p>The SuperNEMO Demonstrator Module is located at the Laboratoire Souterrain de Modane, in the Fréjus tunnel in the French Alps. It acts as a proof of concept of our detector design, which can be expanded in future to a larger, modular detector.
       </p>
       <p> The Demonstrator Module has a tracker-calorimeter architecture, with a thin layer of $\beta\beta$-emitting isotope sandwiched between trackers and surrounded by calorimetry. This allows for a full three-dimensional reconstruction of charged particle tracks, as well as energy measurements. Click on the detector components in the diagram to learn more about each part of the detector.</p>
@@ -100,21 +74,21 @@ title: The Experiment
       </p>
     </div>
   </div>
+</div>
 
-
-
-  <div class="section_head text-center"  id="physicsgoals">
+<div id="physicsgoals" style="display:none">
+  <div class="section_head text-center"  >
       <h2> Physics goals</h2>
   </div>
   <div class="row">
       <div class="col-xs-12 ">
           <h4> An ultra-low background experiment</h4>
-          <p>Neutrinoless double-beta decay (if it exists at all) is an extremely rare process. Experiments, including our predecessor NEMO-3, have shown that it must have a half-life of more than $10^{24}$ years</p> - over a trillion times the age of the universe. This means that, even with our best detectors, we will never see more than a tiny handful of $0\nu\beta\beta$ decays. This presents a big challenge - how to eliminate background events: other kinds of decays or interactions that mimic our signal. SuperNEMO is leading the way in ultra-low background technology through a double-pronged approach: an extremely radio-pure detector, and a unique tracking technique that enables us to identify background decays and remove them from our data sample.
+          <p>Neutrinoless double-beta decay (if it exists at all) is an extremely rare process. Experiments, including our predecessor NEMO-3, have shown that it must have a half-life of more than $10^{24}$ years- over a trillion times the age of the universe. This means that, even with our best detectors, we will never see more than a tiny handful of $0\nu\beta\beta$ decays. This presents a big challenge - how to eliminate background events: other kinds of decays or interactions that mimic our signal. SuperNEMO is leading the way in ultra-low background technology through a double-pronged approach: an extremely radio-pure detector, and a unique tracking technique that enables us to identify background decays and remove them from our data sample.</p>
       </div>
   </div>
   <div class="row">
 
-    <div class="col-sm-12">
+    <div class="col-xs-12">
       
       <h4> Radiopurity and the radon challenge</h4>
       <p>For an ultra-low-background experiment, we need to take extra care to ensure that even low-level radioactive substances are kept away from our detector. All of SuperNEMO's components are constructed from materials that have been carefully selected for their radiopurity. Scientists working on the detector wear special suits to prevent any contamination from their bodies and clothes.</p>
@@ -135,7 +109,44 @@ title: The Experiment
       <p>In addition to this, the SuperNEMO technology is ideal for investigating $2\nu\beta\beta$ decays - not just in selenium-82 but in other isotopes, thanks to the modular technology which allows for the source foils to be swapped out. The detector could also be used for other kinds of new physics searches, such as looking for evidence of Lorentz violation.</p>
     </div>
   </div>
+    </div>
+ </div>
+    
+    <div class="col-xs-3">
+      <div class="square" style="background-color:var(--first-color);" id="btn_physics">
+        <div class="content">
+          <div class="table">
+            <div class="table-cell" >
+              The physics of SuperNEMO
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="square" style="background-color:var(--third-color);" id="btn_snemo">
+        <div class="content">
+          <div class="table">
+            <div class="table-cell" >
+              SuperNEMO detector
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="square" style="background-color:var(--fifth-color);" id="btn_goals">
+        <div class="content">
+          <div class="table">
+            <div class="table-cell" >
+              Our physics goals
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+  </div>
 </div>
+
+
+
+
 
 <!-- Calorimeter Modal -->
 <div id="caloModal" class="modal fade" role="dialog">

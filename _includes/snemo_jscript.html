@@ -66,3 +66,28 @@
         });
 
 </script>
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+                    $("#btn_physics").click(function(){
+                                          $("#thephysics").show();
+                                          $("#detector").hide();
+                                          $("#physicsgoals").hide();
+                                          $("#expinfo").hide();
+                                          });
+                    $("#btn_snemo").click(function(){
+                                            $("#thephysics").hide();
+                                            $("#detector").show();
+                                            $("#physicsgoals").hide();
+                                            $("#expinfo").hide();
+                                            });
+                    $("#btn_goals").click(function(){
+                                            $("#thephysics").hide();
+                                            $("#detector").hide();
+                                            $("#physicsgoals").show();
+                                            $("#expinfo").hide();
+                                            });
+                    });
+                    
+  </script>
