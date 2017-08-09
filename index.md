@@ -43,7 +43,7 @@ layout: home
       <img src="assets/supernemo_logo_v1.0.png" style=" width:100%;"/>
       <hr/>
       <p>How about a SuperNEMO presentation or poster at your conference?</p>
-          <div class="boxbutton">
+          <div class="square" style= "background-color:var(--first-color)">
             <a href="mailto:lang@PHYSICS.UTEXAS.EDU?Subject=Request%20for%20SuperNEMO%20speaker" target="_top">
             <div class="content">
               <div class="table">
