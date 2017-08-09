@@ -68,7 +68,9 @@ color: #FFFFFF;
 .square a:active{
 color: #FFFFFF;
 }
-
+.square:hover {
+opacity: 0.75;
+}
 
 .boxbutton{
 float:left;
