@@ -11,6 +11,15 @@
 @import "bootstrap/modals";
 @import "bootstrap/carousel";
 
+:root {
+--first-color: #AC145A;
+--second-color: #EA7600;
+--third-color: #F6BE00;
+--fourth-color: #8F993E;
+--fifth-color:#0097A9;
+--sixth-color:#500778;
+}
+
 .slider-size {
 height: 300px; /* This is your slider height */
 }
@@ -19,7 +28,7 @@ width:100%;
 margin:0 auto; /* center your carousel if other than 100% */
 }
 .section_head{
-  argin-top:10px;
+  margin-top:10px;
   margin-bottom:10px;
   padding:20px;
   background-color:#5777A9;
@@ -37,17 +46,55 @@ margin:0 auto; /* center your carousel if other than 100% */
 .square {
 float:left;
 position: relative;
-font-size:3.2vmin;
-width: 30%;
-border-radius: 10px;
-padding-bottom : 17%; /* = width for a 1:1 aspect ratio */
+font-size:2.2vmin;
+width: 100%;
+border-radius: 7px;
+padding-bottom : 30%;
 margin:1.66%;
 background-color:#1E1E1E;
 overflow:hidden;font-family: verdana, sans-serif;
 color: #fff;
 text-align:center;
 }
+.square a:link{
+color: #FFFFFF;
+}
+.square a:visited{
+color: #FFFFFF;
+}
+.square a:hover{
+color: #FFFFFF;
+}
+.square a:active{
+color: #FFFFFF;
+}
 
+
+.boxbutton{
+float:left;
+position: relative;
+font-size:2.5vmin;
+width: 100%;
+border-radius: 7px;
+padding-bottom : 50%;
+margin:1%;
+background-color:#1E1E1E;
+overflow:hidden;font-family: verdana, sans-serif;
+color: #FFFFFF;
+text-align:center;
+}
+.boxbutton a:link{
+color: #FFFFFF;
+}
+.boxbutton a:visited{
+color: #FFFFFF;
+}
+.boxbutton a:hover{
+color: #FFFFFF;
+}
+.boxbutton a:active{
+color: #FFFFFF;
+}
 
 .content {
 position:absolute;

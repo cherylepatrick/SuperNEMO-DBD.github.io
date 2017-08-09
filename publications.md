@@ -2,81 +2,10 @@
 layout: experiment
 title: Publications and Media
 ---
-<div id="beginning">
-<a href="#talks">
-<div class="square" style="background-color:#0;" id="talks_btn">
-  <div class="content">
-    <div class="table">
-      <div class="table-cell" >
-        Talks
-      </div>
-    </div>
-  </div>
-</div>
-</a>
 
-<a href="#posters">
-<div class="square" style="background-color:#0;" id="poster_btn">
-  <div class="content">
-    <div class="table">
-      <div class="table-cell">
-        Posters
-      </div>
-    </div>
-  </div>
-</div>
-</a>
-
-<a href="#articles">
-<div class="square" style="background-color:#0;" id="article_btn">
-  <div class="content">
-    <div class="table">
-      <div class="table-cell">
-        NEMO in the news
-      </div>
-    </div>
-  </div>
-</div>
-</a>
-
-<!-- 2nd row verticaly centered images in square columns -->
-<a href="#papers">
-<div class="square" style="background-color:#0;" id="paper_btn">
-  <div class="content">
-    <div class="table">
-      <div class="table-cell">
-        SuperNEMO papers
-      </div>
-    </div>
-  </div>
-</div>
-</a>
-
-<a href="#nemo3">
-<div class="square" style="background-color:#0;" id="nemo3_btn">
-  <div class="content">
-    <div class="table">
-      <div class="table-cell">
-        NEMO-3 papers
-      </div>
-    </div>
-  </div>
-</div>
-</a>
-<a href="#talks">
-<div class="square" style="background-color:#0;" id="all_btn">
-  <div class="content">
-    <div class="table">
-      <div class="table-cell">
-        Everything
-      </div>
-    </div>
-  </div>
-</div>
-</a>
-</div>
-
-
+<div class="container-fluid" id="top">
+  <div class="row">
+    <div class="col-xs-9">
 <div id="talks" style="display:none">
 <h2>Conference talks</h2>
 
@@ -159,4 +88,66 @@ title: Publications and Media
 </div>
 {% endfor %}
 <a href="#beginning">Back to top</a>
+</div>
+
+    </div>
+
+    <div class="col-xs-3">
+        <div class="square" style="background-color:var(--first-color);" id="talks_btn">
+          <div class="content">
+            <div class="table">
+              <div class="table-cell" >
+                Talks
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="square" style="background-color:var(--second-color);" id="poster_btn">
+          <div class="content">
+            <div class="table">
+              <div class="table-cell">
+                Posters
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="square" style="background-color:var(--third-color);" id="article_btn">
+          <div class="content">
+            <div class="table">
+              <div class="table-cell">
+                NEMO in the news
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="square" style="background-color:var(--fourth-color);" id="paper_btn">
+          <div class="content">
+            <div class="table">
+              <div class="table-cell">
+                SuperNEMO papers
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="square" style="background-color:var(--fifth-color);" id="nemo3_btn">
+          <div class="content">
+            <div class="table">
+              <div class="table-cell">
+                NEMO-3 papers
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="square" style="background-color:var(--sixth-color);" id="all_btn">
+          <div class="content">
+            <div class="table">
+              <div class="table-cell">
+                Everything
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+  </div>
 </div>
