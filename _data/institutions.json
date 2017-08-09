@@ -167,6 +167,12 @@
     "logo": "assets/institution_logos/kinr.png",
     "homepage": "http://www.kinr.kiev.ua/index_en.html"
   },
+  "werc.or.jp": {
+    "name": "Wakasa Wan Energy Research Center",
+    "city": "Fukui Prefecture, Japan",
+    "logo": "assets/institution_logos/wakasawan.png",
+    "homepage": "http://www.werc.or.jp"
+  },
   "phys.jyu.fi":{
     "name": "University of Jyväskylä",
     "city": "Jyväskylä, Finland",
