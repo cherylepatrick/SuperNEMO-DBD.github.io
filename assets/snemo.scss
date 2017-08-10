@@ -46,10 +46,10 @@ margin:0 auto; /* center your carousel if other than 100% */
 .square {
 float:left;
 position: relative;
-font-size:2.2vmin;
+font-size:2vmin;
 width: 100%;
 border-radius: 7px;
-padding-bottom : 30%;
+padding-bottom : 40%;
 margin:1.66%;
 background-color:#1E1E1E;
 overflow:hidden;font-family: verdana, sans-serif;
@@ -125,10 +125,14 @@ background-size:cover; /* you change this to "contain" if you don't want the ima
 color:#fff;
 }
 h1{
-color:var(--second-color);
+color:var(--first-color);
 }
 h2{
-color:var(--first-color);
+color:var(--second-color);
+font-size:26x;
+}
+.post-content h2{
+font-size:26px;
 }
 a:link{
 color: var(--fifth-color);
@@ -179,4 +183,7 @@ font-weight: 400;
 
 h1.post-title {
 font-size:30px;
+}
+.site-nav {
+z-index:100;
 }
