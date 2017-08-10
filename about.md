@@ -4,17 +4,22 @@ title: The Experiment
 ---
 
 
-<header class="post-header">
-<h1 class="post-title text-center">The SuperNEMO experiment</h1>
-</header>
-
 <div class="container-fluid">
   <div class="row">
     <div class="col-xs-9 ">
+      
+      <div id="expinfo" >
+        <header class="post-header">
+          <h1 class="post-title text-center">The SuperNEMO experiment</h1>
+          </header>
+              <p>Use the buttons on the right to find out more about the SuperNEMO detector, its physics goals, and the theory behind double-beta decay, the rare process we are investigating, which could provide clues to why our universe is the way it is. </p>
+              
+          </div>
+
       <div id="thephysics" style="display:none">
-  <div class="section_head text-center">
-    <h2> The physics of SuperNEMO</h2>
-  </div>
+      <header class="post-header">
+      <h1 class="post-title text-center"> The physics of SuperNEMO</h1>
+    </header>
 <div class="row">
   <div class="col-xs-12 ">
     <h4> About neutrinos</h4>
@@ -45,9 +50,10 @@ title: The Experiment
 </div>
 
 <div id="detector"  style="display:none">
-  <div class="section_head text-center">
-      <h2> The SuperNEMO detector</h2>
-  </div>
+    <header class="post-header">
+      <h1 class="post-title text-center"> The SuperNEMO detector</h1>
+    </header>
+
   <div class="row">
     <div class="col-xs-12 ">
       <img src="assets/Supernemo_module2.png" class="center-block" usemap="#detectormap" alt="CAD Rendering of a SuperNEMO detector module">
@@ -69,17 +75,17 @@ title: The Experiment
       <p>The SuperNEMO Demonstrator Module is located at the Laboratoire Souterrain de Modane, in the Fréjus tunnel in the French Alps. It acts as a proof of concept of our detector design, which can be expanded in future to a larger, modular detector.
       </p>
       <p> The Demonstrator Module has a tracker-calorimeter architecture, with a thin layer of $\beta\beta$-emitting isotope sandwiched between trackers and surrounded by calorimetry. This allows for a full three-dimensional reconstruction of charged particle tracks, as well as energy measurements. Click on the detector components in the diagram to learn more about each part of the detector.</p>
-      <p>
-      <a href="#top">Back to top</a>
-      </p>
     </div>
   </div>
 </div>
 
 <div id="physicsgoals" style="display:none">
-  <div class="section_head text-center"  >
-      <h2> Physics goals</h2>
-  </div>
+
+    
+    <header class="post-header">
+      <h1 class="post-title text-center"> Physics goals</h1>
+    </header>
+
   <div class="row">
       <div class="col-xs-12 ">
           <h4> An ultra-low background experiment</h4>
