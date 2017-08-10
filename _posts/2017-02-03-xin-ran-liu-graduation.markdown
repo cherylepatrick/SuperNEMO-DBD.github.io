@@ -2,6 +2,7 @@
 layout: post
 title:  "Congratulations, Dr Xin Ran Liu"
 date:   2017-02-03 00:00:00 +0000
+thumbnail: "assets/post_images/Xin_thumb.jpg"
 categories: graduation ucl
 ---
 
