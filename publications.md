@@ -6,9 +6,19 @@ title: Publications and Media
 <div class="container-fluid" id="top">
   <div class="row">
     <div class="col-xs-9">
-<div id="talks" style="display:none">
-<h2>Conference talks</h2>
 
+<div id="intro">
+<header class="post-header">
+<h1 class="post-title text-center">Publications and Media</h1>
+</header>
+
+  Find out more about SuperNEMO and NEMO-3! Use the links on the right to browse an archive of talks and posters presented at conferences around the world, check out our journal articles, or see what the news media has to say about SuperNEMO.
+</div>
+
+<div id="talks" style="display:none">
+<header class="post-header">
+<h1 class="post-title text-center">Conference talks</h1>
+</header>
 <p>NEMO collaborators present at conferences around the world. Catch up on our progress with this archive of slides.</p>
 {% assign sorted_talks = (site.data.talks | sort:"Date") | reverse %}
 
@@ -19,7 +29,9 @@ title: Publications and Media
 </div>
 
 <div id="posters" style="display:none">
-<h2>Posters</h2>
+<header class="post-header">
+<h1 class="post-title text-center">Posters</h1>
+</header>
 
 <p>SuperNEMO and NEMO-3 posters presented at conferences and schools.</p>
 {% assign sorted_posters = (site.data.posters | sort:"Date") | reverse %}
@@ -31,7 +43,10 @@ title: Publications and Media
 </div>
 
 <div id="articles" style="display:none">
-  <h2>NEMO in the News</h2>
+<header class="post-header">
+<h1 class="post-title text-center">NEMO in the News</h1>
+</header>
+
   <p>Find out what the world has to say about SuperNEMO and NEMO-3.</p>
   {% assign articles_by_date = (site.public_articles | sort:"date") | reverse %}
   <div class="container-fluid">
@@ -51,7 +66,10 @@ title: Publications and Media
 </div>
 
 <div id="papers" style="display:none">
-<h2>SuperNEMO Papers</h2>
+<header class="post-header">
+<h1 class="post-title text-center">SuperNEMO Papers</h1>
+</header>
+
 <p>Journal papers from the SuperNEMO experiment.</p>
 {% assign pubs_by_date = (site.publications | sort:"date") | reverse %}
 {% for pub in pubs_by_date %}
@@ -70,7 +88,9 @@ title: Publications and Media
 </div>
 
 <div id="nemo3" style="display:none">
-<h2>NEMO-3 Papers</h2>
+<header class="post-header">
+<h1 class="post-title text-center">NEMO-3 Papers</h1>
+</header>
 
 <p>Papers from SuperNEMO's predescessor, NEMO-3.</p>
 
