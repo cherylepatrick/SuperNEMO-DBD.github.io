@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resources
+title: For Collaborators
 ---
 
 This page is mainly for collaboration members, and provides useful resources and instructions for people working on the experiment. Some of the tools and applications listed below may require a username and password.

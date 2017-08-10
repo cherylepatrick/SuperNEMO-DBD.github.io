@@ -2,84 +2,23 @@
 layout: experiment
 title: Publications and Media
 ---
-<div id="beginning">
-<a href="#talks">
-<div class="square" style="background-color:#AC145A;" id="talks_btn">
-  <div class="content">
-    <div class="table">
-      <div class="table-cell" >
-        Talks
-      </div>
-    </div>
-  </div>
-</div>
-</a>
 
-<a href="#posters">
-<div class="square" style="background-color:#0097A9;" id="poster_btn">
-  <div class="content">
-    <div class="table">
-      <div class="table-cell">
-        Posters
-      </div>
-    </div>
-  </div>
-</div>
-</a>
+<div class="container-fluid" id="top">
+  <div class="row">
+    <div class="col-xs-9">
 
-<a href="#articles">
-<div class="square" style="background-color:#F6BE00;" id="article_btn">
-  <div class="content">
-    <div class="table">
-      <div class="table-cell">
-        NEMO in the news
-      </div>
-    </div>
-  </div>
-</div>
-</a>
+<div id="intro">
+<header class="post-header">
+<h1 class="post-title text-center">Publications and Media</h1>
+</header>
 
-<!-- 2nd row verticaly centered images in square columns -->
-<a href="#papers">
-<div class="square" style="background-color:#8F993E;" id="paper_btn">
-  <div class="content">
-    <div class="table">
-      <div class="table-cell">
-        SuperNEMO papers
-      </div>
-    </div>
-  </div>
+  Find out more about SuperNEMO and NEMO-3! Use the links on the right to browse an archive of talks and posters presented at conferences around the world, check out our journal articles, or see what the news media has to say about SuperNEMO.
 </div>
-</a>
-
-<a href="#nemo3">
-<div class="square" style="background-color:#EA7600;" id="nemo3_btn">
-  <div class="content">
-    <div class="table">
-      <div class="table-cell">
-        NEMO-3 papers
-      </div>
-    </div>
-  </div>
-</div>
-</a>
-<a href="#talks">
-<div class="square" style="background-color:#500778;" id="all_btn">
-  <div class="content">
-    <div class="table">
-      <div class="table-cell">
-        Everything
-      </div>
-    </div>
-  </div>
-</div>
-</a>
-</div>
-
 
 <div id="talks" style="display:none">
-<h2>Conference talks</h2>
-
+<header class="post-header">
+<h1 class="post-title text-center">Conference talks</h1>
+</header>
 <p>NEMO collaborators present at conferences around the world. Catch up on our progress with this archive of slides.</p>
 {% assign sorted_talks = (site.data.talks | sort:"Date") | reverse %}
 
@@ -90,7 +29,9 @@ title: Publications and Media
 </div>
 
 <div id="posters" style="display:none">
-<h2>Posters</h2>
+<header class="post-header">
+<h1 class="post-title text-center">Posters</h1>
+</header>
 
 <p>SuperNEMO and NEMO-3 posters presented at conferences and schools.</p>
 {% assign sorted_posters = (site.data.posters | sort:"Date") | reverse %}
@@ -102,14 +43,17 @@ title: Publications and Media
 </div>
 
 <div id="articles" style="display:none">
-  <h2>NEMO in the News</h2>
+<header class="post-header">
+<h1 class="post-title text-center">NEMO in the News</h1>
+</header>
+
   <p>Find out what the world has to say about SuperNEMO and NEMO-3.</p>
   {% assign articles_by_date = (site.public_articles | sort:"date") | reverse %}
   <div class="container-fluid">
     {% for article in articles_by_date %}
     <div class="row">
       <div class='col-xs-2'>
-        <img src="{{ article.thumbnail}}">
+        <a href="{{ article.remoteurl }}" target="_blank"> <img src="{{ article.thumbnail}}" class="img-thumbnail" ></a>
           </div>
       <div class='col-xs-10'>
         <p><a href="{{ article.remoteurl }}" target="_blank"> <strong>{{ article.title }}</strong></a>, from {{ article.media }}, {{ article.date | date_to_long_string }}<br/>
@@ -122,7 +66,10 @@ title: Publications and Media
 </div>
 
 <div id="papers" style="display:none">
-<h2>SuperNEMO Papers</h2>
+<header class="post-header">
+<h1 class="post-title text-center">SuperNEMO Papers</h1>
+</header>
+
 <p>Journal papers from the SuperNEMO experiment.</p>
 {% assign pubs_by_date = (site.publications | sort:"date") | reverse %}
 {% for pub in pubs_by_date %}
@@ -141,7 +88,9 @@ title: Publications and Media
 </div>
 
 <div id="nemo3" style="display:none">
-<h2>NEMO-3 Papers</h2>
+<header class="post-header">
+<h1 class="post-title text-center">NEMO-3 Papers</h1>
+</header>
 
 <p>Papers from SuperNEMO's predescessor, NEMO-3.</p>
 
@@ -159,4 +108,66 @@ title: Publications and Media
 </div>
 {% endfor %}
 <a href="#beginning">Back to top</a>
+</div>
+
+    </div>
+
+    <div class="col-xs-3">
+        <div class="square" style="background-color:var(--first-color);" id="talks_btn">
+          <div class="content">
+            <div class="table">
+              <div class="table-cell" >
+                Talks
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="square" style="background-color:var(--second-color);" id="poster_btn">
+          <div class="content">
+            <div class="table">
+              <div class="table-cell">
+                Posters
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="square" style="background-color:var(--third-color);" id="article_btn">
+          <div class="content">
+            <div class="table">
+              <div class="table-cell">
+                NEMO in the news
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="square" style="background-color:var(--fourth-color);" id="paper_btn">
+          <div class="content">
+            <div class="table">
+              <div class="table-cell">
+                SuperNEMO papers
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="square" style="background-color:var(--fifth-color);" id="nemo3_btn">
+          <div class="content">
+            <div class="table">
+              <div class="table-cell">
+                NEMO-3 papers
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="square" style="background-color:var(--sixth-color);" id="all_btn">
+          <div class="content">
+            <div class="table">
+              <div class="table-cell">
+                Everything
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+  </div>
 </div>
