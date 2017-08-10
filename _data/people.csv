@@ -39,7 +39,7 @@ GILBERT,Genevieve,gilbert@LAL.IN2P3.FR,Gilbert,Genevieve,,,,,
 GUILLON,Benoit,guillon@LPCCAEN.IN2P3.FR,Guillon,Benoit,,,,,
 GUZOWSKI,Pawel,pawel.guzowski@manchester.ac.uk,Guzowski,Pawel,Research Associate,,Calibration working group convener,y,y
 Garrido,Xavier,garrido@LAL.IN2P3.FR,Garrido,Xavier,,,,y,
-HODAK,Rastislav,rastislav.hodak@utef.cvut.cz,Hodak,Rastislav,,,,,y
+HODAK,Rastislav,rastislav.hodak@utef.cvut.cz,Hodak,Rastislav,,,Calorimeter,y,y
 HOLY,Karol,holy@fmph.uniba.sk,Holy,Karol,,,,y,y
 HOMMET,Jean,hommet@LPCCAEN.IN2P3.FR,Hommet,Jean,,,,,
 HORKLEY,Jared,Jared.Horkley@INL.GOV,Horkley,Jared,,,,,y
@@ -69,7 +69,7 @@ LIU,Xi-Ran,x.r.liu@UCL.AC.UK,Liu,Xin-Ran,,assets/people/Xin_Ran_Liu_25x35w.jpg,,
 LOAIZA,Pia,loaiza@LAL.IN2P3.FR,Loaiza,Pia,,,,y,
 LAMBERT,Fabian,fabian.lambert@LPSC.IN2P3.FR,Lambert,Fabian,,,,,
 MAALMI,Jihane,maalmi@lal.in2p3.fr,Maalmi,Jihane,,,,y,
-MAMEDOV,Fadahat,fadahat.mamedov@utef.cvut.cz,Mamedov,Fadahat,,,,,y
+MAMEDOV,Fadahat,fadahat.mamedov@utef.cvut.cz,Mamedov,Fadahat,,,Radon,y,y
 MARQUET,Christine,marquet@CENBG.IN2P3.FR,Marquet,Christine,,,,y,
 MAUGER,Francois,mauger@LPCCAEN.IN2P3.FR,Mauger,Francois,,,,y,
 MIGAYRON,Alexandre,migayron@LAL.IN2P3.FR,Migayron,Alexandre,,,,,
@@ -94,7 +94,7 @@ RAMACHERS,Yorck,y.a.ramachers@warwick.ac.uk,Ramachers,Yorck,Faculty,assets/peopl
 REMOTO,Alberto,alberto.remoto@lapp.in2p3.fr,Remoto,Alberto,,,,y,
 RIDDLE,Catherine,Catherine.Riddle@INL.GOV,Riddle,Catherine,,,,,y
 Roche,Mathieu,roche@CENBG.IN2P3.FR,Roche,Mathieu,,,,,
-RUKHADZE,Ekaterina,Ekaterina.Rukhadze@utef.cvut.cz,Rukhadze,Ekaterina,,,,y,y
+RUKHADZE,Ekaterina,Ekaterina.Rukhadze@utef.cvut.cz,Rukhadze,Ekaterina,,,Background and source foils,y,y
 SAAKYAN,Ruben,r.saakyan@UCL.AC.UK,Saakyan,Ruben,Professor,assets/people/Ruben_Saakyan_2016_w.jpg,Joint spokesperson,y,y
 SALAZAR,Ramon,ramonmsalazar@gmail.com,Salazar,Ramon,,,,y,y
 SARAZIN,Xavier,sarazin@LAL.IN2P3.FR,Sarazin,Xavier,,,,,
@@ -137,7 +137,9 @@ Corazzi,Mathieu,mathieu.corazzi@lsm.fr,Corazzi,Mathieu,,,,,
 Curtil,Christian,curtil@CPPM.IN2P3.FR,Curtil,Christian,,,Radon,,
 DARGAUD,Guillaume,dargaud@LPSC.IN2P3.FR,Dargaud,Guillaume,,,,,
 Konovalov,Sergey,konovalov@itep.ru,Konovalov,Sergey,,,Source production,y,y
-Macko,Miroslav,macko@fmph.uniba.sk,Macko,Miroslav,PhD student,,,y,y
+Macko,Miroslav,macko@fmph.uniba.sk,Macko,Miroslav,PhD student (Joint with CTU in Prague and University of Bordeaux),,,y,y
 Palusova,Veronika,palusova@fmph.uniba.sk,Palusova,Veronika,PhD student,,,y,y
 Mitra,Ankush,A.Mitra.2@warwick.ac.uk,Mitra,Ankush,,,,y,y
 Morgan,Ben,Ben.Morgan@warwick.ac.uk,Morgan,Ben,Senior Research Fellow,assets/people/BenMorgan.jpg,Software development coordinator,y,y
+Smetana,Adam,adam.smetana@utef.cvut.cz,Smetana,Adam,,,Theory,y,
+Smolek,Karel,karel.smolek@utef.cvut.cz,Smolek,Karel,,,"Theory, radon, simulations",y,
