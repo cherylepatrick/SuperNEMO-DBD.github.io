@@ -2,6 +2,7 @@
 layout: post
 title:  "NEMO-3 Quadruple Beta Decay paper selected by PRL editors"
 date:   2017-07-24 16:50:00 +0000
+thumbnail: "assets/post_images/PhysRevLett.119.041801.png"
 categories: nemo3 paper quadbeta prl
 ---
 
