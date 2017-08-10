@@ -123,7 +123,7 @@ title: The Experiment
         <div class="content">
           <div class="table">
             <div class="table-cell" >
-              The physics of SuperNEMO
+              The physics
             </div>
           </div>
         </div>
@@ -141,7 +141,7 @@ title: The Experiment
         <div class="content">
           <div class="table">
             <div class="table-cell" >
-              Our physics goals
+              Physics goals
             </div>
           </div>
         </div>

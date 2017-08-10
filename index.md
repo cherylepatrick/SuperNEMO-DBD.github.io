@@ -48,7 +48,7 @@ layout: home
             <div class="content">
               <div class="table">
                 <div class="table-cell">
-                  Request a NEMO speaker
+                  Request a speaker
                 </div>
               </div>
             </div></a>
