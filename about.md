@@ -3,8 +3,6 @@ layout: experiment
 title: The Experiment
 ---
 
-<<<<<<< HEAD
-=======
 
 <div class="container-fluid">
   <div class="row">
@@ -17,7 +15,6 @@ title: The Experiment
               <p>Use the buttons on the right to find out more about the SuperNEMO detector, its physics goals, and the theory behind double-beta decay, the rare process we are investigating, which could provide clues to why our universe is the way it is. </p>
               
           </div>
->>>>>>> ColourMeBeautiful
 
       <div id="thephysics" style="display:none">
       <header class="post-header">
