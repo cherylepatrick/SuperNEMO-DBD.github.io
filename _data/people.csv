@@ -10,13 +10,13 @@ BREIER,Robert,breier@fmph.uniba.sk,Breier,Robert,,,,y,y
 BRETON,Dominique,BRETON@LAL.IN2P3.FR,Breton,Dominique,,,,,
 BRIERE,Matthieu,briere@LAL.IN2P3.FR,Briere,Matthieu,,,,,
 BRUDANIN,Victor,brudanin@NUSUN.JINR.RU,Brudanin,Victor,,,,,y
-BUSTO,Jose,busto@CPPM.IN2P3.FR,Busto,Jose,,,Radon,y,
+BUSTO,Jose,busto@CPPM.IN2P3.FR,Busto,Jose,,,Radon,y,y
 CACERES,Thierry,CACERES@LAL.IN2P3.FR,Caceres,Thierry,,,,,
 CAFFREY,Gus,Gus.Caffrey@INL.GOV,Caffrey,Gus,,,,y,y
 CALVEZ,Steven,calvez@LAL.IN2P3.FR,Calvez,Steven,PhD student,,UK PI,y,
 CARTER,Mary,mary.carter@UCL.AC.UK,Carter,Mary,,,,y,y
 CASCELLA,Michele,m.cascella@ucl.ac.uk,Cascella,Michele,Detector physicist,assets/people/Michele_Cascella_w.jpg,Deputy data quality coordinator,y,y
-CASSOL,Franca,cassol@CPPM.IN2P3.FR,Cassol,Franca,,,Radon,y,
+CASSOL,Franca,cassol@CPPM.IN2P3.FR,Cassol,Franca,,,Radon,y,y
 Cerna,Cedric,cerna@CENBG.IN2P3.FR,Cerna,Cedric,,,,y,
 CESAR,John,JPCESAR23@PHYSICS.UTEXAS.EDU,Cesar,John,,,,,y
 Chabanne,Eric,eric.chabanne@lapp.in2p3.fr,Chabanne,Eric,,,,,
@@ -45,7 +45,7 @@ HOMMET,Jean,hommet@LPCCAEN.IN2P3.FR,Hommet,Jean,,,,,
 HORKLEY,Jared,Jared.Horkley@INL.GOV,Horkley,Jared,,,,,y
 HUBER,Arnaud,huber@cenbg.in2p3.fr,Huber,Arnaud,,,,y,
 HUBERT,Philippe,hubertp@CENBG.IN2P3.FR,Hubert,Philippe,,,,,
-HUGON,Christophe,hugon@cppm.in2p3.fr,Hugon,Christophe,,,"Radon, general analysis",y,
+HUGON,Christophe,hugon@cppm.in2p3.fr,Hugon,Christophe,,,"Radon, general analysis",y,y
 HUNT,Tom,t.hunt@UCL.AC.UK,Hunt,Tom,,,,y,y
 JENZER,Stephane,jenzer@LAL.IN2P3.FR,Jenzer,Stephane,,,,,
 JEONG,Do-Young,dyjeong@kaeri.re.kr,Jeong,Do-Young,,,,,y
@@ -79,7 +79,6 @@ Macolino,Carla,macolino@LAL.IN2P3.FR,Macolino,Carla,,,Reconstruction and calibra
 NEMCHONOK,Igor,nemch@NUSUN.JINR.RU,Nemchonok,Igor,,,,,y
 NOMACHI,Masaharu,nomachi@rcnp.osaka-u.ac.jp,Nomachi,Masaharu,,,,y,y
 ODIER,Jerome,jerome.odier@CERN.CH,Odier,Jerome,,,,,y
-OHSUMI,Ideaki,ohsumi@CC.SAGA-U.AC.JP,Ohsumi,Ideaki,,,,,y
 OLIVIERO,Guillaume,goliviero@LPCCAEN.IN2P3.FR,Oliviero,Guillaume,,,Deputy software development coordinator,y,
 Panazol,Jean-Luc,jean-luc.panazol@lapp.in2p3.fr,Panazol,Jean-Luc,,,,,
 PATER,Joleen,joleen.pater@manchester.ac.uk,Pater,Joleen,Applied Physicist,,,y,y
@@ -125,7 +124,7 @@ WATERS,David,d.waters@UCL.AC.UK,Waters,David,Professor,assets/people/David_Water
 WINTER,Berend,b.winter@UCL.AC.UK,Winter,Berend,,,,y,y
 XIE,Fang,fang.xie.15@UCL.AC.UK,Xie,Fang,PhD student,assets/people/FangXie_2015_250x350_w.jpg,,y,y
 YUMATOV,Vladimir,yumatov@ITEP.RU,Yumatov,Vladimir,,,,y,y
-ZUKAUSKAS,Aivaras,aivaras.zukauskas@gmail.com,Zukauskas,Aivaras,,,,,y
+ZUKAUSKAS,Aivaras,aivaras.zukauskas@mff.cuni.cz,Zukauskas,Aivaras,PhD student,assets/people/aivaras_zukauskas.jpg,Calorimeter,y,y
 Zampaolo,Michel,michel.zampaolo@lsm.in2p3.fr,Zampaolo,Michel,,,,y,
 Zampieri,Thierry,thierry.zampieri@lsm.fr,Zampieri,Thierry,,,,y,
 Dastgheibi-Fard,Ali,ali.dastgheibi-fard@lsm.fr,Dastgheibi-Fard,Ali,,,,y,
@@ -134,7 +133,7 @@ CHEIKALI,chafik,cheikali@lal.in2p3.fr,Cheikali,Chafik,,,,,
 CHOPRA,Ashwin,ashwin.chopra.14@UCL.AC.UK,Chopra,Ashwin,PhD student,assets/people/Ashwin_Chopra_25x35_w.jpg,,y,y
 CLAVERIE,Gerard,claverie@CENBG.IN2P3.FR,Claverie,Gerard,,,,,
 Corazzi,Mathieu,mathieu.corazzi@lsm.fr,Corazzi,Mathieu,,,,,
-Curtil,Christian,curtil@CPPM.IN2P3.FR,Curtil,Christian,,,Radon,,
+Curtil,Christian,curtil@CPPM.IN2P3.FR,Curtil,Christian,,,Radon,y,y
 DARGAUD,Guillaume,dargaud@LPSC.IN2P3.FR,Dargaud,Guillaume,,,,,
 Konovalov,Sergey,konovalov@itep.ru,Konovalov,Sergey,,,Source production,y,y
 Macko,Miroslav,macko@fmph.uniba.sk,Macko,Miroslav,PhD student (Joint with CTU in Prague and University of Bordeaux),,,y,y
