@@ -34,7 +34,7 @@ SuperNEMO is an international collaboration comprising physicists and engineers 
 {% assign domain = newdomain %}
 {% endif %}
 {% endif %}
-    {%if site.data.institutions[domain].name %} - {{site.data.institutions[domain].name}}{% endif %}
+    {%if site.data.institutions[person.Institution].name %} - {{site.data.institutions[person.Institution].name}}{% endif %}
   </li>
   {% endfor %}
 </ul>
@@ -73,9 +73,9 @@ SuperNEMO is an international collaboration comprising physicists and engineers 
         <h4 class="modal-title">
           {% if person.Photo %}
             <img src="{{person.Photo}}" alt="Picture of {{person.Name}}" class="img-circle" style="height:5em">
-              {% elsif site.data.institutions[domain].logo %}
-                <img src="{{site.data.institutions[domain].logo }}"
-                alt="{{site.data.institutions[domain].name }} logo"
+              {% elsif site.data.institutions[person.Institution].logo %}
+                <img src="{{site.data.institutions[person.Institution].logo }}"
+                alt="{{site.data.institutions[person.Institution].name }} logo"
                 style="height:3em">
               {% else %}
                 <img src="assets/supernemo_logo_v1.0.png" alt="SuperNEMO logo" style="height:3em">
@@ -85,8 +85,8 @@ SuperNEMO is an international collaboration comprising physicists and engineers 
         </h4>
       </div>
       <div class="modal-body" style="overflow:auto">
-        {% if site.data.institutions[domain].name %}<div class="row">
-          <div class="col-xs-2 ">Institution:</div><div class="col-xs-8 "><a target="_blank" href="{{site.data.institutions[domain].homepage}}">{{site.data.institutions[domain].name}}</a>, {{site.data.institutions[domain].city}}</div>
+        {% if site.data.institutions[person.Institution].name %}<div class="row">
+          <div class="col-xs-2 ">Institution:</div><div class="col-xs-8 "><a target="_blank" href="{{site.data.institutions[person.Institution].homepage}}">{{site.data.institutions[person.Institution].name}}</a>, {{site.data.institutions[person.Institution].city}}</div>
         </div>{% endif %}
         {% if person.Job %}<div class="row">
           <div class="col-xs-2 ">Role:</div><div class="col-xs-8 ">{{person.Job}}</div>
