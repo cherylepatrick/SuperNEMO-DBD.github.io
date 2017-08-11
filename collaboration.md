@@ -4,66 +4,22 @@ title: The Collaboration
 ---
 
 SuperNEMO is an international collaboration comprising physicists and engineers from across Europe and beyond.
+<div>
+{% for inst in site.data.institutions %}
+  <a target="_blank" href="{{inst[1].homepage}}"><img src="{{inst[1].logo }}"
+    alt="{{inst[1].name }} logo"
+    style="height:4em">
+  {{inst[1].name}}, {{inst[1].city}}</a>
 
-<ul>
-  {% assign site.data.people.upcasename = (site.data.people.LastName | upcase) %}
-  {% assign sorted_people = (site.data.people | sort: 'LastName') %}
+{% assign sorted_people = ((site.data.people | where: "Institution", inst[0]) | sort: 'LastName') %}
   {% for person in sorted_people %}
-  <li>
-    {% assign emailarray = {{person.Email | split:"@"}} %}
-    <a data-toggle="modal" href="#{{ person.FirstName }}{{ person.LastName }}_Modal">{{ person.FirstName }} {{ person.LastName}}</a>
-    {% for item in emailarray limit:1 offset:1 %}
-    {% assign domain=(item | downcase) %}
-    {% endfor %}
-{% if site.data.institutions[domain].name %}
-{% else %}
-{% assign domainarray= {{domain| split:"."}} %}
-{% for domainpart in domainarray %}
-{% case forloop.index %}
-{% when 1 %}
-{% when 2 %}
-{% assign newdomain = domainpart %}
-{% else %}
-{% assign newdomain = newdomain | append: "." | append: domainpart %}
-{% endcase %}
-{% endfor %}
-{% capture name_size %}{{ site.data.institutions[newdomain].name |size }}{% endcapture %}
-{% if name_size == "0" %}
-{% assign domain = "Other" %}
-{% else %}
-{% assign domain = newdomain %}
-{% endif %}
-{% endif %}
-    {%if site.data.institutions[person.Institution].name %} - {{site.data.institutions[person.Institution].name}}{% endif %}
-  </li>
+    <p>    <a data-toggle="modal" href="#{{ person.FirstName }}{{ person.LastName }}_Modal">{{ person.FirstName }} {{ person.LastName}}</a> </p>
   {% endfor %}
-</ul>
+{% endfor %}
+</div>
+
 
 {% for person in site.data.people %}
-{% assign emailarray = {{person.Email | split:"@"}} %}
-{% for item in emailarray limit:1 offset:1 %}
-  {% assign domain=(item | downcase) %}
-{% endfor %}
-{% if site.data.institutions[domain].name %}
-{% else %}
-  {% assign domainarray= {{domain| split:"."}} %}
-  {% for domainpart in domainarray %}
-    {% case forloop.index %}
-      {% when 1 %}
-      {% when 2 %}
-      {% assign newdomain = domainpart %}
-      {% else %}
-        {% assign newdomain = newdomain | append: "." | append: domainpart %}
-    {% endcase %}
-  {% endfor %}
-  {% capture name_size %}{{ site.data.institutions[newdomain].name |size }}{% endcapture %}
-  {% if name_size == "0" %}
-    {% assign domain = "Other" %}
-  {% else %}
-{% assign domain = newdomain %}
-  {% endif %}
-{% endif %}
-
 <div id="{{ person.FirstName }}{{ person.LastName }}_Modal" class="modal fade" role="dialog">
   <div class="modal-dialog">
     <!-- Modal content-->

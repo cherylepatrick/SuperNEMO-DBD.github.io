@@ -3,7 +3,7 @@
     "domain":"ucl.ac.uk",
     "name": "University College London",
     "city": "London, UK",
-    "logo": "assets/institution_logos/standalone.png",
+    "logo": "assets/institution_logos/ucl.png",
     "homepage": "https://www.hep.ucl.ac.uk/nemo/"
   },
   "Warwick": {
@@ -21,7 +21,7 @@
     "homepage": "http://www.imperial.ac.uk/high-energy-physics/research/experiments/supernemo/"
   },
   "Manchester": {
-    "doain":"manchester.ac.uk",
+    "domain":"manchester.ac.uk",
     "name": "The University of Manchester",
     "city": "Manchester, UK",
     "logo": "assets/institution_logos/logo-university-of-manchester.png",
@@ -83,13 +83,6 @@
     "logo": "assets/institution_logos/ctu.gif",
     "homepage": "http://www.utef.cvut.cz/ieap"
   },
-  "unizar": {
-    "domain":"unizar.es",
-    "name": "Universidad de Zaragoza",
-    "city": "Zaragoza, Spain",
-    "logo": "assets/institution_logos/logo_uz.png",
-    "homepage": "http://unizar.es"
-  },
   "CPPM": {
     "domain":"cppm.in2p3.fr",
     "name": "Centre de Physique des Particules de Marseille",
@@ -124,13 +117,6 @@
     "city": "Geneva, Switzerland",
     "logo": "assets/institution_logos/CERN-logo.jpg",
     "homepage": "http://home.cern"
-  },
-  "fnal": {
-    "domain":"fnal.gov",
-    "name": "Fermilab",
-    "city": "Batavia, IL, USA",
-    "logo": "assets/institution_logos/FNAL-Logo-NAL-Blue.png",
-    "homepage": "http://fnal.gov"
   },
   "INL": {
     "domain":"inl.gov",
@@ -173,13 +159,6 @@
     "city": "Bratislava, Slovakia",
     "logo": "assets/institution_logos/stu_800.png",
     "homepage": "http://www.stuba.sk/english.html?page_id=132"
-  },
-  "Saga":{
-    "domain":"saga-u.ac.jp",
-    "name": "Saga University",
-    "city": "Saga, Japan",
-    "logo": "assets/institution_logos/saga.png",
-    "homepage": "http://www.saga-u.ac.jp/english/index.html"
   },
   "KINR": {
     "domain":"kinr.kiev.ua",
