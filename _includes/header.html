@@ -5,7 +5,7 @@
     {% assign page_paths = site.header_pages | default: default_paths %}
 
     <!-- Dummy add of icon for now - replace with SVG of experiment logo -->
-    <a class="site-title" href="{{ "/" | relative_url}}"><span class="icon"><img src="{{ "assets/supernemo_logo_v1.0.png" | relative_url}}" alt="SuperNEMO Logo" height=38px></span> {{ site.title | escape }}</a>
+    <a class="site-title" href="./"><span class="icon"><img src="{{ "./assets/supernemo_logo_v1.0.png"}}" alt="SuperNEMO Logo" height=38px></span> {{ site.title | escape }}</a>
 
     {% if page_paths %}
      <nav class="site-nav">
@@ -24,7 +24,7 @@
           {% for path in page_paths %}
             {% assign my_page = site.pages | where: "path", path | first %}
             {% if my_page.title %}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            <a class="page-link" href=".{{ my_page.url}}">{{ my_page.title | escape }}</a>
             {% endif %}
           {% endfor %}
         </div>
