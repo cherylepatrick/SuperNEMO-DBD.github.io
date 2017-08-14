@@ -4,19 +4,27 @@ title: The Collaboration
 ---
 
 SuperNEMO is an international collaboration comprising physicists and engineers from across Europe and beyond.
-<div>
+<div class="container-fluid">
 {% for inst in site.data.institutions %}
-  <a target="_blank" href="{{inst[1].homepage}}"><img src="{{inst[1].logo }}"
-    alt="{{inst[1].name }} logo"
-    style="height:4em">
-  {{inst[1].name}}, {{inst[1].city}}</a>
-
-{% assign sorted_people = ((site.data.people | where: "Institution", inst[0]) | sort: 'LastName') %}
-  {% for person in sorted_people %}
-    <p>    <a data-toggle="modal" href="#{{ person.FirstName }}{{ person.LastName }}_Modal">{{ person.FirstName }} {{ person.LastName}}</a> </p>
-  {% endfor %}
+  <hr/>
+  <div class="row">
+    <div class="col-xs-3 ">
+      <a target="_blank" href="{{inst[1].homepage}}"><img src="{{inst[1].logo }}"
+        alt="{{inst[1].name }} logo"
+        style="width: 100%">
+        {{inst[1].name}}, {{inst[1].city}}</a>
+    </div>
+    <div class="col-xs-9 ">
+      {% assign sorted_people = ((site.data.people | where: "Institution", inst[0]) | sort: 'LastName') %}
+      {% for person in sorted_people %}
+        <p>    <a data-toggle="modal" href="#{{ person.FirstName }}{{ person.LastName }}_Modal">{{ person.FirstName }} {{ person.LastName}}</a> </p>
+      {% endfor %}
+    </div>
+  </div>
 {% endfor %}
 </div>
+
+
 
 
 {% for person in site.data.people %}
