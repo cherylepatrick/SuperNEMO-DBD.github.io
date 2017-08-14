@@ -4,19 +4,50 @@ title: The Collaboration
 ---
 
 SuperNEMO is an international collaboration comprising physicists and engineers from across Europe and beyond.
-<div>
+<div class="container-fluid">
 {% for inst in site.data.institutions %}
-  <a target="_blank" href="{{inst[1].homepage}}"><img src="{{inst[1].logo }}"
-    alt="{{inst[1].name }} logo"
-    style="height:4em">
-  {{inst[1].name}}, {{inst[1].city}}</a>
+  <hr/>
+  <div class="row">
+    <div class="col-xs-3 ">
+      <a target="_blank" href="{{inst[1].homepage}}"><img src="{{inst[1].logo }}"
+        alt="{{inst[1].name }} logo"
+        style="width: 100%">
+        {{inst[1].name}}, {{inst[1].city}}</a>
+    </div>
 
-{% assign sorted_people = ((site.data.people | where: "Institution", inst[0]) | sort: 'LastName') %}
-  {% for person in sorted_people %}
-    <p>    <a data-toggle="modal" href="#{{ person.FirstName }}{{ person.LastName }}_Modal">{{ person.FirstName }} {{ person.LastName}}</a> </p>
-  {% endfor %}
+      {% assign sorted_people = ((site.data.people | where: "Institution", inst[0]) | sort: 'LastName') %}
+      {% if sorted_people.size < 5 %}
+        <div class="col-xs-6 ">
+        {% for person in sorted_people %}
+          <p>    <a data-toggle="modal" href="#{{ person.FirstName }}{{ person.LastName }}_Modal">{{ person.FirstName }} {{ person.LastName}}</a> </p>
+        {% endfor %}
+        </div>
+      {% else %}
+        <div class="col-xs-3 ">
+          {% for person in sorted_people %}
+            {% capture modulo %}{{ forloop.index0 | modulo:2 }}{% endcapture %}
+            {% if modulo == "0" %}
+            <p>    <a data-toggle="modal" href="#{{ person.FirstName }}{{ person.LastName }}_Modal">{{ person.FirstName }} {{ person.LastName}}</a> </p>
+          
+            {% endif %}
+          {% endfor %}
+        </div>
+        <div class="col-xs-3 ">
+          {% for person in sorted_people %}
+          
+            {% capture modulo %}{{ forloop.index0 | modulo:2 }}{% endcapture %}
+            {% if modulo == "1" %}
+              <p>    <a data-toggle="modal" href="#{{ person.FirstName }}{{ person.LastName }}_Modal">{{ person.FirstName }} {{ person.LastName}}</a> </p>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+
+  </div>
 {% endfor %}
 </div>
+
+
 
 
 {% for person in site.data.people %}
