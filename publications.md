@@ -103,7 +103,7 @@ title: Publications and Media
 
 <div id="articles" style="display:none">
   <h2>NEMO in the News</h2>
-  <p>Find out what the world has to say about SuperNEMO and NEMO-3.</p>
+  <p>Find out what the media has to say about SuperNEMO and NEMO-3.</p>
   {% assign articles_by_date = (site.public_articles | sort:"date") | reverse %}
   <div class="container-fluid">
     {% for article in articles_by_date %}
