@@ -17,27 +17,30 @@ SuperNEMO is an international collaboration comprising physicists and engineers 
 
       {% assign sorted_people = ((site.data.people | where: "Institution", inst[0]) | sort: 'LastName') %}
       {% if sorted_people.size < 5 %}
-        <div class="col-xs-6 ">
+        <div class="col-xs-8 ">
         {% for person in sorted_people %}
-          <p>    <a data-toggle="modal" href="#{{ person.FirstName }}{{ person.LastName }}_Modal">{{ person.FirstName }} {{ person.LastName}}</a> </p>
+          <p>    <a data-toggle="modal" href="#{{ person.FirstName  | slugify}}{{ person.LastName  | slugify}}_Modal">{{ person.FirstName }} {{ person.LastName}}</a> </p>
         {% endfor %}
         </div>
       {% else %}
-        <div class="col-xs-3 ">
+        <div class="col-xs-4 ">
           {% for person in sorted_people %}
             {% capture modulo %}{{ forloop.index0 | modulo:2 }}{% endcapture %}
-            {% if modulo == "0" %}
-            <p>    <a data-toggle="modal" href="#{{ person.FirstName }}{{ person.LastName }}_Modal">{{ person.FirstName }} {{ person.LastName}}</a> </p>
+            {% assign doubled = forloop.index0 | times:2  %}
+            {% if  sorted_people.size > doubled  %}
+            <p>    <a data-toggle="modal" href="#{{ person.FirstName  | slugify}}{{ person.LastName  | slugify}}_Modal">{{ person.FirstName }} {{ person.LastName}}</a> </p>
           
             {% endif %}
           {% endfor %}
         </div>
-        <div class="col-xs-3 ">
+        <div class="col-xs-4 ">
           {% for person in sorted_people %}
           
-            {% capture modulo %}{{ forloop.index0 | modulo:2 }}{% endcapture %}
-            {% if modulo == "1" %}
-              <p>    <a data-toggle="modal" href="#{{ person.FirstName }}{{ person.LastName }}_Modal">{{ person.FirstName }} {{ person.LastName}}</a> </p>
+          {% capture modulo %}{{ forloop.index0 | modulo:2 }}{% endcapture %}
+          {% assign doubled = forloop.index0 | times:2  %}
+
+            {% if sorted_people.size <= doubled %}
+              <p>    <a data-toggle="modal" href="#{{ person.FirstName | slugify}}{{ person.LastName | slugify}}_Modal">{{ person.FirstName }} {{ person.LastName}}</a> </p>
             {% endif %}
           {% endfor %}
         </div>
@@ -51,7 +54,7 @@ SuperNEMO is an international collaboration comprising physicists and engineers 
 
 
 {% for person in site.data.people %}
-<div id="{{ person.FirstName }}{{ person.LastName }}_Modal" class="modal fade" role="dialog">
+<div id="{{ person.FirstName | slugify}}{{ person.LastName | slugify}}_Modal" class="modal fade" role="dialog">
   <div class="modal-dialog">
     <!-- Modal content-->
     <div class="modal-content">

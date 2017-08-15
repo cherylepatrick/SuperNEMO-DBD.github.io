@@ -125,13 +125,6 @@
     "logo": "assets/institution_logos/INL_Idaho_National_Laboratory.gif",
     "homepage": "https://www.inl.gov"
   },
-  "Wisc":{
-    "domain":"icecube.wisc.edu",
-    "name": "IceCube",
-    "city": "South Pole, Antarctica",
-    "logo": "assets/institution_logos/ice-cube-logo.png",
-    "homepage": "http://icecube.wisc.edu"
-  },
   "KAERI":{
     "domain":"kaeri.re.kr",
     "name": "Korea Atomic Energy Research Institute",
