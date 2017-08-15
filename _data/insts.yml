@@ -122,7 +122,7 @@
   domain: osaka-u.ac.jp
   name: 'Osaka University'
   city: 'Osaka, Japan'
-  logo: assets/institution_logos/logo_icho.png/
+  logo: assets/institution_logos/logo_icho.png
   homepage: 'http://www.osaka-u.ac.jp/en'
 - shortname: Stuba
   domain: stuba.sk
