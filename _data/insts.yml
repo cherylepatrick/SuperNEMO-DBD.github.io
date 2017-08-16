@@ -1,0 +1,156 @@
+- shortname: UCL
+  domain: ucl.ac.uk
+  name: 'University College London'
+  city: 'London, UK'
+  logo: assets/institution_logos/ucl.png
+  homepage: 'https://www.hep.ucl.ac.uk/nemo/'
+- shortname: Warwick
+  domain: warwick.ac.uk
+  name: 'University of Warwick'
+  city: 'Warwick, UK'
+  logo: assets/institution_logos/512px-University_of_Warwick_logo_2015_with_descriptor.svg.png
+  homepage: 'http://www2.warwick.ac.uk/fac/sci/physics/research/epp/exp/detrd/snemo/'
+- shortname: Imperial
+  domain: imperial.ac.uk
+  name: 'Imperial College London'
+  city: 'London, UK'
+  logo: assets/institution_logos/Logo--tojpeg_1452876166974_x2.jpg
+  homepage: 'http://www.imperial.ac.uk/high-energy-physics/research/experiments/supernemo/'
+- shortname: Manchester
+  domain: manchester.ac.uk
+  name: 'The University of Manchester'
+  city: 'Manchester, UK'
+  logo: assets/institution_logos/logo-university-of-manchester.png
+  homepage: 'http://www.hep.man.ac.uk/SuperNemo/'
+- shortname: LAL
+  domain: lal.in2p3.fr
+  name: 'Laboratoire de l''Accélérateur Linéaire'
+  city: 'Orsay, France'
+  logo: assets/institution_logos/lal_logo.jpg
+  homepage: 'https://www.lal.in2p3.fr/'
+- shortname: Uniba
+  domain: fmph.uniba.sk
+  name: 'Comenius University in Bratislava'
+  city: 'Bratislava, Slovakia'
+  logo: assets/institution_logos/logo_FMFI.png
+  homepage: 'http://fmph.uniba.sk'
+- shortname: LAPP
+  domain: lapp.in2p3.fr
+  name: 'Laboratoire d’Annecy le Vieux de Physique des Particules'
+  city: 'Annecy, France'
+  logo: assets/institution_logos/13.png
+  homepage: 'https://lapp.in2p3.fr/?lang=fr'
+- shortname: UTAustin
+  domain: utexas.edu
+  name: 'The University of Texas at Austin'
+  city: 'Austin, TX, USA'
+  logo: assets/institution_logos/logo.png
+  homepage: 'http://www.utexas.edu'
+- shortname: CENBG
+  domain: cenbg.in2p3.fr
+  name: 'Centre Etudes Nucléaires de Bordeaux Gradignan'
+  city: 'Bordeaux, France'
+  logo: assets/institution_logos/cenbg.png
+  homepage: 'http://www.cenbg.in2p3.fr'
+- shortname: LPCCAEN
+  domain: lpccaen.in2p3.fr
+  name: 'Laboratoire de Physique Corpusculaire de Caen'
+  city: 'Caen, France'
+  logo: assets/institution_logos/logolpc_couleur_fondBlanc_titre.jpg
+  homepage: 'http://www.lpc-caen.in2p3.fr'
+- shortname: LPSC
+  domain: lpsc.in2p3.fr
+  name: 'Laboratoire de Physique Subatomique & Cosmologie'
+  city: 'Grenoble, France'
+  logo: assets/institution_logos/logoLPSC.jpg
+  homepage: 'http://lpsc.in2p3.fr/index.php/fr/'
+- shortname: CVUT
+  domain: utef.cvut.cz
+  name: 'Czech Technical University in Prague'
+  city: 'Prague, Czech Republic'
+  logo: assets/institution_logos/ctu.gif
+  homepage: 'http://www.utef.cvut.cz/ieap'
+- shortname: CPPM
+  domain: cppm.in2p3.fr
+  name: 'Centre de Physique des Particules de Marseille'
+  city: 'Marseille, France'
+  logo: assets/institution_logos/arton709.jpg
+  homepage: 'https://www.cppm.in2p3.fr/sommaire.php3'
+- shortname: JINR
+  domain: jinr.ru
+  name: 'Joint Institute for Nuclear Research'
+  city: 'Dubna, Russia'
+  logo: assets/institution_logos/jinr_logo_350_ss.jpg
+  homepage: 'http://www.jinr.ru/main-en/'
+- shortname: LSM
+  domain: lsm.in2p3.fr
+  name: 'Laboratoire Souterrain de Modane'
+  city: 'Modane, France'
+  logo: assets/institution_logos/logo-web1.gif
+  homepage: 'http://www.lsm.in2p3.fr'
+- shortname: ITEP
+  domain: itep.ru
+  name: 'Institute for Theoretical and Experimental Physics'
+  city: 'Moscow, Russia'
+  logo: assets/institution_logos/img6089.png
+  homepage: 'http://www.itep.ru'
+- shortname: CERN
+  domain: cern.ch
+  name: CERN
+  city: 'Geneva, Switzerland'
+  logo: assets/institution_logos/CERN-logo.jpg
+  homepage: 'http://home.cern'
+- shortname: INL
+  domain: inl.gov
+  name: 'Idaho National Laboratory'
+  city: 'Idaho Falls, ID, USA'
+  logo: assets/institution_logos/INL_Idaho_National_Laboratory.gif
+  homepage: 'https://www.inl.gov'
+- shortname: KAERI
+  domain: kaeri.re.kr
+  name: 'Korea Atomic Energy Research Institute'
+  city: 'Daejeon, South Korea'
+  logo: assets/institution_logos/KAERI_cm.png
+  homepage: 'https://www.kaeri.re.kr/english/'
+- shortname: USM
+  domain: usm.cl
+  name: 'Universidad Tecnica Federico Santa Maria'
+  city: 'Valparaíso, Chile'
+  logo: assets/institution_logos/250px-Logo_UTFSM.png
+  homepage: 'http://usm.cl'
+- shortname: Osaka
+  domain: osaka-u.ac.jp
+  name: 'Osaka University'
+  city: 'Osaka, Japan'
+  logo: assets/institution_logos/logo_icho.png
+  homepage: 'http://www.osaka-u.ac.jp/en'
+- shortname: Stuba
+  domain: stuba.sk
+  name: 'Slovak University of Technology in Bratislava'
+  city: 'Bratislava, Slovakia'
+  logo: assets/institution_logos/stu_800.png
+  homepage: 'http://www.stuba.sk/english.html?page_id=132'
+- shortname: KINR
+  domain: kinr.kiev.ua
+  name: 'National Academy of Sciences of Ukraine, Institute for Nuclear Research'
+  city: 'Kiev, Ukraine'
+  logo: assets/institution_logos/kinr.png
+  homepage: 'http://www.kinr.kiev.ua/index_en.html'
+- shortname: WERC
+  domain: werc.or.jp
+  name: 'Wakasa Wan Energy Research Center'
+  city: 'Fukui Prefecture, Japan'
+  logo: assets/institution_logos/wakasawan.png
+  homepage: 'http://www.werc.or.jp'
+- shortname: JYU
+  domain: phys.jyu.fi
+  name: 'University of Jyväskylä'
+  city: 'Jyväskylä, Finland'
+  logo: assets/institution_logos/jyu-logo-hdpi.png
+  homepage: 'https://www.jyu.fi/fysiikka/en'
+- shortname: CUNI
+  domain: cuni.cz
+  name: 'Charles University'
+  city: 'Prague, Czech Republic'
+  logo: assets/institution_logos/charles.png
+  homepage: 'https://www.mff.cuni.cz/to.en/'

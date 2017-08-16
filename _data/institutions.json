@@ -1,185 +1,181 @@
 {
-  "ucl.ac.uk": {
+  "UCL": {
+    "domain":"ucl.ac.uk",
     "name": "University College London",
     "city": "London, UK",
-    "logo": "assets/institution_logos/standalone.png",
+    "logo": "assets/institution_logos/ucl.png",
     "homepage": "https://www.hep.ucl.ac.uk/nemo/"
   },
-  "warwick.ac.uk": {
+  "Warwick": {
+    "domain":"warwick.ac.uk",
     "name": "University of Warwick",
     "city": "Warwick, UK",
     "logo": "assets/institution_logos/512px-University_of_Warwick_logo_2015_with_descriptor.svg.png",
     "homepage": "http://www2.warwick.ac.uk/fac/sci/physics/research/epp/exp/detrd/snemo/"
   },
-  "imperial.ac.uk": {
+  "Imperial": {
+    "domain":"imperial.ac.uk",
     "name": "Imperial College London",
     "city": "London, UK",
     "logo": "assets/institution_logos/Logo--tojpeg_1452876166974_x2.jpg",
     "homepage": "http://www.imperial.ac.uk/high-energy-physics/research/experiments/supernemo/"
   },
-  "manchester.ac.uk": {
+  "Manchester": {
+    "domain":"manchester.ac.uk",
     "name": "The University of Manchester",
     "city": "Manchester, UK",
     "logo": "assets/institution_logos/logo-university-of-manchester.png",
     "homepage": "http://www.hep.man.ac.uk/SuperNemo/"
   },
-  "lal.in2p3.fr": {
+  "LAL": {
+    "domain":"lal.in2p3.fr",
     "name": "Laboratoire de l'Accélérateur Linéaire",
     "city": "Orsay, France",
     "logo": "assets/institution_logos/lal_logo.jpg",
     "homepage": "https://www.lal.in2p3.fr/"
   },
-  "fmph.uniba.sk": {
+  "Uniba": {
+    "domain":"fmph.uniba.sk",
     "name": "Comenius University in Bratislava",
     "city": "Bratislava, Slovakia",
     "logo": "assets/institution_logos/logo_FMFI.png",
     "homepage": "http://fmph.uniba.sk"
   },
-  "lapp.in2p3.fr": {
+  "LAPP": {
+    "domain":"lapp.in2p3.fr",
     "name": "Laboratoire d’Annecy le Vieux de Physique des Particules",
     "city": "Annecy, France",
     "logo": "assets/institution_logos/13.png",
     "homepage": "https://lapp.in2p3.fr/?lang=fr"
   },
-  "utexas.edu": {
+  "UTAustin": {
+    "domain":"utexas.edu",
     "name": "The University of Texas at Austin",
     "city": "Austin, TX, USA",
     "logo": "assets/institution_logos/logo.png",
     "homepage": "http://www.utexas.edu"
   },
-  "cenbg.in2p3.fr": {
+  "CENBG": {
+    "domain":"cenbg.in2p3.fr",
     "name": "Centre Etudes Nucléaires de Bordeaux Gradignan",
     "city": "Bordeaux, France",
     "logo": "assets/institution_logos/cenbg.png",
     "homepage": "http://www.cenbg.in2p3.fr"
   },
-  "lpccaen.in2p3.fr": {
+  "LPCCAEN": {
+    "domain":"lpccaen.in2p3.fr",
     "name": "Laboratoire de Physique Corpusculaire de Caen",
     "city": "Caen, France",
     "logo": "assets/institution_logos/logolpc_couleur_fondBlanc_titre.jpg",
     "homepage": "http://www.lpc-caen.in2p3.fr"
   },
-  "lpsc.in2p3.fr": {
+  "LPSC": {
+    "domain":"lpsc.in2p3.fr",
     "name": "Laboratoire de Physique Subatomique & Cosmologie",
     "city": "Grenoble, France",
     "logo": "assets/institution_logos/logoLPSC.jpg",
     "homepage": "http://lpsc.in2p3.fr/index.php/fr/"
   },
-  "utef.cvut.cz": {
+  "CVUT": {
+    "domain":"utef.cvut.cz",
     "name": "Czech Technical University in Prague",
     "city": "Prague, Czech Republic",
     "logo": "assets/institution_logos/ctu.gif",
     "homepage": "http://www.utef.cvut.cz/ieap"
   },
-  "unizar.es": {
-    "name": "Universidad de Zaragoza",
-    "city": "Zaragoza, Spain",
-    "logo": "assets/institution_logos/logo_uz.png",
-    "homepage": "http://unizar.es"
-  },
-  "cppm.in2p3.fr": {
+  "CPPM": {
+    "domain":"cppm.in2p3.fr",
     "name": "Centre de Physique des Particules de Marseille",
     "city": "Marseille, France",
     "logo": "assets/institution_logos/arton709.jpg",
     "homepage": "https://www.cppm.in2p3.fr/sommaire.php3"
   },
-  "jinr.ru": {
+  "JINR": {
+    "domain":"jinr.ru",
     "name": "Joint Institute for Nuclear Research",
     "city": "Dubna, Russia",
     "logo": "assets/institution_logos/jinr_logo_350_ss.jpg",
     "homepage": "http://www.jinr.ru/main-en/"
   },
-  "lsm.fr": {
+  "LSM": {
+    "domain":"lsm.in2p3.fr",
     "name": "Laboratoire Souterrain de Modane",
     "city": "Modane, France",
     "logo": "assets/institution_logos/logo-web1.gif",
     "homepage": "http://www.lsm.in2p3.fr"
   },
-  "lsm.in2p3.fr": {
-    "name": "Laboratoire Souterrain de Modane",
-    "city": "Modane, France",
-    "logo": "assets/institution_logos/logo-web1.gif",
-    "homepage": "http://www.lsm.in2p3.fr"
-  },
-  "itep.ru": {
+  "ITEP": {
+    "domain":"itep.ru",
     "name": "Institute for Theoretical and Experimental Physics",
     "city": "Moscow, Russia",
     "logo": "assets/institution_logos/img6089.png",
     "homepage": "http://www.itep.ru"
   },
-  "cern.ch": {
+  "CERN": {
+    "domain":"cern.ch",
     "name": "CERN",
     "city": "Geneva, Switzerland",
     "logo": "assets/institution_logos/CERN-logo.jpg",
     "homepage": "http://home.cern"
   },
-  "fnal.gov": {
-    "name": "Fermilab",
-    "city": "Batavia, IL, USA",
-    "logo": "assets/institution_logos/FNAL-Logo-NAL-Blue.png",
-    "homepage": "http://fnal.gov"
-  },
-  "inl.gov": {
+  "INL": {
+    "domain":"inl.gov",
     "name": "Idaho National Laboratory",
     "city": "Idaho Falls, ID, USA",
     "logo": "assets/institution_logos/INL_Idaho_National_Laboratory.gif",
     "homepage": "https://www.inl.gov"
   },
-  "icecube.wisc.edu":{
-    "name": "IceCube",
-    "city": "South Pole, Antarctica",
-    "logo": "assets/institution_logos/ice-cube-logo.png",
-    "homepage": "http://icecube.wisc.edu"
-  },
-  "kaeri.re.kr":{
+  "KAERI":{
+    "domain":"kaeri.re.kr",
     "name": "Korea Atomic Energy Research Institute",
     "city": "Daejeon, South Korea",
     "logo": "assets/institution_logos/KAERI_cm.png",
     "homepage": "https://www.kaeri.re.kr/english/"
   },
-  "usm.cl":{
+  "USM":{
+    "domain":"usm.cl",
     "name": "Universidad Tecnica Federico Santa Maria",
     "city": "Valparaíso, Chile",
     "logo": "assets/institution_logos/250px-Logo_UTFSM.png",
     "homepage": "http://usm.cl"
   },
-  "osaka-u.ac.jp":{
+  "Osaka":{
+    "domain":"osaka-u.ac.jp",
     "name": "Osaka University",
     "city": "Osaka, Japan",
     "logo": "assets/institution_logos/logo_icho.png/",
     "homepage": "http://www.osaka-u.ac.jp/en"
   },
-  "stuba.sk":{
+  "Stuba":{
+    "domain":"stuba.sk",
     "name": "Slovak University of Technology in Bratislava",
     "city": "Bratislava, Slovakia",
     "logo": "assets/institution_logos/stu_800.png",
     "homepage": "http://www.stuba.sk/english.html?page_id=132"
   },
-  "saga-u.ac.jp":{
-    "name": "Saga University",
-    "city": "Saga, Japan",
-    "logo": "assets/institution_logos/saga.png",
-    "homepage": "http://www.saga-u.ac.jp/english/index.html"
-  },
-  "kinr.kiev.ua": {
+  "KINR": {
+    "domain":"kinr.kiev.ua",
     "name": "National Academy of Sciences of Ukraine, Institute for Nuclear Research",
     "city": "Kiev, Ukraine",
     "logo": "assets/institution_logos/kinr.png",
     "homepage": "http://www.kinr.kiev.ua/index_en.html"
   },
-  "werc.or.jp": {
+  "WERC": {
+    "domain":"werc.or.jp",
     "name": "Wakasa Wan Energy Research Center",
     "city": "Fukui Prefecture, Japan",
     "logo": "assets/institution_logos/wakasawan.png",
     "homepage": "http://www.werc.or.jp"
   },
-  "phys.jyu.fi":{
+  "JYU":{
+    "domain":"phys.jyu.fi",
     "name": "University of Jyväskylä",
     "city": "Jyväskylä, Finland",
     "logo": "assets/institution_logos/jyu-logo-hdpi.png",
     "homepage": "https://www.jyu.fi/fysiikka/en"
   },
-  "cuni.cz":{
+  "CUNI":{
+    "domain":"cuni.cz",
     "name": "Charles University",
     "city": "Prague, Czech Republic",
     "logo": "assets/institution_logos/charles.png",
