@@ -12,10 +12,6 @@ layout: home
           {% for slide in site.carousel_images %}
           <div class="item {% if forloop.first == true %} active {% endif %}">
             <div style="background:url({{slide.image_url}}) center center; background-size:cover;" class="slider-size">
-              <div class="carousel-caption" {% if slide.text_colour %}style="color:{{slide.text_colour}}"{% endif %}>
-                <h4>{{slide.title}}</h4>
-                {{slide.detail}}
-              </div>
             </div>
           </div>
           {% endfor %}
