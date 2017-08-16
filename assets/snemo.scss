@@ -40,7 +40,7 @@ position: relative;
 font-size:3.2vmin;
 width: 30%;
 border-radius: 10px;
-padding-bottom : 17%; /* = width for a 1:1 aspect ratio */
+padding-bottom : 17%;
 margin:1.66%;
 background-color:#1E1E1E;
 overflow:hidden;font-family: verdana, sans-serif;
@@ -48,6 +48,32 @@ color: #fff;
 text-align:center;
 }
 
+.boxbutton{
+float:left;
+position: relative;
+font-size:2.5vmin;
+width: 100%;
+border-radius: 7px;
+padding-bottom : 50%;
+margin:1%;
+background-color:#1E1E1E;
+overflow:hidden;font-family: verdana, sans-serif;
+color: #FFFFFF;
+text-align:center;
+}
+
+.boxbutton a:link{
+color: #FFFFFF;
+}
+.boxbutton a:visited{
+color: #FFFFFF;
+}
+.boxbutton a:hover{
+color: #FFFFFF;
+}
+.boxbutton a:active{
+color: #FFFFFF;
+}
 
 .content {
 position:absolute;
