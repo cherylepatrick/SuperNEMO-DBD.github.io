@@ -67,7 +67,6 @@ title: The Experiment
     <img src='assets/Ettore_Majorana.jpeg' class="img-circle  center-block" style="width:17em" alt="Portrait of Ettore Majorana">
   </div>
 </div>
-<a href="#top">Back to top</a>
 </div>
 
 <div class="container-fluid" id="detector">
@@ -95,9 +94,6 @@ title: The Experiment
       <p>The SuperNEMO Demonstrator Module is located at the Laboratoire Souterrain de Modane, in the Fréjus tunnel in the French Alps. It acts as a proof of concept of our detector design, which can be expanded in future to a larger, modular detector.
       </p>
       <p> The Demonstrator Module has a tracker-calorimeter architecture, with a thin layer of $\beta\beta$-emitting isotope sandwiched between trackers and surrounded by calorimetry. This allows for a full three-dimensional reconstruction of charged particle tracks, as well as energy measurements. Click on the detector components in the diagram to learn more about each part of the detector.</p>
-      <p>
-      <a href="#top">Back to top</a>
-      </p>
     </div>
   </div>
 </div>
