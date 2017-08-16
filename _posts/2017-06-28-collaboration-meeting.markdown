@@ -2,6 +2,7 @@
 layout: post
 title:  "SuperNEMO collaboration meets in Prague"
 date:   2017-06-28 00:00:00 +0000
+thumbnail: "assets/post_images/statue.jpg"
 categories: supernemo collaboration
 ---
 

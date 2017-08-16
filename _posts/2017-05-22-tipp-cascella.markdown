@@ -2,6 +2,7 @@
 layout: post
 title:  "SuperNEMO and NEMO-3 detectors presented at TIPP"
 date:   2017-05-22 00:00:00 +0000
+thumbnail: "assets/post_images/Michele_thumb.jpg"
 categories: supernemo nemo3 tipp conference
 ---
 
