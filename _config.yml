@@ -32,6 +32,7 @@ collections:
   publications:
   nemothreepubs:
   carousel_images:
+  public_articles:
     # When pub format is better defined, can output one per page ala ADS
     #output: true
 
