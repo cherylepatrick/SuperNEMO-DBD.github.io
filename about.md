@@ -99,22 +99,28 @@ title: The Experiment
   </div>
   <br/>
   <div class="row">
-    <div class="col-xs-6">
+    <div class="col-xs-12">    <img src='assets/nemo3_schematic.png' class="img-rounded  center-block" style="width:90%" alt="NEMO-3 schematic">
+      
+    </div>
+  </div>
+  <br/>
+  <div class="row">
+    <div class="col-xs-5">
       <p>This picture shows a neutrinoless double beta decay candidate event in the NEMO3 detector (top view). From the Geiger signal extracted from the drift cells along the charged particles trajectory (small coloured circles), one can here reconstruct the tracks of two charged particles: the curvatures in the magnetic field are compatible with electrons coming from the source foil (vertex) made of enriched molybdenum. The total energy deposit in the two hit scintillator blocks is 2875 keV which is expected for a neutrinoless double beta decaying $^{100}$Mo nucleus ( $Q_{\beta\beta}= 3\;\mathrm{MeV}$ ) corrected by energy loss in the source foil, the gas of the tracking chamber and convoluted by the calorimeter energy resolution.
       </p>
     </div>
-    <div class="col-xs-6 ">
+    <div class="col-xs-7 ">
       <img src='assets/nemo3_diagram.jpg' class="img-rounded  center-block" style="width:90%" alt="Diagram of a candidate double-beta event in the NEMO-3 detector">
     </div>
 
   </div>
   <br/>
   <div class="row">
-    <div class="col-xs-5 ">
+    <div class="col-xs-7 ">
       <img src='assets/nemo3_sectors.png' class="  center-block" style="width:90%" alt="Isotopes in NEMO-3">
         
         </div>
-    <div class="col-xs-7">
+    <div class="col-xs-5">
       <p> The NEMO-3 detector was divided into 20 sectors. Different sectors contained source foils of different $\beta\beta$ isotopes, allowing NEMO-3 to study decays in several different materials at the same time. This has enabled the NEMO-3 collaboration to produce an extensive set of analyses, which are still being worked on and published many years after the detector stopped taking data. As the diagram shows, the main isotope studied was molybdenum-100.
       </p>
         </div>
