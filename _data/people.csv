@@ -1,176 +1,147 @@
 WrongCaseLast,WrongCaseFirst,Email,LastName,FirstName,Job,Photo,Interests,Current,ShowEmail
 Patrick,Cheryl,c.patrick@ucl.ac.uk,Patrick,Cheryl,Postdoctoral research associate,assets/people/Cheryl_Patrick_2016_w.jpg,Deputy analysis coordinator,y,y
-Morgan,Ben ,Ben.Morgan@warwick.ac.uk,Morgan,Ben ,Senior Research Fellow,,Software development coordinator,y,y
 DAWSON,Lauren,lauren.dawson.10@ucl.ac.uk,Dawson,Lauren,PhD student,assets/people/LaurenDawson_2016_250x350_w.jpg,,y,y
-ANDERSON,Brian,ba@HEP.UCL.AC.UK,Anderson,Brian,,,,,y
 ATTREE,Derek,d.attree@ucl.ac.uk,Attree,Derek,Senior Technical Support Officer (Mechanical Engineering),assets/people/Derek_Attree_w.jpg,,y,y
 BARABASH,Alexander,barabash@ITEP.RU,Barabash,Alexander,,,,,y
 BEUSELINCK,Ray,r.beuselinck@IMPERIAL.AC.UK,Beuselinck,Ray,,,,,y
-BHARDWAJ,Kieran,k.h.bhardwaj@warwick.ac.uk,Bhardwaj,Kieran,,,,,y
-BIRDSALL,Edward,edward.birdsall@postgrad.manchester.ac.uk,Birdsall,Edward,,,,y,y
-BLOT,Summer,blotsd@gmail.com,Blot,Summer,,,,,y
-BONGRAND,Mathieu,bongrand@LAL.IN2P3.FR,Bongrand,Mathieu,,,,,y
-BOURGEOIS,Christian,bourgeoi@LAL.IN2P3.FR,Bourgeois,Christian,,,,,y
-BOURSETTE,Delphine,delphine.boursette@lal.in2p3.fr,Boursette,Delphine,,,,,y
+BONGRAND,Mathieu,bongrand@LAL.IN2P3.FR,Bongrand,Mathieu,,,,,
+BOURGEOIS,Christian,bourgeoi@LAL.IN2P3.FR,Bourgeois,Christian,,,,,
+BOURSETTE,Delphine,delphine.boursette@lal.in2p3.fr,Boursette,Delphine,,,,,
 BREIER,Robert,breier@fmph.uniba.sk,Breier,Robert,,,,,y
-BRETON,Dominique,BRETON@LAL.IN2P3.FR,Breton,Dominique,,,,,y
-BRIERE,Matthieu,briere@LAL.IN2P3.FR,Briere,Matthieu,,,,,y
+BRETON,Dominique,BRETON@LAL.IN2P3.FR,Breton,Dominique,,,,,
+BRIERE,Matthieu,briere@LAL.IN2P3.FR,Briere,Matthieu,,,,,
 BRUDANIN,Victor,brudanin@NUSUN.JINR.RU,Brudanin,Victor,,,,,y
-BUSTO,Jose,busto@CPPM.IN2P3.FR,Busto,Jose,,,,,y
-CACERES,Thierry,CACERES@LAL.IN2P3.FR,Caceres,Thierry,,,,,y
+BUSTO,Jose,busto@CPPM.IN2P3.FR,Busto,Jose,,,Radon,,
+CACERES,Thierry,CACERES@LAL.IN2P3.FR,Caceres,Thierry,,,,,
 CAFFREY,Gus,Gus.Caffrey@INL.GOV,Caffrey,Gus,,,,,y
-CALVEZ,Steven,calvez@LAL.IN2P3.FR,Calvez,Steven,PhD student,,,y,y
-CAMPBELL,Medbh,medbh.campbell11@IMPERIAL.AC.UK,Campbell,Medbh,,,,,y
-CARMONA,Jose Manuel,jcarmona@UNIZAR.ES,Carmona,Jose Manuel,,,,,y
+CALVEZ,Steven,calvez@LAL.IN2P3.FR,Calvez,Steven,PhD student,,UK PI,y,
 CARTER,Mary,mary.carter@UCL.AC.UK,Carter,Mary,,,,y,y
 CASCELLA,Michele,m.cascella@ucl.ac.uk,Cascella,Michele,Detector physicist,assets/people/Michele_Cascella_w.jpg,Deputy data quality coordinator,y,y
-CASSOL,Franca,cassol@CPPM.IN2P3.FR,Cassol,Franca,,,,,y
-CASTEL,Patricia,castel@CENBG.IN2P3.FR,Castel,Patricia,,,,,y
-CEBRIAN,Susana,scebrian@UNIZAR.ES,Cebrian,Susana,,,,,y
-Cerna,Cedric,cerna@CENBG.IN2P3.FR,Cerna,Cedric,,,,y,y
+CASSOL,Franca,cassol@CPPM.IN2P3.FR,Cassol,Franca,,,Radon,,
+Cerna,Cedric,cerna@CENBG.IN2P3.FR,Cerna,Cedric,,,,y,
 CESAR,John,JPCESAR23@PHYSICS.UTEXAS.EDU,Cesar,John,,,,,y
-Chabanne,Eric,eric.chabanne@lapp.in2p3.fr,Chabanne,Eric,,,,,y
+Chabanne,Eric,eric.chabanne@lapp.in2p3.fr,Chabanne,Eric,,,,,
 DECAPUA,Stefano,decapua.stefano@gmail.com,Decapua,Stefano,,,,,y
-DELALEE,Franck,delalee@CENBG.IN2P3.FR,Delalee,Franck,,,,,y
-DEPREAUMONT,Hugues,depreaumont@LPCCAEN.IN2P3.FR,Depreaumont,Hugues,,,,,y
-DROUET,Sebastien,SDROUET@LPCCAEN.IN2P3.FR,Drouet,Sebastien,,,,,y
-DUARTE,Olivier,DUARTE@LAL.IN2P3.FR,Duarte,Olivier,,,,,y
-Duchesneau,Dominique,duchesneau@LAPP.IN2P3.FR,Duchesneau,Dominique,,,,y,y
-DURAND,Dominique,durand@LPCCAEN.IN2P3.FR,Durand,Dominique,,,,,y
+DEPREAUMONT,Hugues,depreaumont@LPCCAEN.IN2P3.FR,Depreaumont,Hugues,,,,,
+DROUET,Sebastien,SDROUET@LPCCAEN.IN2P3.FR,Drouet,Sebastien,,,,,
+DUARTE,Olivier,DUARTE@LAL.IN2P3.FR,Duarte,Olivier,,,,,
+Duchesneau,Dominique,duchesneau@LAPP.IN2P3.FR,Duchesneau,Dominique,,,,y,
+DURAND,Dominique,durand@LPCCAEN.IN2P3.FR,Durand,Dominique,,,,,
 DVORNICKY,Rastislav,dvornicky@teller.dnp.fmph.uniba.sk,Dvornicky,Rastislav,,,,,y
 EGOROV,Slava,egorov@NUSUN.JINR.RU,Egorov,Slava,,,,,y
 EURIN,Guillaume,guillaume.eurin@mpi-hd.mpg.de,Eurin,Guillaume,,,,,y
-EVANS,Justin,justin.evans@manchester.ac.uk,Evans,Justin,,,,y,y
+EVANS,Justin,justin.evans@manchester.ac.uk,Evans,Justin,Faculty,,,y,y
 FLACK,Robert,r.flack@UCL.AC.UK,Flack,Robert,,,,,y
-FREEMAN,Sean,sean.freeman@manchester.ac.uk,Freeman,Sean,,,,,y
-FREESTONE,Julian,Julian.Freestone@manchester.ac.uk,Freestone,Julian,,,,,y
-FRESHVILLE,Anastasia,anastasia.freshville@UCL.AC.UK,Freshville,Anastasia,Postdoctoral research associate,assets/people/Anastasia_Freshville_2016_250x350_w.jpg,,,y
-FULACHIER,Jerome,Jerome.Fulachier@LPSC.IN2P3.FR,Fulachier,Jerome,,,,,y
+FREESTONE,Julian,Julian.Freestone@manchester.ac.uk,Freestone,Julian,Mechanical Engineer,,,,y
+BASHARINA-FRESHVILLE,Anastasia,anastasia.freshville@UCL.AC.UK,Basharina-Freshville,Anastasia,Postdoctoral research associate,assets/people/Anastasia_Freshville_2016_250x350_w.jpg,,,y
+FULACHIER,Jerome,Jerome.Fulachier@LPSC.IN2P3.FR,Fulachier,Jerome,,,,,
 Garcia Irastorza,Igor,igor.irastorza@CERN.CH,Garcia Irastorza,Igor,,,,,y
-GILBERT,Genevieve,gilbert@LAL.IN2P3.FR,Gilbert,Genevieve,,,,,y
-GOUPILLIERE,Damien,goupilliere@LPCCAEN.IN2P3.FR,Goupilliere,Damien,,,,,y
-GRACHOV,Oleg,o.grachov@UCL.AC.UK,Grachov,Oleg,,,,,y
-GUILLON,Benoit,guillon@LPCCAEN.IN2P3.FR,Guillon,Benoit,,,,,y
-GUZOWSKI,Pawel,pawel.guzowski@manchester.ac.uk,Guzowski,Pawel,,,Deputy reconstruction and calibration coordinator,y,y
-Garrido,Xavier,garrido@LAL.IN2P3.FR,Garrido,Xavier,,,,y,y
-HEAD,Timothy,Timothy.Head@CERN.CH,Head,Timothy,,,,,y
+GILBERT,Genevieve,gilbert@LAL.IN2P3.FR,Gilbert,Genevieve,,,,,
+GUILLON,Benoit,guillon@LPCCAEN.IN2P3.FR,Guillon,Benoit,,,,,
+GUZOWSKI,Pawel,pawel.guzowski@manchester.ac.uk,Guzowski,Pawel,Research Associate,,Calibration working group convener,y,y
+Garrido,Xavier,garrido@LAL.IN2P3.FR,Garrido,Xavier,,,,y,
 HODAK,Rastislav,rastislav.hodak@utef.cvut.cz,Hodak,Rastislav,,,,,y
 HOLY,Karol,holy@fmph.uniba.sk,Holy,Karol,,,,,y
-HOMMET,Jean,hommet@LPCCAEN.IN2P3.FR,Hommet,Jean,,,,,y
+HOMMET,Jean,hommet@LPCCAEN.IN2P3.FR,Hommet,Jean,,,,,
 HORKLEY,Jared,Jared.Horkley@INL.GOV,Horkley,Jared,,,,,y
-HUBER,Arnaud,huber@cenbg.in2p3.fr,Huber,Arnaud,,,,y,y
-HUBERT,Philippe,hubertp@CENBG.IN2P3.FR,Hubert,Philippe,,,,,y
-HUGON,Christophe,hugon@cppm.in2p3.fr,Hugon,Christophe,,,,y,y
+HUBER,Arnaud,huber@cenbg.in2p3.fr,Huber,Arnaud,,,,y,
+HUBERT,Philippe,hubertp@CENBG.IN2P3.FR,Hubert,Philippe,,,,,
+HUGON,Christophe,hugon@cppm.in2p3.fr,Hugon,Christophe,,,"Radon, general analysis",y,
 HUNT,Tom,t.hunt@UCL.AC.UK,Hunt,Tom,,,,,y
-Holin,Anna,anna.holin@UCL.AC.UK,Holin,Anna,,,,,y
-IGUAZ,Francisco,iguaz@UNIZAR.ES,Iguaz,Francisco,,,,,y
-JENZER,Stephane,jenzer@LAL.IN2P3.FR,Jenzer,Stephane,,,,,y
+JENZER,Stephane,jenzer@LAL.IN2P3.FR,Jenzer,Stephane,,,,,
 JEONG,Do-Young,dyjeong@kaeri.re.kr,Jeong,Do-Young,,,,,y
-Jeremie,Andrea,andrea@lapp.in2p3.fr,Jeremie,Andrea,,,,y,y
-JULLIAN,Serge,jullian@LAL.IN2P3.FR,Jullian,Serge,,,,,y
-KARST,Maxime,karst@CENBG.IN2P3.FR,Karst,Maxime,,,,,y
+Jeremie,Andrea,andrea@lapp.in2p3.fr,Jeremie,Andrea,,,,y,
+JULLIAN,Serge,jullian@LAL.IN2P3.FR,Jullian,Serge,,,,,
+KARST,Maxime,karst@CENBG.IN2P3.FR,Karst,Maxime,,,,,
 KAUER,Matthew,mkauer@icecube.wisc.edu,Kauer,Matthew,,,,,y
 Kemp,Martin,m.kemp@ucl.ac.uk,Kemp,Martin,,,,,y
 KOCHETOV,Oleg,kochet@NUSUN.JINR.RU,Kochetov,Oleg,,,,,y
-KONTUL,Ivan,kontul@fmph.uniba.sk,Kontul,Ivan,,,,,y
+KONTUL,Ivan,kontul@fmph.uniba.sk,Kontul,Ivan,PhD student,,,,y
 KOVALENKO,Sergey,sergey.kovalenko@usm.cl,Kovalenko,Sergey,,,,,y
 LANG,Karol,lang@PHYSICS.UTEXAS.EDU,Lang,Karol,Professor,,,y,y
-LANG,Maxim,maxim.lang@utexas.edu,Lang,Maxim,,,,,y
-LEBLANC,Sebastien,leblanc@CENBG.IN2P3.FR,Leblanc,Sebastien,,,,,y
-Leflour,Thierry,leflour@lapp.in2p3.fr,Leflour,Thierry,,,,,y
-LEMIERE,Yves,lemiere@LPCCAEN.IN2P3.FR,Lemiere,Yves,,,Data quality coordinator,y,y
-LENOBLET,Thibaud,thibaud.lenoblet@lapp.in2p3.fr,Lenoblet,Thibaud,,,,y,y
-LETERRIER,Laurent,LETERRIER@LPCCAEN.IN2P3.FR,Leterrier,Laurent,,,,,y
-Lieunard,Sophie,sophie.lieunard@lapp.in2p3.fr,Lieunard,Sophie,,,,,y
+LEBLANC,Sebastien,leblanc@CENBG.IN2P3.FR,Leblanc,Sebastien,,,,,
+Leflour,Thierry,leflour@lapp.in2p3.fr,Leflour,Thierry,,,,,
+LEMIERE,Yves,lemiere@LPCCAEN.IN2P3.FR,Lemiere,Yves,,,Data quality coordinator,y,
+LENOBLET,Thibaud,thibaud.lenoblet@lapp.in2p3.fr,Le Noblet,Thibaud,,,,y,
+LETERRIER,Laurent,LETERRIER@LPCCAEN.IN2P3.FR,Leterrier,Laurent,,,,,
+Lieunard,Sophie,sophie.lieunard@lapp.in2p3.fr,Lieunard,Sophie,,,,,
 LIPTAK,Zachary,LIPTAK@PHYSICS.UTEXAS.EDU,Liptak,Zachary,,,,,y
-LIST,Serge,list@CENBG.IN2P3.FR,List,Serge,,,,,y
-LIU,Xin Ran,x.r.liu@UCL.AC.UK,Liu,Xin Ran,,,,,y
-LOAIZA,Pia,loaiza@LAL.IN2P3.FR,Loaiza,Pia,,,,y,y
-LUZON,Gloria,luzon@UNIZAR.ES,Luzon,Gloria,,,,,y
-LAMBERT,Fabian,fabian.lambert@LPSC.IN2P3.FR,Lambert,Fabian,,,,,y
-MAALMI,Jihane,maalmi@lal.in2p3.fr,Maalmi,Jihane,,,,,y
-MACKO,Miroslav,Miroslav.Macko@utef.cvut.cz,Macko,Miroslav,,,,,y
+LIU,Xi-Ran,x.r.liu@UCL.AC.UK,Liu,Xin-Ran,,assets/people/Xin_Ran_Liu_25x35w.jpg,,,y
+LOAIZA,Pia,loaiza@LAL.IN2P3.FR,Loaiza,Pia,,,,y,
+LAMBERT,Fabian,fabian.lambert@LPSC.IN2P3.FR,Lambert,Fabian,,,,,
+MAALMI,Jihane,maalmi@lal.in2p3.fr,Maalmi,Jihane,,,,,
 MAMEDOV,Fadahat,fadahat.mamedov@utef.cvut.cz,Mamedov,Fadahat,,,,,y
-Margueron,Jean-Louis,jean-louis.margueron@lsm.fr,Margueron,Jean-Louis,,,,,y
-MARQUET,Christine,marquet@CENBG.IN2P3.FR,Marquet,Christine,,,,y,y
-MAUGER,Francois,mauger@LPCCAEN.IN2P3.FR,Mauger,Francois,,,,y,y
-MIGAYRON,Alexandre,migayron@LAL.IN2P3.FR,Migayron,Alexandre,,,,,y
-MILLER,Graham,Graham.Miller@manchester.ac.uk,Miller,Graham,,,,,y
+MARQUET,Christine,marquet@CENBG.IN2P3.FR,Marquet,Christine,,,,y,
+MAUGER,Francois,mauger@LPCCAEN.IN2P3.FR,Mauger,Francois,,,,y,
+MIGAYRON,Alexandre,migayron@LAL.IN2P3.FR,Migayron,Alexandre,,,,,
+MILLER,Graham,Graham.Miller@manchester.ac.uk,Miller,Graham,Electronics Engineer,,,,y
 MOTT,James,jmott@HEP.UCL.AC.UK,Mott,James,,,,,y
-MYLROIE-SMITH,James,jamesms@HEP.MAN.AC.UK,Mylroie-Smith,James,,,,,y
-Macolino,Carla,macolino@LAL.IN2P3.FR,Macolino,Carla,,,Reconstruction and calibration coordinator,y,y
+Macolino,Carla,macolino@LAL.IN2P3.FR,Macolino,Carla,,,Reconstruction and calibration coordinator,y,
 NEMCHONOK,Igor,nemch@NUSUN.JINR.RU,Nemchonok,Igor,,,,,y
 NOMACHI,Masaharu,nomachi@rcnp.osaka-u.ac.jp,Nomachi,Masaharu,,,,,y
 ODIER,Jerome,jerome.odier@CERN.CH,Odier,Jerome,,,,,y
 OHSUMI,Ideaki,ohsumi@CC.SAGA-U.AC.JP,Ohsumi,Ideaki,,,,,y
-OLIVIERO,Guillaume,goliviero@LPCCAEN.IN2P3.FR,Oliviero,Guillaume,,,Deputy software development coordinator,y,y
-ORTIZ,Alfonso,alfortiz@UNIZAR.ES,Ortiz,Alfonso,,,,,y
+OLIVIERO,Guillaume,goliviero@LPCCAEN.IN2P3.FR,Oliviero,Guillaume,,,Deputy software development coordinator,y,
 Palusova,Veronika,v.palusova@gmail.com,Palusova,Veronika,,,,,y
-Panazol,Jean-Luc,jean-luc.panazol@lapp.in2p3.fr,Panazol,Jean-Luc,,,,,y
-PATER,Joleen,joleen.pater@manchester.ac.uk,Pater,Joleen,,,,,y
-PERROT,Frederic,fperrot@CENBG.IN2P3.FR,Perrot,Frederic,,,,,y
-PERRY,Michael,michael.perry@manchester.ac.uk,Perry,Michael,,,,,y
-PIKNA,Miroslav,pikna@fmph.uniba.sk,Pikna,Miroslav,,,,,y
-PIN,Axel,pin@cenbg.in2p3.fr,Pin,Axel,,,,,y
-PIQUEMAL,Fabrice,piquemal@CENBG.IN2P3.FR,Piquemal,Fabrice,,,Joint spokesperson,,y
-POINCHEVAL,Jerome,poincheval@LPCCAEN.IN2P3.FR,Poincheval,Jerome,,,,,y
-POSNETT,Mervyn,mervyn.posnett@manchester.ac.uk,Posnett,Mervyn,,,,,y
+Panazol,Jean-Luc,jean-luc.panazol@lapp.in2p3.fr,Panazol,Jean-Luc,,,,,
+PATER,Joleen,joleen.pater@manchester.ac.uk,Pater,Joleen,Applied Physicist,,,,y
+PERROT,Frederic,fperrot@CENBG.IN2P3.FR,Perrot,Frederic,,,,,
+PERRY,Michael,michael.perry@manchester.ac.uk,Perry,Michael,Electronics Engineer,,,,y
+PIN,Axel,pin@cenbg.in2p3.fr,Pin,Axel,,,,,
+PIQUEMAL,Fabrice,piquemal@CENBG.IN2P3.FR,Piquemal,Fabrice,,,Joint spokesperson,,
+POINCHEVAL,Jerome,poincheval@LPCCAEN.IN2P3.FR,Poincheval,Jerome,,,,,
 POVINEC,Pavel,Pavel.Povinec@fmph.uniba.sk,Povinec,Pavel,,,,y,y
 PROGA,Marek,proga@PHYSICS.UTEXAS.EDU,Proga,Marek,,,,,y
-RAMACHERS,Yorck,y.a.ramachers@warwick.ac.uk,Ramachers,Yorck,,,Physics coordinator,y,y
-REMOTO,Alberto,alberto.remoto@lapp.in2p3.fr,Remoto,Alberto,,,,y,y
-RICHARDS,Ben,brichards@HEP.UCL.AC.UK,Richards,Ben,,,,,y
+RAMACHERS,Yorck,y.a.ramachers@warwick.ac.uk,Ramachers,Yorck,Faculty,assets/people/YorckRamachers.jpg,Physics coordinator,y,y
+REMOTO,Alberto,alberto.remoto@lapp.in2p3.fr,Remoto,Alberto,,,,y,
 RIDDLE,Catherine,Catherine.Riddle@INL.GOV,Riddle,Catherine,,,,,y
-Roche,Mathieu,roche@CENBG.IN2P3.FR,Roche,Mathieu,,,,,y
+Roche,Mathieu,roche@CENBG.IN2P3.FR,Roche,Mathieu,,,,,
 RUKHADZE,Ekaterina,Ekaterina.Rukhadze@utef.cvut.cz,Rukhadze,Ekaterina,,,,,y
 SAAKYAN,Ruben,r.saakyan@UCL.AC.UK,Saakyan,Ruben,Professor,assets/people/Ruben_Saakyan_2016_w.jpg,Joint spokesperson,y,y
 SALAZAR,Ramon,ramonmsalazar@gmail.com,Salazar,Ramon,,,,y,y
-SARAZIN,Xavier,sarazin@LAL.IN2P3.FR,Sarazin,Xavier,,,,,y
+SARAZIN,Xavier,sarazin@LAL.IN2P3.FR,Sarazin,Xavier,,,,,
 SEDGBEER,Julia,j.sedgbeer@IMPERIAL.AC.UK,Sedgbeer,Julia,,,,y,y
 SEMIKH,Sergej,semikh@JINR.RU,Semikh,Sergej,,,,,y
 SHITOV,Yuri,y.shitov@IMPERIAL.AC.UK,Shitov,Yuri,,,,,y
-SIMARD,Laurent,simard@LAL.IN2P3.FR,Simard,Laurent,,,,,y
+SIMARD,Laurent,simard@LAL.IN2P3.FR,Simard,Laurent,,,,,
 SIMKOVIC,Fedor,fedor.simkovic@fmph.uniba.sk,Simkovic,Fedor,,,,,y
 SMIRNOVA,Irina,irozova@jinr.ru,Smirnova,Irina,,,,,y
-SNOW,Steve,S.W.Snow@warwick.ac.uk,Snow,Steve,,,,,y
-SOLDNER-REMBOLD,Stefan,soldner@FNAL.GOV,Soldner-Rembold,Stefan,,,,,y
-STANICEK,Jaroslav,stanicek@fmph.uniba.sk,Stanicek,Jaroslav,,,,,y
+SOLDNER-REMBOLD,Stefan,stefan.soldner-rembold@manchester.ac.uk,Soldner-Rembold,Stefan,Faculty,,,,y
 STEKL,Ivan,ivan.stekl@utef.cvut.cz,Stekl,Ivan,,,,,y
 SUHONEN,Jouni,suhonen@PHYS.JYU.FI,Suhonen,Jouni,,,,,y
 SUZUKI,Koutaku,ksuzuki@werc.or.jp,Suzuki,Koutaku,,,,,y
-SYKORA,Ivan,sykora@fmph.uniba.sk,Sykora,Ivan,,,,,y
-SZARKA,Jan,szarka@fmph.uniba.sk,Szarka,Jan,,,,,y
-SZKLARZ,Georges,szklarz@LAL.IN2P3.FR,Szklarz,Georges,,,,,y
+SZKLARZ,Georges,szklarz@LAL.IN2P3.FR,Szklarz,Georges,,,,,
 THEOBALD,Craig,c.theobald@ucl.ac.uk,Theobald,Craig,,,,,y
 THOMAS,Jenny,jennifer.thomas@UCL.AC.UK,Thomas,Jenny,Professor,assets/people/Jenny_Thomas_2013_w.jpg,,,y
 TIMKIN,Victor,timkin@NUSUN.JINR.RU,Timkin,Victor,,,,,y
-TIZON,Arnaud,TIZON@CENBG.IN2P3.FR,Tizon,Arnaud,,,,,y
-TORRE,Stefano,s.torre@UCL.AC.UK,Torre,Stefano,,,,,y
+TIZON,Arnaud,TIZON@CENBG.IN2P3.FR,Tizon,Arnaud,,,,,
 TRETYAK,Victor,tretyak@JINR.RU,Tretyak,Victor,,,,,y
 TRETYAK,Vladimir,vladimir.tretyak.vit@gmail.com,Tretyak,Vladimir,,,,y,y
 VALKO,Pavol,VALKO@stuba.sk,Valko,Pavol,,,,,y
-VANKO,Julius,vanko@fmph.uniba.sk,Vanko,Julius,,,,,y
-VANUSHIN,Igor,igor@ITEP.RU,Vanushin,Igor,,,,,y
 VASILIEV,Roman,roman.vasiliev@gmail.com,Vasiliev,Roman,,,,,y
 VESELSKY,Martin,martin.veselsky@savba.sk,Veselsky,Martin,,,,,y
 VILELA,Cristovao,cvilela@HEP.UCL.AC.UK,Vilela,Cristovao,,,,,y
 VIRTUE,Clarence,cjv@snolab.ca,Virtue,Clarence,,,,,y
 VOROBEL,Vit,vorobel@ipnp.troja.mff.cuni.cz,Vorobel,Vit,,,,,y
-Warot,Guillaume,gwarot@lsm.in2p3.fr,Warot,Guillaume,,,,,y
+Warot,Guillaume,gwarot@lsm.in2p3.fr,Warot,Guillaume,,,,,
 WATERS,David,d.waters@UCL.AC.UK,Waters,David,Professor,assets/people/David_Waters_2013_w.jpg,,,y
 WINTER,Berend,b.winter@UCL.AC.UK,Winter,Berend,,,,y,y
 XIE,Fang,fang.xie.15@UCL.AC.UK,Xie,Fang,PhD student,assets/people/FangXie_2015_250x350_w.jpg,,y,y
 YUMATOV,Vladimir,yumatov@ITEP.RU,Yumatov,Vladimir,,,,,y
-ZAMORA SAA,Jilberto,jzamorasaa@gmail.com,Zamora Saa,Jilberto,,,,,y
 ZUKAUSKAS,Aivaras,aivaras.zukauskas@gmail.com,Zukauskas,Aivaras,,,,,y
-Zampaolo,Michel,michel.zampaolo@lsm.in2p3.fr,Zampaolo,Michel,,,,,y
-Zampieri,Thierry,thierry.zampieri@lsm.fr,Zampieri,Thierry,,,,,y
-Dastgheibi-Fard,Ali,ali.dastgheibi-fard@lsm.fr,Dastgheibi-Fard,Ali,,,,,y
-CHAUVEAU,Emmanuel,chauveau@cenbg.in2p3.fr,Chauveau,Emmanuel,,,"Analysis coordinator, deputy physics coordinator",y,y
-CHEIKALI,chafik,cheikali@lal.in2p3.fr,Cheikali,Chafik,,,,,y
+Zampaolo,Michel,michel.zampaolo@lsm.in2p3.fr,Zampaolo,Michel,,,,,
+Zampieri,Thierry,thierry.zampieri@lsm.fr,Zampieri,Thierry,,,,,
+Dastgheibi-Fard,Ali,ali.dastgheibi-fard@lsm.fr,Dastgheibi-Fard,Ali,,,,,
+CHAUVEAU,Emmanuel,chauveau@cenbg.in2p3.fr,Chauveau,Emmanuel,,,"Analysis coordinator, deputy physics coordinator",y,
+CHEIKALI,chafik,cheikali@lal.in2p3.fr,Cheikali,Chafik,,,,,
 CHOPRA,Ashwin,ashwin.chopra.14@UCL.AC.UK,Chopra,Ashwin,PhD student,assets/people/Ashwin_Chopra_25x35_w.jpg,,y,y
-CLAVERIE,Gerard,claverie@CENBG.IN2P3.FR,Claverie,Gerard,,,,,y
-Corazzi,Mathieu,mathieu.corazzi@lsm.fr,Corazzi,Mathieu,,,,,y
-Curtil,Christian,curtil@CPPM.IN2P3.FR,Curtil,Christian,,,,,y
+CLAVERIE,Gerard,claverie@CENBG.IN2P3.FR,Claverie,Gerard,,,,,
+Corazzi,Mathieu,mathieu.corazzi@lsm.fr,Corazzi,Mathieu,,,,,
+Curtil,Christian,curtil@CPPM.IN2P3.FR,Curtil,Christian,,,Radon,,
 DAFNI,Theopisti,Theopisti.Dafni@CERN.CH,Dafni,Theopisti,,,,,y
-DARGAUD,Guillaume,dargaud@LPSC.IN2P3.FR,Dargaud,Guillaume,,,,,y
+DARGAUD,Guillaume,dargaud@LPSC.IN2P3.FR,Dargaud,Guillaume,,,,,
+Konovalov,Sergey,konovalov@itep.ru,Konovalov,Sergey,,,Source production,y,y
+Macko,Miroslav,macko@fmph.uniba.sk,Macko,Miroslav,PhD student,,,,y
+Palusova,Veronika,palusova@fmph.uniba.sk,Palusova,Veronika,PhD student,,,,y
+Mitra,Ankush,A.Mitra.2@warwick.ac.uk,Mitra,Ankush,,,,,y
+Morgan,Ben,Ben.Morgan@warwick.ac.uk,Morgan,Ben,Senior Research Fellow,assets/people/BenMorgan.jpg,Software development coordinator,y,y
