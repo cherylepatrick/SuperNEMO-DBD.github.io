@@ -3,7 +3,6 @@ layout: experiment
 title: The Experiment
 ---
 
-
 <div class="container-fluid">
   <div class="row">
     <div class="col-xs-9 ">
