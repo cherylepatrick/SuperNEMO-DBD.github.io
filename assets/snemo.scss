@@ -27,6 +27,24 @@ height: 300px; /* This is your slider height */
 width:100%;
 margin:0 auto; /* center your carousel if other than 100% */
 }
+
+.carousel-caption {
+bottom: 0;
+top: auto;
+background-color:#222222;
+opacity:0.95;
+color:white;
+width:100%;
+margin-left:0;
+margin-right:0;
+left:0;
+right:0;
+text-align: center;
+padding-top: 5px;
+padding-bottom: 5px;
+font-size:1.8vmin;
+
+}
 .section_head{
   margin-top:10px;
   margin-bottom:10px;
