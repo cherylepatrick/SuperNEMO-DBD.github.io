@@ -3,7 +3,6 @@ layout: experiment
 title: The Experiment
 ---
 
-
 <div class="container-fluid">
   <div class="row">
     <div class="col-xs-9 ">
@@ -79,9 +78,57 @@ title: The Experiment
   </div>
 </div>
 
-<div id="physicsgoals" style="display:none">
 
-    
+<div id="nemo3" style="display:none">
+<header class="post-header">
+<h1 class="post-title text-center"> NEMO-3 detector</h1>
+</header>
+
+  <div class="row">
+    <div class="col-xs-5 ">
+      <img src='assets/nemo3.jpg' class="img-rounded  center-block" style="width:90%" alt="NEMO-3 detector">
+    </div>
+    <div class="col-xs-7 ">
+      <p>The NEMO-3 detector was the previous occupant of SuperNEMO's location in the LSM underground lab near Modane, France. Like SuperNEMO, NEMO-3 studied double-beta decay. It ran from January 14th, 2003 to January 11th, 2011. However, the NEMO collaboration had been working on this physics since 1989, starting with the NEMO-1 and NEMO-2 prototype detectors.</p>
+      <p>NEMO-3 had a similar tracker-calorimeter structure to SuperNEMO, but was cylindrical, with a hole running through the middle. The outside of the cylinder, as well as the central hole, was lined with calorimeter blocks similar to those used on SuperNEMO. Source foils were located in between, forming a cylinder of foils, with wire tracker cells filling the area between the source and the inner and outer calorimeter walls.
+      </p>
+      <p>
+      The photo shows the detector almost closed, before the assembling of the 20th sector. Later, the gamma/neutron proof device was assembled around the detector (a shield made of iron plates, wood panels and tanks full of borated water), with an anti-radon tent enclosing the full setup.
+      </p>
+    </div>
+  </div>
+  <br/>
+  <div class="row">
+    <div class="col-xs-12">    <img src='assets/nemo3_schematic.png' class="img-rounded  center-block" style="width:90%" alt="NEMO-3 schematic">
+      
+    </div>
+  </div>
+  <br/>
+  <div class="row">
+    <div class="col-xs-5">
+      <p>This picture shows a neutrinoless double beta decay candidate event in the NEMO3 detector (top view). From the Geiger signal extracted from the drift cells along the charged particles trajectory (small coloured circles), one can here reconstruct the tracks of two charged particles: the curvatures in the magnetic field are compatible with electrons coming from the source foil (vertex) made of enriched molybdenum. The total energy deposit in the two hit scintillator blocks is 2875 keV which is expected for a neutrinoless double beta decaying $^{100}$Mo nucleus ( $Q_{\beta\beta}= 3\;\mathrm{MeV}$ ) corrected by energy loss in the source foil, the gas of the tracking chamber and convoluted by the calorimeter energy resolution.
+      </p>
+    </div>
+    <div class="col-xs-7 ">
+      <img src='assets/nemo3_diagram.jpg' class="img-rounded  center-block" style="width:90%" alt="Diagram of a candidate double-beta event in the NEMO-3 detector">
+    </div>
+
+  </div>
+  <br/>
+  <div class="row">
+    <div class="col-xs-7 ">
+      <img src='assets/nemo3_sectors.png' class="  center-block" style="width:90%" alt="Isotopes in NEMO-3">
+        
+        </div>
+    <div class="col-xs-5">
+      <p> The NEMO-3 detector was divided into 20 sectors. Different sectors contained source foils of different $\beta\beta$ isotopes, allowing NEMO-3 to study decays in several different materials at the same time. This has enabled the NEMO-3 collaboration to produce an extensive set of analyses, which are still being worked on and published many years after the detector stopped taking data. As the diagram shows, the main isotope studied was molybdenum-100.
+      </p>
+        </div>
+  </div>
+</div>
+
+
+<div id="physicsgoals" style="display:none">
     <header class="post-header">
       <h1 class="post-title text-center"> Physics goals</h1>
     </header>
@@ -133,6 +180,15 @@ title: The Experiment
           <div class="table">
             <div class="table-cell" >
               SuperNEMO detector
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="square" style="background-color:var(--fourth-color);" id="btn_nemo3">
+        <div class="content">
+          <div class="table">
+            <div class="table-cell" >
+              NEMO-3 detector
             </div>
           </div>
         </div>

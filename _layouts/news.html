@@ -14,7 +14,7 @@ layout: default
     {% for post in site.posts %}
       <div class="row">
         <div class='col-xs-2'>
-          <a href="{{ post.url | relative_url }}" target="_blank"> <img src={% if post.thumbnail %}"{{ post.thumbnail}}"{% else %}"assets/supernemo_logo_v1.0.png"{% endif %} class="img-thumbnail" ></a>
+          <a href="{{ post.url | relative_url }}" target="_blank"> <img src={% if post.thumbnail %}"{{ post.thumbnail}}"{% else %}"assets/supernemo_logo_v1.0.png"{% endif %} class="img-thumbnail" alt ="{{ post.title | escape }}" ></a>
         </div>
         <div class='col-xs-10'>
           {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
