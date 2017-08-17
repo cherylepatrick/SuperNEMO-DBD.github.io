@@ -12,6 +12,11 @@ layout: home
           {% for slide in site.carousel_images %}
           <div class="item {% if forloop.first == true %} active {% endif %}">
             <div style="background:url({{slide.image_url}}) center center; background-size:cover;" class="slider-size">
+              {% if slide.detail %}
+              <div class="carousel-caption">
+                  {{slide.detail}}
+              </div>
+              {% endif %}
             </div>
           </div>
           {% endfor %}
