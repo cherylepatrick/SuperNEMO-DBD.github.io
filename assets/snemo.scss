@@ -206,3 +206,15 @@ font-size:30px;
 .site-nav {
 z-index:100;
 }
+.out {
+position: relative;
+height: 0;
+padding-bottom: 100%;
+}
+.in {
+position: absolute;
+top: 0;
+bottom: 0;
+width: 100%;
+padding:10%
+}
