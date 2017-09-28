@@ -181,11 +181,11 @@ title: The Experiment
         <div class="col-xs-3">
           <div class="out">
             <div class="in">
-          {% if agency.url %}<a href="{{ agency.url }}" target="_blank"> {% endif %}<img src="assets/funding/{{ agency.image}}"  alt="{{ agency.Agency }}">{% if agency.url %}</a>{% endif %}
+          {% if agency.url %}<a href="{{ agency.url }}" target="_blank"> {% endif %}<img src="assets/funding/{{ agency.image}}" alt="{{ agency.Agency }}">{% if agency.url %}</a>{% endif %}
           </div>
             </div>
         </div>
-        <div class="col-xs-9">
+        <div class="col-xs-9" style="padding-top:5%">
           {% if agency.url %}<a href="{{agency.url}}" target="_blank">{% endif %}
             {{ agency.Agency }}
             {% if agency.url %}</a>{% endif %}
