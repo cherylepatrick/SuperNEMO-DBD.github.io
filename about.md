@@ -163,8 +163,42 @@ title: The Experiment
     </div>
   </div>
     </div>
- </div>
+
+<div id="funding" style="display:none">
+  <header class="post-header">
+    <h1 class="post-title text-center"> Financial support</h1>
+  </header>
+  <div class="row">
+    <div class="col-xs-12 ">
+      <p>The NEMO collaboration would like to acknowledge the support of the following funding agencies: </p>
+    </div>
+</div>
+  <div class="container-fluid">
+        {% assign agencies = (site.data.funding | sort:"Agency")%}
+        {% for agency in agencies %}
+        <div class="row">
+          
+        <div class="col-xs-3">
+          <div class="out">
+            <div class="in">
+          {% if agency.url %}<a href="{{ agency.url }}" target="_blank"> {% endif %}<img src="assets/funding/{{ agency.image}}"  alt="{{ agency.Agency }}">{% if agency.url %}</a>{% endif %}
+          </div>
+            </div>
+        </div>
+        <div class="col-xs-9">
+          {% if agency.url %}<a href="{{agency.url}}" target="_blank">{% endif %}
+            {{ agency.Agency }}
+            {% if agency.url %}</a>{% endif %}
+        </div>
+        </div>
+        {% endfor %}
+        </div>
+  </div>
+</div>
     
+    
+
+
     <div class="col-xs-3">
       <div class="square" style="background-color:var(--first-color);" id="btn_physics">
         <div class="content">
@@ -198,6 +232,15 @@ title: The Experiment
           <div class="table">
             <div class="table-cell" >
               Physics goals
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="square" style="background-color:var(--sixth-color);" id="btn_funding">
+        <div class="content">
+          <div class="table">
+            <div class="table-cell" >
+              Financial support
             </div>
           </div>
         </div>
