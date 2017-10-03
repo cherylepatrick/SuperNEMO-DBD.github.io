@@ -25,7 +25,6 @@ title: Publications and Media
 {% for talk in sorted_talks %}
 <p><a href="{{ talk.Pdf }}" target="_blank"> <strong>{{ talk.Title }}</strong></a><br/> presented by {% if talk.Email %}<a href="mailto:{{talk.Email}}?Subject=SuperNEMO%20presentation%20enquiry" target="_top">{% endif %} {{ talk.Author | replace: "'e", "é" }}{% if talk.Email %}</a>{% endif %} {% if talk.Conference %} at <a href="{{talk.ConferenceUrl}}" target="_blank">{{talk.Conference}}</a>{% if talk.City %}, {{talk.City}}{% endif %}{% endif %}, {{ talk.Date | date_to_long_string }}</p>
 {% endfor %}
-<a href="#beginning">Back to top</a>
 </div>
 
 <div id="posters" style="display:none">
@@ -37,24 +36,32 @@ title: Publications and Media
 {% assign sorted_posters = (site.data.posters | sort:"Date") | reverse %}
 
 {% for poster in sorted_posters %}
-<p><a href="{{ poster.Pdf }}" target="_blank"> <strong>{{ poster.Title }}</strong></a><br/> presented by {% if poster.Email1 %}<a href="mailto:{{poster.Email1}}?Subject=SuperNEMO%20poster%20enquiry" target="_top">{% endif %} {{ poster.Author }}{% if poster.Email1 %}</a>{% endif %} {% if poster.Conference %} at <a href="{{poster.ConferenceUrl}}" target="_blank">{{poster.Conference}}</a>{% endif %}, {{ poster.Date | date_to_long_string }}</p>
+<p><strong>{{ poster.Title }}</strong><br/> presented by {% if poster.Email1 %}<a href="mailto:{{poster.Email1}}?Subject=SuperNEMO%20poster%20enquiry" target="_top">{% endif %} {{ poster.Author }}{% if poster.Email1 %}</a>{% endif %} {% if poster.Conference %} at <a href="{{poster.ConferenceUrl}}" target="_blank">{{poster.Conference}}</a>{% endif %}, {{ poster.Date | date_to_long_string }}</p>
 {% endfor %}
-<a href="#beginning">Back to top</a>
+
 </div>
 
 <div id="articles" style="display:none">
+<<<<<<< HEAD
 
 <header class="post-header">
 <h1 class="post-title text-center">NEMO in the News</h1>
 </header>
   <p>Find out what the media has to say about SuperNEMO and NEMO-3.</p>
 
+=======
+<header class="post-header">
+<h1 class="post-title text-center">NEMO in the News</h1>
+</header>
+
+  <p>Find out what the world has to say about SuperNEMO and NEMO-3.</p>
+>>>>>>> SuperNEMO-DBD/master
   {% assign articles_by_date = (site.public_articles | sort:"date") | reverse %}
   <div class="container-fluid">
     {% for article in articles_by_date %}
     <div class="row">
       <div class='col-xs-2'>
-        <a href="{{ article.remoteurl }}" target="_blank"> <img src="{{ article.thumbnail}}" class="img-thumbnail" ></a>
+        <a href="{{ article.remoteurl }}" target="_blank"> <img src="{{ article.thumbnail}}" class="img-thumbnail" alt="{{ article.media }} logo"></a>
           </div>
       <div class='col-xs-10'>
         <p><a href="{{ article.remoteurl }}" target="_blank"> <strong>{{ article.title }}</strong></a>, from {{ article.media }}, {{ article.date | date_to_long_string }}<br/>
@@ -62,7 +69,7 @@ title: Publications and Media
         </p>
       </div>
     </div>
-    {% endfor %}    <a href="#beginning">Back to top</a>
+    {% endfor %} 
   </div>
 </div>
 
@@ -85,7 +92,7 @@ title: Publications and Media
 </div>
 </div>
 {% endfor %}
-<a href="#beginning">Back to top</a>
+
 </div>
 
 <div id="nemo3" style="display:none">
@@ -108,7 +115,7 @@ title: Publications and Media
 </div>
 </div>
 {% endfor %}
-<a href="#beginning">Back to top</a>
+
 </div>
 
     </div>

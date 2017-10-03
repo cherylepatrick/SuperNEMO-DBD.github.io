@@ -22,19 +22,18 @@ CESAR,John,JPCESAR23@PHYSICS.UTEXAS.EDU,Cesar,John,UTAustin,,,,,y
 Chabanne,Eric,eric.chabanne@lapp.in2p3.fr,Chabanne,Eric,LAPP,,,,,
 DECAPUA,Stefano,stefano.decapua@manchester.ac.uk,De Capua,Stefano,Manchester,,,Tracker,y,y
 DEPREAUMONT,Hugues,depreaumont@LPCCAEN.IN2P3.FR,Depreaumont,Hugues,LPCCAEN,,,,,
-DROUET,Sebastien,SDROUET@LPCCAEN.IN2P3.FR,Drouet,Sebastien,LPCCAEN,,,,,
+DROUET,Sebastien,sdrouet@lpccaen.in2p3.fr,Drouet,Sebastien,LPCCAEN,Electronics and Microelectronics Engineer,assets/people/Drouet_Sebastien_petite.jpg,,y,y
 DUARTE,Olivier,DUARTE@LAL.IN2P3.FR,Duarte,Olivier,LAL,,,,,
 Duchesneau,Dominique,duchesneau@LAPP.IN2P3.FR,Duchesneau,Dominique,LAPP,,,,y,
 DURAND,Dominique,durand@LPCCAEN.IN2P3.FR,Durand,Dominique,LPCCAEN,,,,,
 DVORNICKY,Rastislav,dvornicky@teller.dnp.fmph.uniba.sk,Dvornicky,Rastislav,Uniba,,,,y,y
 EGOROV,Slava,egorov@NUSUN.JINR.RU,Egorov,Slava,JINR,,,,,y
-EURIN,Guillaume,guillaume.eurin@mpi-hd.mpg.de,Eurin,Guillaume,MPG,,,,,y
+EURIN,Guillaume,guillaume.eurin@mpi-hd.mpg.de,Eurin,Guillaume,MPG,,assets/people/eurin.jpg,,y,y
 EVANS,Justin,justin.evans@manchester.ac.uk,Evans,Justin,Manchester,Faculty,,,y,y
 FLACK,Robert,r.flack@UCL.AC.UK,Flack,Robert,UCL,,,,,y
 FREESTONE,Julian,Julian.Freestone@manchester.ac.uk,Freestone,Julian,Manchester,Mechanical Engineer,,,y,y
 BASHARINA-FRESHVILLE,Anastasia,anastasia.freshville@UCL.AC.UK,Basharina-Freshville,Anastasia,UCL,Postdoctoral research associate,assets/people/Anastasia_Freshville_2016_250x350_w.jpg,,y,y
 FULACHIER,Jerome,Jerome.Fulachier@LPSC.IN2P3.FR,Fulachier,Jerome,LPSC,,,,,
-Garcia Irastorza,Igor,igor.irastorza@CERN.CH,Garcia Irastorza,Igor,CERN,,,,,y
 GILBERT,Genevieve,gilbert@LAL.IN2P3.FR,Gilbert,Genevieve,LAL,,,,,
 GUILLON,Benoit,guillon@LPCCAEN.IN2P3.FR,Guillon,Benoit,LPCCAEN,,,,,
 GUZOWSKI,Pawel,pawel.guzowski@manchester.ac.uk,Guzowski,Pawel,Manchester,Research Associate,,Calibration working group convener,y,y
@@ -116,7 +115,7 @@ VASILIEV,Roman,roman.vasiliev@gmail.com,Vasiliev,Roman,,,,,,y
 VESELSKY,Martin,martin.veselsky@savba.sk,Veselsky,Martin,,,,,,y
 VILELA,Cristovao,cvilela@HEP.UCL.AC.UK,Vilela,Cristovao,UCL,Former PhD student,,,,y
 VIRTUE,Clarence,cjv@snolab.ca,Virtue,Clarence,Snolab,,,,,y
-VOROBEL,Vit,vorobel@ipnp.troja.mff.cuni.cz,Vorobel,Vit,CUNI,,,,,y
+VOROBEL,Vit,vorobel@ipnp.troja.mff.cuni.cz,Vorobel,Vit,CUNI,Assistant professor,,Scintillator,y,y
 Warot,Guillaume,gwarot@lsm.in2p3.fr,Warot,Guillaume,LSM,,,,,
 WATERS,David,d.waters@UCL.AC.UK,Waters,David,UCL,Professor,assets/people/David_Waters_2013_w.jpg,"UK PI, Joint spokesperson 2018-",y,y
 WINTER,Berend,b.winter@UCL.AC.UK,Winter,Berend,UCL,,,,y,y
@@ -134,8 +133,13 @@ Curtil,Christian,curtil@CPPM.IN2P3.FR,Curtil,Christian,CPPM,,,Radon,y,y
 DARGAUD,Guillaume,dargaud@LPSC.IN2P3.FR,Dargaud,Guillaume,LPSC,,,,,
 Konovalov,Sergey,konovalov@itep.ru,Konovalov,Sergey,ITEP,,,Source production,y,y
 Macko,Miroslav,macko@fmph.uniba.sk,Macko,Miroslav,Uniba,PhD student (Joint with CTU in Prague and University of Bordeaux),,,y,y
-Palusova,Veronika,palusova@fmph.uniba.sk,Palusova,Veronika,Uniba,PhD student,,,y,y
+Palusova,Veronika,veronika.palusova@fmph.uniba.sk,Palusova,Veronika,Uniba,PhD student,,,y,y
 Mitra,Ankush,A.Mitra.2@warwick.ac.uk,Mitra,Ankush,Warwick,,,,y,y
 Morgan,Ben,Ben.Morgan@warwick.ac.uk,Morgan,Ben,Warwick,Senior Research Fellow,assets/people/BenMorgan.jpg,Software development coordinator,y,y
+<<<<<<< HEAD
 Smetana,Adam,adam.smetana@utef.cvut.cz,Smetana,Adam,CVUT,,,Theory,y
 Smolek,Karel,karel.smolek@utef.cvut.cz,Smolek,Karel,CVUT,,,"Theory, radon, simulations",y
+=======
+Smetana,Adam,adam.smetana@utef.cvut.cz,Smetana,Adam,CVUT,,,Theory,y,
+Smolek,Karel,karel.smolek@utef.cvut.cz,Smolek,Karel,CVUT,,,"Theory, radon, simulations",y,
+>>>>>>> SuperNEMO-DBD/master

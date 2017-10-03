@@ -27,6 +27,24 @@ height: 300px; /* This is your slider height */
 width:100%;
 margin:0 auto; /* center your carousel if other than 100% */
 }
+
+.carousel-caption {
+bottom: 0;
+top: auto;
+background-color:#222222;
+opacity:0.95;
+color:white;
+width:100%;
+margin-left:0;
+margin-right:0;
+left:0;
+right:0;
+text-align: center;
+padding-top: 5px;
+padding-bottom: 5px;
+font-size:1.8vmin;
+
+}
 .section_head{
   margin-top:10px;
   margin-bottom:10px;
@@ -85,6 +103,7 @@ overflow:hidden;font-family: verdana, sans-serif;
 color: #FFFFFF;
 text-align:center;
 }
+
 .boxbutton a:link{
 color: #FFFFFF;
 }
@@ -127,8 +146,8 @@ color: #FFFFFF;
 
 .content {
 position:absolute;
-height:90%; /* = 100% - 2*5% padding */
-width:90%; /* = 100% - 2*5% padding */
+height:100%;
+width:100%; 
 padding: 5%;
 
 }
@@ -214,3 +233,18 @@ font-size:30px;
 .site-nav {
 z-index:100;
 }
+<<<<<<< HEAD
+=======
+.outer-square {
+position: relative;
+height: 0;
+padding-bottom: 100%;
+}
+.inner-square {
+position: absolute;
+top: 0;
+bottom: 0;
+width: 100%;
+padding:10%;
+}
+>>>>>>> SuperNEMO-DBD/master

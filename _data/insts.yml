@@ -154,3 +154,10 @@
   city: 'Prague, Czech Republic'
   logo: assets/institution_logos/charles.png
   homepage: 'https://www.mff.cuni.cz/to.en/'
+- shortname: MPG
+  domain: mpg.de
+  name: 'Max Planck Institute for Nuclear Physics'
+  city: 'Heidelberg, Germany'
+  logo: assets/institution_logos/maxplanck.png
+  homepage: 'https://www.mpi-hd.mpg.de/mpi/en/start/'
+

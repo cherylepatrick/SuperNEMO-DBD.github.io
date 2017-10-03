@@ -12,10 +12,11 @@ layout: home
           {% for slide in site.carousel_images %}
           <div class="item {% if forloop.first == true %} active {% endif %}">
             <div style="background:url({{slide.image_url}}) center center; background-size:cover;" class="slider-size">
-              <div class="carousel-caption" {% if slide.text_colour %}style="color:{{slide.text_colour}}"{% endif %}>
-                <h4>{{slide.title}}</h4>
-                {{slide.detail}}
+              {% if slide.detail %}
+              <div class="carousel-caption">
+                  {{slide.detail}}
               </div>
+              {% endif %}
             </div>
           </div>
           {% endfor %}
@@ -40,10 +41,13 @@ layout: home
     </div>
     
     <div class="col-xs-3">
-      <img src="assets/supernemo_logo_v1.0.png" style=" width:100%;"/>
+      <img src="assets/supernemo_logo_v1.0.png" style=" width:100%;" alt="SuperNEMO"/>
       <hr/>
       <p>How about a SuperNEMO presentation or poster at your conference?</p>
+<<<<<<< HEAD
 
+=======
+>>>>>>> SuperNEMO-DBD/master
           <div class="square" style= "background-color:var(--fourth-color)">
             <a href="mailto:lang@PHYSICS.UTEXAS.EDU?Subject=Request%20for%20SuperNEMO%20speaker" target="_top">
             <div class="content">
