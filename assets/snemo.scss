@@ -206,12 +206,12 @@ font-size:30px;
 .site-nav {
 z-index:100;
 }
-.out {
+.outer-square {
 position: relative;
 height: 0;
 padding-bottom: 100%;
 }
-.in {
+.inner-square {
 position: absolute;
 top: 0;
 bottom: 0;

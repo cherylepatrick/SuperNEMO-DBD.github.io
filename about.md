@@ -179,8 +179,8 @@ title: The Experiment
         <div class="row">
           
         <div class="col-xs-3">
-          <div class="out">
-            <div class="in">
+          <div class="outer-square">
+            <div class="inner-square">
           {% if agency.url %}<a href="{{ agency.url }}" target="_blank"> {% endif %}<img src="assets/funding/{{ agency.image}}" alt="{{ agency.Agency }}">{% if agency.url %}</a>{% endif %}
           </div>
             </div>
