@@ -94,12 +94,6 @@
   city: 'Moscow, Russia'
   logo: assets/institution_logos/img6089.png
   homepage: 'http://www.itep.ru'
-- shortname: CERN
-  domain: cern.ch
-  name: CERN
-  city: 'Geneva, Switzerland'
-  logo: assets/institution_logos/CERN-logo.jpg
-  homepage: 'http://home.cern'
 - shortname: INL
   domain: inl.gov
   name: 'Idaho National Laboratory'
