@@ -166,7 +166,7 @@ title: The Experiment
 
 <div id="funding" style="display:none">
   <header class="post-header">
-    <h1 class="post-title text-center"> Financial support</h1>
+    <h1 class="post-title text-center"> Funding support</h1>
   </header>
   <div class="row">
     <div class="col-xs-12 ">
@@ -240,7 +240,7 @@ title: The Experiment
         <div class="content">
           <div class="table">
             <div class="table-cell" >
-              Financial support
+              Funding support
             </div>
           </div>
         </div>
