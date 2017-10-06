@@ -28,12 +28,11 @@ Duchesneau,Dominique,duchesneau@LAPP.IN2P3.FR,Duchesneau,Dominique,LAPP,,,,y,
 DURAND,Dominique,durand@LPCCAEN.IN2P3.FR,Durand,Dominique,LPCCAEN,,,,,
 DVORNICKY,Rastislav,dvornicky@teller.dnp.fmph.uniba.sk,Dvornicky,Rastislav,Uniba,,,,y,y
 EGOROV,Slava,egorov@NUSUN.JINR.RU,Egorov,Slava,JINR,,,,,y
-EURIN,Guillaume,guillaume.eurin@mpi-hd.mpg.de,Eurin,Guillaume,MPG,,assets/people/eurin.jpg,,y,y
+EURIN,Guillaume,guillaume.eurin@mpi-hd.mpg.de,Eurin,Guillaume,UCL,Former PhD student,assets/people/eurin.jpg,,y,y
 EVANS,Justin,justin.evans@manchester.ac.uk,Evans,Justin,Manchester,Faculty,,,y,y
 FLACK,Robert,r.flack@UCL.AC.UK,Flack,Robert,UCL,,,,,y
 FREESTONE,Julian,Julian.Freestone@manchester.ac.uk,Freestone,Julian,Manchester,Mechanical Engineer,,,y,y
 BASHARINA-FRESHVILLE,Anastasia,anastasia.freshville@UCL.AC.UK,Basharina-Freshville,Anastasia,UCL,Postdoctoral research associate,assets/people/Anastasia_Freshville_2016_250x350_w.jpg,,y,y
-FULACHIER,Jerome,Jerome.Fulachier@LPSC.IN2P3.FR,Fulachier,Jerome,LPSC,,,,,
 GILBERT,Genevieve,gilbert@LAL.IN2P3.FR,Gilbert,Genevieve,LAL,,,,,
 GUILLON,Benoit,guillon@LPCCAEN.IN2P3.FR,Guillon,Benoit,LPCCAEN,,,,,
 GUZOWSKI,Pawel,pawel.guzowski@manchester.ac.uk,Guzowski,Pawel,Manchester,Research Associate,,Calibration working group convener,y,y
@@ -46,13 +45,12 @@ HUBER,Arnaud,huber@cenbg.in2p3.fr,Huber,Arnaud,CENBG,PhD student,,,y,y
 HUBERT,Philippe,hubertp@CENBG.IN2P3.FR,Hubert,Philippe,CENBG,,,NEMO-3,y,y
 HUGON,Christophe,hugon@cppm.in2p3.fr,Hugon,Christophe,CPPM,,,"Radon, general analysis",y,y
 HUNT,Tom,t.hunt@UCL.AC.UK,Hunt,Tom,UCL,,,,y,y
-JEONG,Do-Young,dyjeong@kaeri.re.kr,Jeong,Do-Young,KAERI,,,,,y
 Jeremie,Andrea,andrea@lapp.in2p3.fr,Jeremie,Andrea,LAPP,,,,y,
 JULLIAN,Serge,jullian@LAL.IN2P3.FR,Jullian,Serge,LAL,,,,y,
 Kemp,Martin,m.kemp@ucl.ac.uk,Kemp,Martin,UCL,,,,y,y
 KOCHETOV,Oleg,kochet@NUSUN.JINR.RU,Kochetov,Oleg,JINR,,,,,y
 KONTUL,Ivan,kontul@fmph.uniba.sk,Kontul,Ivan,Uniba,PhD student,,,y,y
-KOVALENKO,Sergey,sergey.kovalenko@usm.cl,Kovalenko,Sergey,USM,,,,,y
+KOVALENKO,Sergey,sergey.kovalenko@usm.cl,Kovalenko,Sergey,JINR,,,,,y
 LANG,Karol,lang@PHYSICS.UTEXAS.EDU,Lang,Karol,UTAustin,Professor,,,y,y
 Leflour,Thierry,leflour@lapp.in2p3.fr,Leflour,Thierry,LAPP,,,,,
 LEMIERE,Yves,lemiere@LPCCAEN.IN2P3.FR,Lemiere,Yves,LPCCAEN,,,Data quality coordinator,y,
@@ -62,7 +60,6 @@ Lieunard,Sophie,sophie.lieunard@lapp.in2p3.fr,Lieunard,Sophie,LAPP,,,,,
 LIPTAK,Zachary,LIPTAK@PHYSICS.UTEXAS.EDU,Liptak,Zachary,UTAustin,,,,,y
 LIU,Xin Ran,x.r.liu@UCL.AC.UK,Liu,Xin Ran,UCL,PhD student (now graduated),assets/people/Xin_Ran_Liu_25x35w.jpg,,y,y
 LOAIZA,Pia,loaiza@LAL.IN2P3.FR,Loaiza,Pia,LAL,,,,y,
-LAMBERT,Fabian,fabian.lambert@LPSC.IN2P3.FR,Lambert,Fabian,LPSC,,,,,
 MAALMI,Jihane,maalmi@lal.in2p3.fr,Maalmi,Jihane,LAL,,,,y,
 MAMEDOV,Fadahat,fadahat.mamedov@utef.cvut.cz,Mamedov,Fadahat,CVUT,,,Radon,y,y
 MARQUET,Christine,marquet@CENBG.IN2P3.FR,Marquet,Christine,CENBG,Joint spokesperson 2018-,,Calorimeter,y,y
@@ -79,7 +76,7 @@ PATER,Joleen,joleen.pater@manchester.ac.uk,Pater,Joleen,Manchester,Applied Physi
 PERROT,Frederic,fperrot@CENBG.IN2P3.FR,Perrot,Frederic,CENBG,,,"Radiopurity, calorimeter",y,y
 PERRY,Michael,michael.perry@manchester.ac.uk,Perry,Michael,Manchester,Electronics Engineer,,,y,y
 PIN,Axel,pin@cenbg.in2p3.fr,Pin,Axel,CENBG,PhD student,,"Calorimeter, simulation, analysis",y,y
-PIQUEMAL,Fabrice,piquemal@CENBG.IN2P3.FR,Piquemal,Fabrice,CENBG,Former spokesperson (2005-2017),,,y,y
+PIQUEMAL,Fabrice,piquemal@CENBG.IN2P3.FR,Piquemal,Fabrice,CENBG,"Former spokesperson (2005-2017), LSM director",,,y,y
 POINCHEVAL,Jerome,poincheval@LPCCAEN.IN2P3.FR,Poincheval,Jerome,LPCCAEN,,,,,
 POVINEC,Pavel,Pavel.Povinec@fmph.uniba.sk,Povinec,Pavel,Uniba,,,,y,y
 PROGA,Marek,proga@PHYSICS.UTEXAS.EDU,Proga,Marek,UTAustin,,,,y,y
@@ -104,8 +101,6 @@ TIMKIN,Victor,timkin@NUSUN.JINR.RU,Timkin,Victor,JINR,,,,,y
 TRETYAK,Victor,tretyak@JINR.RU,Tretyak,Victor,JINR,,,,y,y
 TRETYAK,Vladimir,tretyak@kinr.kiev.ua,Tretyak,Vladimir,KINR,"Leading Scientific Researcher, Associate Professor",assets/people/vit-2017-04.jpg,Event generation,y,y
 VALKO,Pavol,VALKO@stuba.sk,Valko,Pavol,Stuba,Associate professor,assets/people/pavol_valko.jpg,"Weak interactions, cryogenic detectors and technology",y,y
-VASILIEV,Roman,roman.vasiliev@gmail.com,Vasiliev,Roman,,,,,,y
-VESELSKY,Martin,martin.veselsky@savba.sk,Veselsky,Martin,,,,,,y
 VILELA,Cristovao,cvilela@HEP.UCL.AC.UK,Vilela,Cristovao,UCL,PhD student (now graduated),,,,y
 VIRTUE,Clarence,cjv@snolab.ca,Virtue,Clarence,Snolab,,,,,y
 VOROBEL,Vit,vorobel@ipnp.troja.mff.cuni.cz,Vorobel,Vit,CUNI,Assistant professor,,Scintillator,y,y
@@ -122,7 +117,6 @@ CHAUVEAU,Emmanuel,chauveau@cenbg.in2p3.fr,Chauveau,Emmanuel,CENBG,"Analysis coor
 CHOPRA,Ashwin,ashwin.chopra.14@UCL.AC.UK,Chopra,Ashwin,UCL,PhD student,assets/people/Ashwin_Chopra_25x35_w.jpg,,y,y
 Corazzi,Mathieu,mathieu.corazzi@lsm.fr,Corazzi,Mathieu,LSM,,,,,
 Curtil,Christian,curtil@CPPM.IN2P3.FR,Curtil,Christian,CPPM,,,Radon,y,y
-DARGAUD,Guillaume,dargaud@LPSC.IN2P3.FR,Dargaud,Guillaume,LPSC,,,,,
 Konovalov,Sergey,konovalov@itep.ru,Konovalov,Sergey,ITEP,,,Source production,y,y
 Macko,Miroslav,miroslav.macko@cvut.cz,Macko,Miroslav,CVUT,PhD student (Joint with CENBG and Comenius University),,,y,y
 Palusova,Veronika,veronika.palusova@fmph.uniba.sk,Palusova,Veronika,Uniba,PhD student,,,y,y
@@ -135,3 +129,11 @@ Meregaglia,Anselmo,anselmo.meregaglia@cern.ch,Meregaglia,Anselmo,CENBG,Permanent
 Pravikoff,Michel,pravikof@cenbg.in2p3.fr,Pravikoff,Michel,CENBG,,,Radiopurity,y,y
 Macko,Miroslav,miroslav.macko@cvut.cz,Macko,Miroslav,CENBG,PhD student (Joint with CTU Prague and Comenius University),,,,
 Macko,Miroslav,miroslav.macko@cvut.cz,Macko,Miroslav,Uniba,PhD student (Joint with CENBG and CTU Prague),,,y,y
+Girard-Carillo ,Cloe,,Girard-Carillo ,Cloe,LAL,PhD student,,,y,
+Minotti,Alessandro,,Minotti,Alessandro,LAPP,Postdoc,,,y,
+Eyraud,Magali,magali.zampieri@lsm.fr,Eyraud,Magali,LSM,,,,y,
+Margueron,Jean-Louis,jean-louis.margueron@lsm.fr,Margueron,Jean-Louis,LSM,,,,y,
+PIQUEMAL,Fabrice,piquemal@CENBG.IN2P3.FR,Piquemal,Fabrice,LSM,"Former spokesperson (2005-2017), LSM director",,,y,y
+Blot,Summer,blotsd@GMAIL.COM,Blot,Summer,Manchester,Former PhD student,,,y,
+EURIN,Guillaume,guillaume.eurin@mpi-hd.mpg.de,Eurin,Guillaume,LAL,Former PhD student,assets/people/eurin.jpg,,y,y
+Chapon,Arnaud,,Chapon,Arnaud,LPCCaen,Former PhD student,,,y,
