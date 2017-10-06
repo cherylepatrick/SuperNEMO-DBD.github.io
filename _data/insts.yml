@@ -58,12 +58,6 @@
   city: 'Caen, France'
   logo: assets/institution_logos/logolpc_couleur_fondBlanc_titre.jpg
   homepage: 'http://www.lpc-caen.in2p3.fr'
-- shortname: LPSC
-  domain: lpsc.in2p3.fr
-  name: 'Laboratoire de Physique Subatomique & Cosmologie'
-  city: 'Grenoble, France'
-  logo: assets/institution_logos/logoLPSC.jpg
-  homepage: 'http://lpsc.in2p3.fr/index.php/fr/'
 - shortname: CVUT
   domain: utef.cvut.cz
   name: 'Czech Technical University in Prague'
