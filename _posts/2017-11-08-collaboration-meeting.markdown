@@ -2,7 +2,7 @@
 layout: post
 title:  "Autumn collaboration meeting in Orsay"
 date:   2017-11-08 00:00:00 +0000
-thumbnail: "assets/post_images/LAL_thumb.jpg"
+thumbnail: "assets/post_images/LAL_thumb.JPG"
 categories: supernemo collaboration
 ---
 
