@@ -15,10 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: SuperNEMO
 description: > # this means to ignore newlines until "baseurl:"
-  SuperNEMO Double Beta Decay Search Experiment. An ultra-low
-  background experiment at LSM, France, looking for a rare radioactive
-  decay to see if neutrinos are Majorana particles, which could
-  explain the universe's matter-antimatter asymmetry.
+  SuperNEMO Double Beta Decay Search Experiment. Ultra low
+  background experiment at LSM in France. If neutrinos are Majorana particles
+  it could explain the matter antimatter asymmetry.
 # google_analytics:
 baseurl: "" # the subpath of this site e.g. /blog
 url: "" # the base hostname and protocol for this site, e.g. http://example.com
