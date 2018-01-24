@@ -54,6 +54,30 @@ running
 $ ./snjekyll help
 ```
 
+## Updating Jekyll and Dependencies
+
+Whilst [Bundler][http://bundler.io] is used to provide a consistent fixed version of
+Jekyll and its dependencies, these require updating from time to time. The `snjekyll`
+script provides a `update-gems` target which can be built to perform the update task.
+The output of this is an updated version of the `Gemfile.lock` file. To avoid issues
+with git/other changes, the required add/commit of this file, if changed, must be
+done manually, e.g.
+
+```console
+$ ./snjekyll update-gems
+[snjekyll]: Updating Gems...
+... output from bundler...
+Bundle updated!
+[snjekyll]: Updated gems, Gemfile.lock status:
+M Gemfile.lock
+[snjekyll]: If the above status shows 'M', please commit Gemfile.lock and submit a Pull Request
+$
+$ git add Gemfile.lock
+$ git commit -m "Gems and Gemfile.lock updated to latest versions"
+```
+
+The new commit should then be submitted as a normal Pull Request.
+
 ## Known Issues
 - No reliable check for existence of `ruby-dev{el}` package on Linuces
   - Will issue a warning, but nothing more

@@ -8,24 +8,35 @@
 #
 define USAGE
 usage: ./snjekyll <task>
+
 Setup, build and serve a Jekyll based website on a local computer.
 Requires an installation of Ruby, including the Ruby development library
 and headers.
 
 Available tasks:
   setup          Install RubyGem requirements into current working directory
+
   build          Build the site using `jekyll build`
-	test           Test the built site using `htmlproofer`
-	               Note that this can only be run after a direct build
-								 and will not work in `serve` mode yet.
+
+  test           Test the built site using `htmlproofer`
+                 Note that this can only be run after a direct build
+                 and will not work in `serve` mode yet.
+
   serve          Start a non-detached local jekyll server instance
                  The site can be viewed at 'http://127.0.0.1:4000' in
                  your favoured browser. The server will watch for changes
                  to the site files and rebuild automatically. Simply
                  refresh your browser to pick up the changes.
+
+  update-gems    Update installed gems and Gemfile.lock.
+                 If the Gemfile.lock file changes, it must be submitted as a PR.
+
   clean-gems     Remove local bundle of gems
+
   clean-site     Remove local site generated output and metadata
+
   clean          Remove both gems and site
+
   help           Print this message
 
 endef
@@ -143,6 +154,16 @@ $(JEKYLL_EXEC): $(BUNDLE_EXEC) Gemfile Gemfile.lock
 
 # Setup local tools
 setup: $(JEKYLL_EXEC)
+
+# Update Gemfile
+# See http://bundler.io/v1.16/man/bundle-update.1.html
+# Warn user that Gemfile.lock must be commited
+update-gems: setup
+	@echo "[snjekyll]: Updating Gems..."
+	@$(BUNDLE_EXEC) update
+	@echo "[snjekyll]: Updated gems, Gemfile.lock status:"
+	@echo `git status -s Gemfile.lock`
+	@echo "[snjekyll]: If the above status shows 'M', please commit Gemfile.lock and submit a Pull Request"
 
 # Explicit site clean
 clean-site:
