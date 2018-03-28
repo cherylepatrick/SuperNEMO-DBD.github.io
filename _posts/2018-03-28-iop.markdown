@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "SuperNEMO at the Institute of Physics"
+date:   2018-03-28 00:00:00 +0000
+thumbnail: "assets/post_images/iop_18_thumb.png"
+categories: supernemo ucl manchester
+---
+
+SuperNEMO collaborators from UCL and the University of Manchester have spent the last three days in Bristol attending the [Institute of Physics' annual Astroparticle and High Energy Particle Physics conference](http://appandhepp2018.iopconfs.org/home).
+
+![Fang Xie of UCL presents about radon background mitigation]({{"assets/post_images/Fang_IOP18.jpg"| relative_url }}){:style="float: left;margin-right: 20px; width: 400px"}
+
+![Lauren Dawson of UCL presents about background sensitivities and the gas system]({{"assets/post_images/Lauren_IOP.jpg"| relative_url }}){:style="float: right;margin-left: 20px; width: 400px"}
+
+
+Researcher Dr Cheryl Patrick, from UCL, reported on [SuperNEMO's status](https://indico.cern.ch/event/695164/contributions/2922953/attachments/1623700/2584895/CPatrick_SuperNEMO_Status_IOP18.pdf), while PhD students Lauren Dawson and Fang Xie, also of UCL, gave updates on their research into [the detector's sensitivity](https://indico.cern.ch/event/695164/contributions/2922961/attachments/1623584/2584676/LaurenDawsonIoP.pdf) and our [radon mitigation strategy](https://indico.cern.ch/event/695164/contributions/2922964/attachments/1623607/2584725/XF_IOP_2018_WideScreen_V4.3.pdf), respectively. SuperNEMO was also mentioned in a great [summary talk](https://indico.cern.ch/event/695164/contributions/2850994/attachments/1624391/2586146/180328_IOP_HEPP_APP_0nubb_and_nu_mass_E_Falk.pdf) on neutrinoless double-beta decay experiments, presented by the University of Sussex's Dr Elisabeth Falk.
+
+Many thanks to Dr Helen Heath and the rest of the organising committee at the University of Bristol for their excellent hosting.
