@@ -7,107 +7,148 @@ title: For Collaborators
 <div class="row">
 <div class="col-xs-9">
 
-<div id="intro">
-<header class="post-header">
-<h1 class="post-title text-center">For collaborators</h1>
-</header>
 
-This page is mainly for collaboration members, and provides useful resources and instructions for people working on the experiment. Some of the tools and applications listed below may require a username and password.
+<div id="intro">
+    <header class="post-header">
+        <h1 class="post-title text-center">For collaborators</h1>
+    </header>
+    
+    This page is mainly for collaboration members, and provides useful resources and instructions for people working on the experiment. Some of the tools and applications listed below may require a username and password.
 </div>
 
 <div id="newsletter" style="display:none">
-<header class="post-header">
-<h1 class="post-title text-center">Newsletters</h1>
-</header>
-<p>Newsletters</p>
+    <header class="post-header">
+        <h1 class="post-title text-center">Newsletters</h1>
+    </header>
+    <p>Newsletters</p>
 </div>
 
 <div id="docs" style="display:none">
-<header class="post-header">
-<h1 class="post-title text-center">Internal documentation</h1>
-</header>
-<p>For technical notes etc, see [DocDB](http://nile.hep.utexas.edu/DocDB/). Contact the ? to set up an account.</p>
+    <header class="post-header">
+        <h1 class="post-title text-center">Internal documentation</h1>
+    </header>
+    <p>For technical notes etc, see [DocDB](http://nile.hep.utexas.edu/DocDB/). Contact the ? to set up an account.</p>
 </div>
 
 <div id="software" style="display:none">
-<header class="post-header">
-<h1 class="post-title text-center">Software and computing</h1>
-</header>
-All software is available under {% include icon-github.html username=site.github_username %}
-
-The main software package for offline work is [Falaise](https://github.com/SuperNEMO-DBD/Falaise).
-A guide to installing Falaise on Linux and macOS platforms is available through the dedicated
-[Homebrew package manager and repo](https://github.com/SuperNEMO-DBD/homebrew-cadfael)
-A starter guide to the core simulation, reconstruction and analysis tools available in Falaise
-[can be found here](Falaise).
-
-Please note that the documentation is always under development, so feature requests
-or contributions are welcome. For installation related issues when using `brew`,
-use the [homebrew-cadfael Issue Tracker](https://github.com/SuperNEMO-DBD/homebrew-cadfael/issues).
-For all issues relating to using Falaise, or installing/developing it locally, [raise an issue on the Falaise tracker](https://github.com/SuperNEMO-DBD/Falaise/issues)
+    <header class="post-header">
+        <h1 class="post-title text-center">Software and computing</h1>
+    </header>
+    All software is available under {% include icon-github.html username=site.github_username %}
+    
+    The main software package for offline work is [Falaise](https://github.com/SuperNEMO-DBD/Falaise).
+    A guide to installing Falaise on Linux and macOS platforms is available through the dedicated
+    [Homebrew package manager and repo](https://github.com/SuperNEMO-DBD/homebrew-cadfael)
+    A starter guide to the core simulation, reconstruction and analysis tools available in Falaise
+    [can be found here](Falaise).
+    
+    Please note that the documentation is always under development, so feature requests
+    or contributions are welcome. For installation related issues when using `brew`,
+    use the [homebrew-cadfael Issue Tracker](https://github.com/SuperNEMO-DBD/homebrew-cadfael/issues).
+    For all issues relating to using Falaise, or installing/developing it locally, [raise an issue on the Falaise tracker](https://github.com/SuperNEMO-DBD/Falaise/issues)
 </div>
 
+            <div id="ops" style="display:none">
+                <header class="post-header">
+                    <h1 class="post-title text-center">Operations</h1>
+                </header>
+                
+                
+                Getting an account on the CCLyon computing cluster
+                --------------------------------------------------
+                If you want to take part in the Monte Carlo Challenge 1 you will need an account on the CCLyon cluster to produce and access the data.
+                
+                If you already have one, make sure you can access it (and contact <a href="mailto:lemiere@lpccaen.in2p3.fr">Yves</a> if you can't). If need an account follow this procedure:
+                
+                - Visit [this page](https://cctools.in2p3.fr/cclogon/) and fill the form
+                - In Step 1 choose "Foreign collaborators" as Department and laboratory
+                - In Step 2 choose "nemo" as group and give a date 3 years from now for the Account's expiration date (leave blank if you have a permanent position)
+                - In Step 3 download the form, sign in and send it to <a href="mailto:lemiere@lpccaen.in2p3.fr">Yves</a>
+                
+                You should receive your account information in a few days.
+                
+            </div>
+            
+            <div id="analysis" style="display:none">
+                <header class="post-header">
+                    <h1 class="post-title text-center">Data and analysis</h1>
+                </header>
+                
+                A work-in-progress collection of SuperNEMO and NEMO-3 analysis code is available in the [AllAnalyses](https://github.com/SuperNEMO-DBD/AllAnalyses) repository under {% include icon-github.html username=site.github_username %}.
+            </div>
+
+
+
+
+
+
 <div id="web" style="display:none">
-<header class="post-header">
-<h1 class="post-title text-center">Website development</h1>
-</header>
+    <header class="post-header">
+        <h1 class="post-title text-center">Website development</h1>
+    </header>
+    
+    These pages are a test of using [GitHub Pages](https://pages.github.com) to create a static website.
+    The sections below are simply to test out some of the features of the main tools:
+    
+    - [Jekyll](https://jekyllrb.com) as the site generation engine
+    - [GitHub Pages](https://pages.github.com) for hosting
+    - [GFM](https://guides.github.com/features/mastering-markdown/) and [Kramdown](https://kramdown.gettalong.org) for writing/parsing text
+    - [MathJax](https://www.mathjax.org) for rendering math
+    
+    We also want to see how this file renders in GitHub's online editor.
+    
+    ### Building locally
+    The website generated by Jekyll can be built and served locally to test changes
+    without making commits upstream. Note that GitHub Pages has a soft limit of
+    10 rebuilds per hour. Provided you have an install of Ruby 2 or better
+    ,including the development headers and library, the workflow is:
+    
+    ```console
+    $ git clone https://github.com/supernemo-dbd/supernemo-dbd.github.io
+    $ cd supernemo-dbd.github.io
+    $ ./snjekyll serve
+    ```
+    
+    The last command will download and setup the local Jekyll instance, and
+    start a local isolated webserver at `http://127.0.0.1:4000`. Simply point
+    your favoured browser to this address to view the generated site.
+    
+    The server runs in the foreground and watches the site sources for changes
+    (for example, `index.md`). When a file changes, the server will rebuild the
+    site automatically, so simply refresh your browser to see the resultant
+    regenerated site. For example, try making some changes to `index.md`
+    The server may be shutdown at any point using `Ctrl-C`.
+    
+    Further information on tasks available from `snjekyll` can be seen by
+    running
+    
+    ```console
+    $ ./snjekyll help
+    ```
+    
+    Alternately, if you already have a custom Ruby install, e.g. with Home/Linuxbrew
+    you can do
+    
+    ```console
+    $ git clone {{ site.github.repository_url }}
+    $ cd {{ site.github.repository_name }}
+    $ gem install bundler
+    $ bundle install
+    $ bundle exec jekyll serve
+    ```
+    
+    In both workflows, the `xz` package installed by Home/Linuxbrew is not
+    compatible with the `nokogiri` gem required by Jekyll, and will cause
+    compiliation of the gem to fail. `snjekyll` will issue a warning about this,
+    but will not take further action. To work around this issue, either do
+    `brew unlink xz` or remove Home/Linuxbrew settings from your environment.
+    The latter may not be possible if you have Homebrew installed in `/usr/local`
+    
+    
 
-These pages are a test of using [GitHub Pages](https://pages.github.com) to create a static website.
-The sections below are simply to test out some of the features of the main tools:
 
-- [Jekyll](https://jekyllrb.com) as the site generation engine
-- [GitHub Pages](https://pages.github.com) for hosting
-- [GFM](https://guides.github.com/features/mastering-markdown/) and [Kramdown](https://kramdown.gettalong.org) for writing/parsing text
-- [MathJax](https://www.mathjax.org) for rendering math
 
-We also want to see how this file renders in GitHub's online editor.
 
-### Building locally
-The website generated by Jekyll can be built and served locally to test changes
-without making commits upstream. Note that GitHub Pages has a soft limit of
-10 rebuilds per hour. Provided you have an install of Ruby 2 or better
-,including the development headers and library, the workflow is:
-
-```console
-$ git clone https://github.com/supernemo-dbd/supernemo-dbd.github.io
-$ cd supernemo-dbd.github.io
-$ ./snjekyll serve
-```
-
-The last command will download and setup the local Jekyll instance, and
-start a local isolated webserver at `http://127.0.0.1:4000`. Simply point
-your favoured browser to this address to view the generated site.
-
-The server runs in the foreground and watches the site sources for changes
-(for example, `index.md`). When a file changes, the server will rebuild the
-site automatically, so simply refresh your browser to see the resultant
-regenerated site. For example, try making some changes to `index.md`
-The server may be shutdown at any point using `Ctrl-C`.
-
-Further information on tasks available from `snjekyll` can be seen by
-running
-
-```console
-$ ./snjekyll help
-```
-
-Alternately, if you already have a custom Ruby install, e.g. with Home/Linuxbrew
-you can do
-
-```console
-$ git clone {{ site.github.repository_url }}
-$ cd {{ site.github.repository_name }}
-$ gem install bundler
-$ bundle install
-$ bundle exec jekyll serve
-```
-
-In both workflows, the `xz` package installed by Home/Linuxbrew is not
-compatible with the `nokogiri` gem required by Jekyll, and will cause
-compiliation of the gem to fail. `snjekyll` will issue a warning about this,
-but will not take further action. To work around this issue, either do
-`brew unlink xz` or remove Home/Linuxbrew settings from your environment.
-The latter may not be possible if you have Homebrew installed in `/usr/local`
 
 
 
@@ -134,57 +175,29 @@ This should allow a reference (see Equation $$\eqref{einstein}$$) to be inserted
 ### Can we use code blocks?
 Here's C++:
 
-```cpp
-#include <iostream>
 
-int main() {
-std::cout << "Hello World\n";
-}
-```
-
-and some Python:
-
-```python
-import os
-print('Hello World')
-```
+        
+        
+        ### Support or Contact
+        Having trouble with Pages? Check out our [documentation](https://help.github.com/pages) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 
-### Support or Contact
-Having trouble with Pages? Check out our [documentation](https://help.github.com/pages) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-
-</div>
-
-<div id="ops" style="display:none">
-<header class="post-header">
-<h1 class="post-title text-center">Operations</h1>
-</header>
 
 
-Getting an account on the CCLyon computing cluster
---------------------------------------------------
-If you want to take part in the Monte Carlo Challenge 1 you will need an account on the CCLyon cluster to produce and access the data.
 
-If you already have one, make sure you can access it (and contact <a href="mailto:lemiere@lpccaen.in2p3.fr">Yves</a> if you can't). If need an account follow this procedure:
 
-- Visit [this page](https://cctools.in2p3.fr/cclogon/) and fill the form
-- In Step 1 choose "Foreign collaborators" as Department and laboratory
-- In Step 2 choose "nemo" as group and give a date 3 years from now for the Account's expiration date (leave blank if you have a permanent position)
-- In Step 3 download the form, sign in and send it to <a href="mailto:lemiere@lpccaen.in2p3.fr">Yves</a>
 
-You should receive your account information in a few days.
+
+
+
+
+
+
+
+
+
 
 </div>
-
-<div id="analysis" style="display:none">
-<header class="post-header">
-<h1 class="post-title text-center">Data and analysis</h1>
-</header>
-
-A work-in-progress collection of SuperNEMO and NEMO-3 analysis code is available in the [AllAnalyses](https://github.com/SuperNEMO-DBD/AllAnalyses) repository under {% include icon-github.html username=site.github_username %}.
-
-</div>
-
 </div>
 
 <div class="col-xs-3">
@@ -219,7 +232,7 @@ Software and computing
 </div>
 </div>
 
-<div class="square" style="background-color:var(--fifth-color);" id="ops_btn">
+<div class="square" style="background-color:var(--fourth-color);" id="ops_btn">
 <div class="content">
 <div class="table">
 <div class="table-cell">
@@ -229,7 +242,7 @@ Operations
 </div>
 </div>
 
-<div class="square" style="background-color:var(--sixth-color);" id="analysis_btn">
+<div class="square" style="background-color:var(--fifth-color);" id="analysis_btn">
 <div class="content">
 <div class="table">
 <div class="table-cell">
