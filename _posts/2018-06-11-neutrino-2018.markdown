@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "SuperNEMO goes to Heidelberg for Neutrino 2018"
+date:   2018-06-11 00:00:00 +0000
+thumbnail: "assets/post_images/nu18_square.png"
+categories: supernemo neutrino2018 conference
+---
+
+Members of the SuperNEMO collaboration travelled from all over the world to Heidelberg, Germany for the [Neutrino 2018](https://www.mpi-hd.mpg.de/nu2018/) conference.
+
+Held every two years, the Neutrino series are some of the biggest conferences in neutrino physics, with over 800 attendees discussing every aspect of neutrino physics - from oscillations to neutrino astrophysics, cross sections, sterile neutrinos and, of course, everyone's favourite - searches for neutrinoless double beta decay!
+
+![Neutrino 2018 conference photo]({{"assets/post_images/nu18.jpg"| relative_url }})
+
+Can you spot the SuperNEMO team members in the conference photo?
+
+SuperNEMO members had plenty to contribute with posters on the [calibration system](https://indico.desy.de/indico/event/18342/session/34/contribution/253/material/poster/0.pdf) from Ramon Salazar, Marek Proga, and Karol Lang; quality studies of our [calibration sources](https://indico.desy.de/indico/event/18342/session/34/contribution/196/material/0/0.pdf) from Miroslav Macko; [energy reconstruction](https://indico.desy.de/indico/event/18342/session/34/contribution/399/material/poster/0.pdf) from Axel Pin, Christine Marquet and Emmanuel Chauveau; the [radon background mitigation strategy](https://indico.desy.de/indico/event/18342/session/34/contribution/525/material/slides/0.pdf) from Fang Xie and Christophe Hugon; and our [sensitivity to neutrinoless double beta decay](https://indico.desy.de/indico/event/18342/session/34/contribution/219/material/slides/1.pdf) from Cheryl Patrick, Alessandro Minotti, Lauren Dawson and Steven Calvez.
+
+NEMO-3 results were also presented, with a poster on the [$^{100}$Mo 2νββ decay measurement and search for Majoron and exotic processes](https://indico.desy.de/indico/event/18342/session/34/contribution/525/material/slides/0.pdf) from Laurent Simard and Victor Tretyak.
+
+Thanks to the organising committee at Heidelberg for a fantastic conference!
