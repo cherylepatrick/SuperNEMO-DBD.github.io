@@ -1,34 +1,38 @@
 ---
-layout: page
+layout: experiment
 title: For Collaborators
 ---
 
+<div class="container-fluid" id="top">
+<div class="row">
+<div class="col-xs-9">
+
+<div id="intro">
+<header class="post-header">
+<h1 class="post-title text-center">For collaborators</h1>
+</header>
+
 This page is mainly for collaboration members, and provides useful resources and instructions for people working on the experiment. Some of the tools and applications listed below may require a username and password.
+</div>
 
-Internal Documentation
-----------------------
-For technical notes etc, see [DocDB](http://nile.hep.utexas.edu/DocDB/). Contact
-the ? to set up an account.
+<div id="newsletter" style="display:none">
+<header class="post-header">
+<h1 class="post-title text-center">Newsletters</h1>
+</header>
+<p>Newsletters</p>
+</div>
 
-Operations, Data and Analysis
------------------------------
-A work-in-progress collection of SuperNEMO and NEMO-3 analysis code is available in the [AllAnalyses](https://github.com/SuperNEMO-DBD/AllAnalyses) repository under {% include icon-github.html username=site.github_username %}.
+<div id="docs" style="display:none">
+<header class="post-header">
+<h1 class="post-title text-center">Internal documentation</h1>
+</header>
+<p>For technical notes etc, see [DocDB](http://nile.hep.utexas.edu/DocDB/). Contact the ? to set up an account.</p>
+</div>
 
-Getting an account on the CCLyon computing cluster
---------------------------------------------------
-If you want to take part in the Monte Carlo Challenge 1 you will need an account on the CCLyon cluster to produce and access the data.
-
-If you already have one, make sure you can access it (and contact <a href="mailto:lemiere@lpccaen.in2p3.fr">Yves</a> if you can't). If need an account follow this procedure:
-
-- Visit [this page](https://cctools.in2p3.fr/cclogon/) and fill the form
-- In Step 1 choose "Foreign collaborators" as Department and laboratory
-- In Step 2 choose "nemo" as group and give a date 3 years from now for the Account's expiration date (leave blank if you have a permanent position)
-- In Step 3 download the form, sign in and send it to <a href="mailto:lemiere@lpccaen.in2p3.fr">Yves</a>
-
-You should receive your account information in a few days.
-
-Computing and Software
-----------------------
+<div id="software" style="display:none">
+<header class="post-header">
+<h1 class="post-title text-center">Software and computing</h1>
+</header>
 All software is available under {% include icon-github.html username=site.github_username %}
 
 The main software package for offline work is [Falaise](https://github.com/SuperNEMO-DBD/Falaise).
@@ -41,10 +45,12 @@ Please note that the documentation is always under development, so feature reque
 or contributions are welcome. For installation related issues when using `brew`,
 use the [homebrew-cadfael Issue Tracker](https://github.com/SuperNEMO-DBD/homebrew-cadfael/issues).
 For all issues relating to using Falaise, or installing/developing it locally, [raise an issue on the Falaise tracker](https://github.com/SuperNEMO-DBD/Falaise/issues)
+</div>
 
-
-Website Development
--------------------
+<div id="web" style="display:none">
+<header class="post-header">
+<h1 class="post-title text-center">Website development</h1>
+</header>
 
 These pages are a test of using [GitHub Pages](https://pages.github.com) to create a static website.
 The sections below are simply to test out some of the features of the main tools:
@@ -132,7 +138,7 @@ Here's C++:
 #include <iostream>
 
 int main() {
-  std::cout << "Hello World\n";
+std::cout << "Hello World\n";
 }
 ```
 
@@ -146,4 +152,109 @@ print('Hello World')
 
 ### Support or Contact
 Having trouble with Pages? Check out our [documentation](https://help.github.com/pages) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+</div>
+
+<div id="ops" style="display:none">
+<header class="post-header">
+<h1 class="post-title text-center">Operations</h1>
+</header>
+
+
+Getting an account on the CCLyon computing cluster
+--------------------------------------------------
+If you want to take part in the Monte Carlo Challenge 1 you will need an account on the CCLyon cluster to produce and access the data.
+
+If you already have one, make sure you can access it (and contact <a href="mailto:lemiere@lpccaen.in2p3.fr">Yves</a> if you can't). If need an account follow this procedure:
+
+- Visit [this page](https://cctools.in2p3.fr/cclogon/) and fill the form
+- In Step 1 choose "Foreign collaborators" as Department and laboratory
+- In Step 2 choose "nemo" as group and give a date 3 years from now for the Account's expiration date (leave blank if you have a permanent position)
+- In Step 3 download the form, sign in and send it to <a href="mailto:lemiere@lpccaen.in2p3.fr">Yves</a>
+
+You should receive your account information in a few days.
+
+</div>
+
+<div id="analysis" style="display:none">
+<header class="post-header">
+<h1 class="post-title text-center">Data and analysis</h1>
+</header>
+
+A work-in-progress collection of SuperNEMO and NEMO-3 analysis code is available in the [AllAnalyses](https://github.com/SuperNEMO-DBD/AllAnalyses) repository under {% include icon-github.html username=site.github_username %}.
+
+</div>
+
+</div>
+
+<div class="col-xs-3">
+    
+<div class="square" style="background-color:var(--first-color);" id="newsletter_btn">
+<div class="content">
+<div class="table">
+<div class="table-cell" >
+Newsletters
+</div>
+</div>
+</div>
+</div>
+
+<div class="square" style="background-color:var(--second-color);" id="docs_btn">
+<div class="content">
+<div class="table">
+<div class="table-cell">
+Internal Documentation
+</div>
+</div>
+</div>
+</div>
+
+<div class="square" style="background-color:var(--third-color);" id="software_btn">
+<div class="content">
+<div class="table">
+<div class="table-cell">
+Software and computing
+</div>
+</div>
+</div>
+</div>
+
+<div class="square" style="background-color:var(--fifth-color);" id="ops_btn">
+<div class="content">
+<div class="table">
+<div class="table-cell">
+Operations
+</div>
+</div>
+</div>
+</div>
+
+<div class="square" style="background-color:var(--sixth-color);" id="analysis_btn">
+<div class="content">
+<div class="table">
+<div class="table-cell">
+Data and analysis
+</div>
+</div>
+</div>
+</div>
+
+<div class="square" style="background-color:var(--sixth-color);" id="web_btn">
+<div class="content">
+<div class="table">
+<div class="table-cell">
+Website development
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+
+
 
