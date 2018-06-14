@@ -184,6 +184,20 @@ This should allow a reference (see Equation $$\eqref{einstein}$$) to be inserted
 ### Can we use code blocks?
 Here's C++:
 
+```cpp
+#include <iostream>
+  
+int main() {
+std::cout << "Hello World\n";
+}
+```
+    
+and some Python:
+    
+```python
+import os
+print('Hello World')
+```
 
         
 ### Support or Contact
