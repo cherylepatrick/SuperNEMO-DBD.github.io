@@ -22,9 +22,26 @@ title: For Collaborators
     </header>
     {% assign letters_by_date = site.newsletters | sort:"date" | reverse %}
     {% for letter in letters_by_date %}
+    {% assign index = forloop.index0 %}
+    {% if index == 0 %}
+<div markdown="1">
+## Current newsletter: {{letter.title}}
+_(added on {{letter.date | date_to_long_string }})_
+{{letter.text}}
+</div>
+{% endif %}
+
+{% if index == 1 %}
+<div markdown="1">
+## Previous newsletters
+</div>
+{% endif %}
+    {% if index > 0 %}
     <p>
     <a role="button" data-toggle="collapse" href="#{{letter.title| slugify}}" aria-expanded="false" aria-controls="{{letter.title| slugify}}">{{letter.title}}</a></p>
-    <div  class="collapse" id="{{letter.title| slugify}}">
+    {% endif %}
+    <div class="collapse" id="{{letter.title| slugify}}">
+
 <div class="well" style="overflow:auto" markdown="1">
 ## {{letter.title}}
 
