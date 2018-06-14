@@ -26,6 +26,10 @@ title: For Collaborators
     <a role="button" data-toggle="collapse" href="#{{letter.title| slugify}}" aria-expanded="false" aria-controls="{{letter.title| slugify}}">{{letter.title}}</a></p>
     <div  class="collapse" id="{{letter.title| slugify}}">
 <div class="well" style="overflow:auto" markdown="1">
+## {{letter.title}}
+
+_(added on {{letter.date | date_to_long_string }})_
+
 {{letter.text}}
 </div>
     </div>
