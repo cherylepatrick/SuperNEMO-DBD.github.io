@@ -21,31 +21,38 @@ title: For Collaborators
         <h1 class="post-title text-center">Newsletters</h1>
     </header>
     <p>Newsletters</p>
+<div markdown="1">
+</div>
 </div>
 
 <div id="docs" style="display:none">
     <header class="post-header">
         <h1 class="post-title text-center">Internal documentation</h1>
     </header>
-    <p>For technical notes etc, see [DocDB](http://nile.hep.utexas.edu/DocDB/). Contact the ? to set up an account.</p>
+<div markdown="1">
+For technical notes etc, see [DocDB](http://nile.hep.utexas.edu/DocDB/). Contact the ? to set up an account.
+</div>
 </div>
 
 <div id="software" style="display:none">
     <header class="post-header">
         <h1 class="post-title text-center">Software and computing</h1>
     </header>
-    All software is available under {% include icon-github.html username=site.github_username %}
+<div markdown="1">
+All software is available under {% include icon-github.html username=site.github_username %}
     
-    The main software package for offline work is [Falaise](https://github.com/SuperNEMO-DBD/Falaise).
-    A guide to installing Falaise on Linux and macOS platforms is available through the dedicated
-    [Homebrew package manager and repo](https://github.com/SuperNEMO-DBD/homebrew-cadfael)
-    A starter guide to the core simulation, reconstruction and analysis tools available in Falaise
-    [can be found here](Falaise).
+The main software package for offline work is [Falaise](https://github.com/SuperNEMO-DBD/Falaise).
+A guide to installing Falaise on Linux and macOS platforms is available through the dedicated
+[Homebrew package manager and repo](https://github.com/SuperNEMO-DBD/homebrew-cadfael)
+A starter guide to the core simulation, reconstruction and analysis tools available in Falaise
+[can be found here](Falaise).
     
-    Please note that the documentation is always under development, so feature requests
-    or contributions are welcome. For installation related issues when using `brew`,
-    use the [homebrew-cadfael Issue Tracker](https://github.com/SuperNEMO-DBD/homebrew-cadfael/issues).
-    For all issues relating to using Falaise, or installing/developing it locally, [raise an issue on the Falaise tracker](https://github.com/SuperNEMO-DBD/Falaise/issues)
+Please note that the documentation is always under development, so feature requests
+or contributions are welcome. For installation related issues when using `brew`,
+use the [homebrew-cadfael Issue Tracker](https://github.com/SuperNEMO-DBD/homebrew-cadfael/issues).
+For all issues relating to using Falaise, or installing/developing it locally, [raise an issue on the
+Falaise tracker](https://github.com/SuperNEMO-DBD/Falaise/issues)
+</div>
 </div>
 
             <div id="ops" style="display:none">
@@ -53,34 +60,32 @@ title: For Collaborators
                     <h1 class="post-title text-center">Operations</h1>
                 </header>
                 
+<div markdown="1">
+Getting an account on the CCLyon computing cluster
+--------------------------------------------------
+If you want to take part in the Monte Carlo Challenge 1 you will need an account on the CCLyon cluster to produce and access the data.
                 
-                Getting an account on the CCLyon computing cluster
-                --------------------------------------------------
-                If you want to take part in the Monte Carlo Challenge 1 you will need an account on the CCLyon cluster to produce and access the data.
+If you already have one, make sure you can access it (and contact <a href="mailto:lemiere@lpccaen.in2p3.fr">Yves</a> if you can't). If need an account follow this procedure:
                 
-                If you already have one, make sure you can access it (and contact <a href="mailto:lemiere@lpccaen.in2p3.fr">Yves</a> if you can't). If need an account follow this procedure:
+- Visit [this page](https://cctools.in2p3.fr/cclogon/) and fill the form
+- In Step 1 choose "Foreign collaborators" as Department and laboratory
+- In Step 2 choose "nemo" as group and give a date 3 years from now for the Account's expiration date (leave blank if you have a permanent position)
+- In Step 3 download the form, sign in and send it to <a href="mailto:lemiere@lpccaen.in2p3.fr">Yves</a>
                 
-                - Visit [this page](https://cctools.in2p3.fr/cclogon/) and fill the form
-                - In Step 1 choose "Foreign collaborators" as Department and laboratory
-                - In Step 2 choose "nemo" as group and give a date 3 years from now for the Account's expiration date (leave blank if you have a permanent position)
-                - In Step 3 download the form, sign in and send it to <a href="mailto:lemiere@lpccaen.in2p3.fr">Yves</a>
-                
-                You should receive your account information in a few days.
-                
+You should receive your account information in a few days.
+</div>
             </div>
             
             <div id="analysis" style="display:none">
                 <header class="post-header">
                     <h1 class="post-title text-center">Data and analysis</h1>
                 </header>
-                
-                A work-in-progress collection of SuperNEMO and NEMO-3 analysis code is available in the [AllAnalyses](https://github.com/SuperNEMO-DBD/AllAnalyses) repository under {% include icon-github.html username=site.github_username %}.
+<div markdown="1">
+Analysis code
+-------------
+A work-in-progress collection of SuperNEMO and NEMO-3 analysis code is available in the [AllAnalyses](https://github.com/SuperNEMO-DBD/AllAnalyses) repository under {% include icon-github.html username=site.github_username %}.
+</div>
             </div>
-
-
-
-
-
 
 <div id="web" style="display:none">
     <header class="post-header">
