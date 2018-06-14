@@ -20,9 +20,16 @@ title: For Collaborators
     <header class="post-header">
         <h1 class="post-title text-center">Newsletters</h1>
     </header>
-    <p>Newsletters</p>
-<div markdown="1">
+    {% assign letters_by_date = site.newsletters | sort:"date" | reverse %}
+    {% for letter in letters_by_date %}
+    <p>
+    <a role="button" data-toggle="collapse" href="#{{letter.title| slugify}}" aria-expanded="false" aria-controls="{{letter.title| slugify}}">{{letter.title}}</a></p>
+    <div  class="collapse" id="{{letter.title| slugify}}">
+<div class="well" style="overflow:auto" markdown="1">
+{{letter.text}}
 </div>
+    </div>
+    {% endfor %}
 </div>
 
 <div id="docs" style="display:none">
