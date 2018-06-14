@@ -20,7 +20,7 @@ title: Publications and Media
 <h1 class="post-title text-center">Conference talks</h1>
 </header>
 <p>NEMO collaborators present at conferences around the world. Catch up on our progress with this archive of slides.</p>
-{% assign sorted_talks = (site.data.talks | sort:"Date") | reverse %}
+{% assign sorted_talks = site.data.talks | sort:"Date" | reverse %}
 
 {% for talk in sorted_talks %}
 <p><a href="{{ talk.Pdf }}" target="_blank"> <strong>{{ talk.Title }}</strong></a><br/> presented by {% if talk.Email %}<a href="mailto:{{talk.Email}}?Subject=SuperNEMO%20presentation%20enquiry" target="_top">{% endif %} {{ talk.Author | replace: "'e", "é" }}{% if talk.Email %}</a>{% endif %} {% if talk.Conference %} at <a href="{{talk.ConferenceUrl}}" target="_blank">{{talk.Conference}}</a>{% if talk.City %}, {{talk.City}}{% endif %}{% endif %}, {{ talk.Date | date_to_long_string }}</p>
@@ -33,7 +33,7 @@ title: Publications and Media
 </header>
 
 <p>SuperNEMO and NEMO-3 posters presented at conferences and schools.</p>
-{% assign sorted_posters = (site.data.posters | sort:"Date") | reverse %}
+{% assign sorted_posters = site.data.posters | sort:"Date" | reverse %}
 
 {% for poster in sorted_posters %}
 <p>{% if poster.Pdf %}<a href="{{ poster.Pdf }}" target="_blank">{% endif %}<strong>{{ poster.Title }}</strong>{% if poster.Pdf %}</a>{% endif %}<br/> presented by {% if poster.Email1 %}<a href="mailto:{{poster.Email1}}?Subject=SuperNEMO%20poster%20enquiry" target="_top">{% endif %} {{ poster.Author }}{% if poster.Email1 %}</a>{% endif %} {% if poster.Conference %} at <a href="{{poster.ConferenceUrl}}" target="_blank">{{poster.Conference}}</a>{% endif %}, {{ poster.Date | date_to_long_string }}</p>
@@ -47,7 +47,7 @@ title: Publications and Media
 </header>
 
   <p>Find out what the world has to say about SuperNEMO and NEMO-3.</p>
-  {% assign articles_by_date = (site.public_articles | sort:"date") | reverse %}
+  {% assign articles_by_date = site.public_articles | sort:"date" | reverse %}
   <div class="container-fluid">
     {% for article in articles_by_date %}
     <div class="row">
@@ -70,7 +70,7 @@ title: Publications and Media
 </header>
 
 <p>Journal papers from the SuperNEMO experiment.</p>
-{% assign pubs_by_date = (site.publications | sort:"date") | reverse %}
+{% assign pubs_by_date = site.publications | sort:"date" | reverse %}
 {% for pub in pubs_by_date %}
 <p><a href="http://dx.doi.org/{{ pub.doi }}" target="_blank"> <strong>{{ pub.title }}</strong></a><br/> <i>{{ pub.journal }}</i> {% if pub.arxiv %}<a href="https://arxiv.org/abs/{{pub.arxiv}}" target="_blank">(arXiv {{pub.arxiv}})</a>{% endif %}, {{ pub.date | date_to_long_string }}
 <a role="button" data-toggle="collapse" href="#{{pub.doi| slugify}}" aria-expanded="false" aria-controls="{{pub.doi| slugify}}">Abstract</a></p>
@@ -93,7 +93,7 @@ title: Publications and Media
 
 <p>Papers from SuperNEMO's predescessor, NEMO-3.</p>
 
-{% assign n3pubs_by_date = (site.nemothreepubs  | sort:"date") | reverse %}
+{% assign n3pubs_by_date = site.nemothreepubs  | sort:"date" | reverse %}
 {% for pub in n3pubs_by_date %}
 <p><a href="http://dx.doi.org/{{ pub.doi }}" target="_blank"> <strong>{{ pub.title }}</strong></a><br/> <i>{{ pub.journal }}</i> {% if pub.arxiv %}<a href="https://arxiv.org/abs/{{pub.arxiv}}" target="_blank">(arXiv {{pub.arxiv}})</a>{% endif %}, {{ pub.date | date_to_long_string }}
 <a role="button" data-toggle="collapse" href="#{{pub.doi| slugify}}" aria-expanded="false" aria-controls="{{pub.doi| slugify}}">Abstract</a></p>

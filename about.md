@@ -174,7 +174,7 @@ title: The Experiment
     </div>
 </div>
   <div class="container-fluid">
-        {% assign agencies = (site.data.funding | sort:"Agency")%}
+        {% assign agencies = site.data.funding | sort:"Agency"%}
         {% for agency in agencies %}
         <div class="row">
           
