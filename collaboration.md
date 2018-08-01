@@ -5,7 +5,7 @@ title: The Collaboration
 
 SuperNEMO is an international collaboration comprising physicists and engineers from across Europe and beyond.
 <div class="container-fluid">
-  {% assign sorted_insts = (site.data.insts | sort: 'name')%}
+  {% assign sorted_insts = site.data.insts | sort: 'name' %}
 {% for inst in sorted_insts %}
 <hr/>
 <div class="row">
@@ -16,7 +16,7 @@ SuperNEMO is an international collaboration comprising physicists and engineers 
       {{inst.name}}, {{inst.city}}</a>
   </div>
   
-  {% assign sorted_people = ((site.data.people | where: "Institution", inst.shortname | sort: 'LastName') %}
+  {% assign sorted_people = site.data.people | where: "Institution", inst.shortname | sort: 'LastName' %}
   {% if sorted_people.size < 5 %}
     <div class="col-xs-8 ">
     {% for person in sorted_people %}
@@ -58,7 +58,7 @@ SuperNEMO is an international collaboration comprising physicists and engineers 
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         <h4 class="modal-title">
-          {% assign inst = (site.data.insts | where: "shortname", person.Institution | first) %}
+          {% assign inst = site.data.insts | where: "shortname", person.Institution | first %}
           {% if person.Photo %}
             <img src="{{person.Photo}}" alt="Picture of {{person.Name}}" class="img-circle" style="height:5em">
           {% elsif inst.logo %}
