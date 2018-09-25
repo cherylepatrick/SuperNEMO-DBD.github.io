@@ -42,20 +42,12 @@ title: Publications and Media
 </div>
 
 <div id="articles" style="display:none">
-<<<<<<< HEAD
-
-<header class="post-header">
-<h1 class="post-title text-center">NEMO in the News</h1>
-</header>
-  <p>Find out what the media has to say about SuperNEMO and NEMO-3.</p>
-
-=======
 <header class="post-header">
 <h1 class="post-title text-center">NEMO in the News</h1>
 </header>
 
   <p>Find out what the world has to say about SuperNEMO and NEMO-3.</p>
->>>>>>> SuperNEMO-DBD/master
+
   {% assign articles_by_date = (site.public_articles | sort:"date") | reverse %}
   <div class="container-fluid">
     {% for article in articles_by_date %}

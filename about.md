@@ -3,10 +3,6 @@ layout: experiment
 title: The Experiment
 ---
 
-<<<<<<< HEAD
-
-=======
->>>>>>> SuperNEMO-DBD/master
 <div class="container-fluid">
   <div class="row">
     <div class="col-xs-9 ">
